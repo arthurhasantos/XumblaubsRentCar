@@ -1,11 +1,11 @@
-# Sistema de Login - SISMOP
+# Sistema de Login - XUMBLAUBS
 
 Este projeto implementa um sistema completo de autenticação com frontend Next.js e backend Spring Boot.
 
 ## Estrutura do Projeto
 
 ```
-sismop/
+xumblaubs/
 ├── app/                    # Frontend Next.js
 ├── components/             # Componentes React
 ├── contexts/              # Contextos React (Auth)
@@ -21,15 +21,15 @@ sismop/
 ### 1. Banco de Dados PostgreSQL
 
 1. Instale o PostgreSQL e pgAdmin 4
-2. Crie um banco de dados chamado `sismop_db`
+2. Crie um banco de dados chamado `xumblaubs_rentcar`
 3. Configure as credenciais no arquivo `back/src/main/resources/application.yml`:
 
 ```yaml
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/sismop_db
+    url: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
     username: postgres
-    password: sua_senha_aqui
+    password: admin
 ```
 
 ### 2. Executar o Backend

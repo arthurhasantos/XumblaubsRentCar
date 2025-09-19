@@ -1,46 +1,187 @@
-# Startup - Free Next.js Startup Website Template
+# 🚀 Sistema Xumblaubs RentCar - CRUD de Clientes
 
-Startup free, open-source, and premium-quality startup website template for Next.js comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
+Sistema completo de gerenciamento de clientes com frontend Next.js e backend Spring Boot, configurado para criação automática de tabelas e logs detalhados.
 
-If you're looking for a high-quality and visually appealing, feature-rich Next.js Template for your next startup, SaaS, or business website, this is the perfect choice and starting point for you!
+## 🎯 Funcionalidades
 
-### ✨ Key Features
-- Crafted for Startup and SaaS Business
-- Next.js 13 and Tailwind CSS
-- All Essential Business Sections and Pages
-- High-quality and Clean Design
-- Dark and Light Version
-- TypeScript Support
-and Much More ...
+- ✅ **CRUD Completo de Clientes** (Create, Read, Update, Delete)
+- ✅ **Criação Automática de Tabelas** no banco PostgreSQL
+- ✅ **Logs Detalhados** para debugging e monitoramento
+- ✅ **Interface Moderna** com Next.js e Tailwind CSS
+- ✅ **API REST** com Spring Boot
+- ✅ **Validações** completas de dados
+- ✅ **Monitoramento de Saúde** do banco de dados
 
-### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+## 🚀 Como Executar
 
-[![Startup Pro](https://cdn.nextjstemplates.com/Startup-Pro---Next.js-Starter-Template-for-SaaS-Startups-282e26f7-f543-4ae4-a777-ac306c08cce8.png)](https://nextjstemplates.com/templates/saas-starter-startup)
+### **Método Único - Iniciar Tudo de Uma Vez:**
 
-Startup Pro - Expertly crafted for fully-functional, high-performing SaaS startup websites. Comes with with Authentication, Database, Blog, and all the essential integrations necessary for SaaS business sites.
+```bash
+# Na raiz do projeto
+npm run dev
+```
 
+**Isso irá iniciar automaticamente:**
+- 🌐 **Frontend Next.js** na porta `3000`
+- 🔧 **Backend Spring Boot** na porta `8080`
+- 📊 **Logs detalhados** no console e arquivos
 
-### [🚀 View Free Demo](https://startup.nextjstemplates.com/)
+### **Métodos Individuais (se necessário):**
 
-### [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
+```bash
+# Apenas Frontend
+npm run dev:frontend
 
-### [📦 Download](https://nextjstemplates.com/templates/startup)
+# Apenas Backend
+npm run dev:backend
+```
 
-### [🔥 Get Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+## 🗄️ Configuração do Banco de Dados
 
-### [🔌 Documentation](https://nextjstemplates.com/docs)
+### **1. Criar Banco no PgAdmin:**
+- Nome: `xumblaubs_rentcar`
+- Owner: `postgres`
+- Porta: `5432`
 
-### ⚡ Deploy Now
+### **2. Configuração Automática:**
+- ✅ Tabelas criadas automaticamente na inicialização
+- ✅ Logs de criação exibidos no console
+- ✅ Verificação de saúde do banco
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
+## 📊 Monitoramento e Logs
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
+### **Logs em Tempo Real:**
+- **Console:** Logs aparecem durante a execução
+- **Arquivo:** `back/logs/xumblaubs-backend.log`
+- **Banco:** `back/logs/database-operations.log`
 
+### **Endpoints de Monitoramento:**
+- `GET http://localhost:8080/api/actuator/health` - Saúde do banco
+- `GET http://localhost:8080/api/actuator/info` - Informações da aplicação
+- `GET http://localhost:8080/api/actuator/metrics` - Métricas
 
-### 📄 License
-Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
+### **O que os Logs Mostram:**
+```
+🚀 Iniciando verificação e criação das tabelas do banco de dados...
+✅ Conexão com banco estabelecida: Conexão OK
+✅ Tabela 'clientes' criada com sucesso!
+📊 Tabela 'clientes' contém 0 registros
+✅ Tabela 'users' criada com sucesso!
+📊 Tabela 'users' contém 0 registros
+✅ Inicialização do banco de dados concluída com sucesso!
+```
 
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
+## 🧪 Testando o Sistema
 
-### ✨ Explore and Download - Free [Next.js Templates](https://nextjstemplates.com)
+### **1. Acessar o Frontend:**
+```
+http://localhost:3000
+```
+
+### **2. Testar API Diretamente:**
+```bash
+# Usar os arquivos de teste
+back/test-clientes.http
+back/test-database-creation.http
+```
+
+### **3. Exemplo de Criação de Cliente:**
+```bash
+POST http://localhost:8080/api/clientes
+Content-Type: application/json
+
+{
+  "rg": "1234567890",
+  "cpf": "123.456.789-00",
+  "nome": "João Silva",
+  "endereco": "Rua das Flores, 123",
+  "profissao": "Engenheiro"
+}
+```
+
+## 📁 Estrutura do Projeto
+
+```
+xumblaubs/
+├── app/                    # Frontend Next.js
+│   ├── clientes/          # Página CRUD de clientes
+│   ├── signin/            # Página de login
+│   └── signup/            # Página de registro
+├── components/            # Componentes React
+├── contexts/              # Contextos (Auth)
+├── types/                 # Tipos TypeScript
+├── back/                  # Backend Spring Boot
+│   ├── src/main/java/com/xumblaubs/
+│   │   ├── config/        # Configurações e inicializadores
+│   │   ├── controller/    # Controllers REST
+│   │   ├── entity/        # Entidades JPA
+│   │   ├── repository/    # Repositórios
+│   │   ├── service/       # Serviços de negócio
+│   │   └── security/      # Configurações de segurança
+│   ├── logs/              # Arquivos de log
+│   └── test-*.http        # Arquivos de teste
+└── package.json           # Scripts npm
+```
+
+## 🔧 Configurações Técnicas
+
+### **Frontend:**
+- **Next.js 13** com App Router
+- **TypeScript** para tipagem
+- **Tailwind CSS** para estilização
+- **React Hook Form** para formulários
+- **React Hot Toast** para notificações
+
+### **Backend:**
+- **Spring Boot 3.2** com Java 17
+- **Spring Data JPA** para persistência
+- **PostgreSQL** como banco de dados
+- **Spring Security** com JWT
+- **Hibernate** para criação automática de tabelas
+- **Spring Boot Actuator** para monitoramento
+
+### **Banco de Dados:**
+- **PostgreSQL 15+**
+- **Criação automática** de tabelas via Hibernate
+- **Logs detalhados** de todas as operações
+- **Pool de conexões** HikariCP otimizado
+
+## 🚨 Resolução de Problemas
+
+### **❌ Erro: "Porta já em uso"**
+```bash
+# Verificar processos nas portas
+netstat -ano | findstr :3000
+netstat -ano | findstr :8080
+
+# Parar processos se necessário
+taskkill /PID <PID> /F
+```
+
+### **❌ Erro: "Banco não encontrado"**
+1. Verificar se PostgreSQL está rodando
+2. Criar banco `xumblaubs_rentcar` no PgAdmin
+3. Verificar credenciais em `back/src/main/resources/application.yml`
+
+### **❌ Erro: "Tabelas não criadas"**
+- Verificar logs no console
+- Verificar arquivo `back/logs/xumblaubs-backend.log`
+- Verificar endpoint de saúde: `http://localhost:8080/api/actuator/health`
+
+## 📚 Documentação Adicional
+
+- `back/LOGS_README.md` - Documentação completa dos logs
+- `SETUP.md` - Configuração detalhada
+- `CHANGES.md` - Histórico de mudanças
+
+## 🎯 Próximos Passos
+
+- [ ] Implementar autenticação real
+- [ ] Adicionar mais validações
+- [ ] Implementar testes automatizados
+- [ ] Adicionar documentação da API
+- [ ] Configurar CI/CD
+
+---
+
+**🚀 Sistema pronto para uso! Execute `npm run dev` e comece a usar o CRUD de clientes.**

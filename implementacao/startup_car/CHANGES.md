@@ -18,7 +18,7 @@
 ### 📁 Nova Estrutura:
 
 ```
-sismop/
+xumblaubs/
 ├── app/                    # Frontend Next.js
 ├── components/             # Componentes React
 ├── contexts/              # Contextos React (Auth)
@@ -29,7 +29,7 @@ sismop/
 ├── postcss.config.js      # Configuração PostCSS
 ├── back/                  # Backend Spring Boot (RENOMEADO)
 │   ├── pom.xml
-│   ├── src/main/java/com/sismop/
+│   ├── src/main/java/com/xumblaubs/
 │   └── src/main/resources/
 └── SETUP.md              # Documentação atualizada
 ```

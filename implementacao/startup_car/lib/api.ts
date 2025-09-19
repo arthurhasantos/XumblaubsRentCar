@@ -1,40 +1,48 @@
-import axios from 'axios';
-import Cookies from 'js-cookie';
-
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080/api';
 
-const api = axios.create({
-  baseURL: API_BASE_URL,
-  headers: {
-    'Content-Type': 'application/json',
+// Simple API utility using fetch
+export const api = {
+  get: async (url: string) => {
+    const response = await fetch(`${API_BASE_URL}${url}`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+    return response.json();
   },
-});
 
-// Request interceptor to add auth token
-api.interceptors.request.use(
-  (config) => {
-    const token = Cookies.get('token');
-    if (token) {
-      config.headers.Authorization = `Bearer ${token}`;
-    }
-    return config;
+  post: async (url: string, data: any) => {
+    const response = await fetch(`${API_BASE_URL}${url}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    });
+    return response.json();
   },
-  (error) => {
-    return Promise.reject(error);
-  }
-);
 
-// Response interceptor to handle token expiration
-api.interceptors.response.use(
-  (response) => response,
-  (error) => {
-    if (error.response?.status === 401) {
-      // Token expired or invalid
-      Cookies.remove('token');
-      window.location.href = '/signin';
-    }
-    return Promise.reject(error);
-  }
-);
+  put: async (url: string, data: any) => {
+    const response = await fetch(`${API_BASE_URL}${url}`, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    });
+    return response.json();
+  },
+
+  delete: async (url: string) => {
+    const response = await fetch(`${API_BASE_URL}${url}`, {
+      method: 'DELETE',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+    return response.json();
+  },
+};
 
 export default api;
