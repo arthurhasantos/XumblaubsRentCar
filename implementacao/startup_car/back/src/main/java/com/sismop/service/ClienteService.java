@@ -41,6 +41,11 @@ public class ClienteService {
                 .map(ClienteResponse::new);
     }
     
+    public Optional<ClienteResponse> findByRg(String rg) {
+        return clienteRepository.findByRg(rg)
+                .map(ClienteResponse::new);
+    }
+    
     public List<ClienteResponse> findByNomeContaining(String nome) {
         return clienteRepository.findByNomeContainingAndAtivoTrue(nome).stream()
                 .map(ClienteResponse::new)
@@ -53,17 +58,17 @@ public class ClienteService {
             throw new RuntimeException("CPF já cadastrado: " + request.getCpf());
         }
         
-        // Verificar se email já existe
-        if (clienteRepository.existsByEmail(request.getEmail())) {
-            throw new RuntimeException("Email já cadastrado: " + request.getEmail());
+        // Verificar se RG já existe
+        if (clienteRepository.existsByRg(request.getRg())) {
+            throw new RuntimeException("RG já cadastrado: " + request.getRg());
         }
         
         Cliente cliente = new Cliente();
-        cliente.setNome(request.getNome());
+        cliente.setRg(request.getRg());
         cliente.setCpf(request.getCpf());
-        cliente.setTelefone(request.getTelefone());
-        cliente.setEmail(request.getEmail());
+        cliente.setNome(request.getNome());
         cliente.setEndereco(request.getEndereco());
+        cliente.setProfissao(request.getProfissao());
         cliente.setAtivo(true);
         
         Cliente savedCliente = clienteRepository.save(cliente);
@@ -79,17 +84,17 @@ public class ClienteService {
                         throw new RuntimeException("CPF já cadastrado: " + request.getCpf());
                     }
                     
-                    // Verificar se email já existe em outro cliente
-                    if (!cliente.getEmail().equals(request.getEmail()) && 
-                        clienteRepository.existsByEmail(request.getEmail())) {
-                        throw new RuntimeException("Email já cadastrado: " + request.getEmail());
+                    // Verificar se RG já existe em outro cliente
+                    if (!cliente.getRg().equals(request.getRg()) && 
+                        clienteRepository.existsByRg(request.getRg())) {
+                        throw new RuntimeException("RG já cadastrado: " + request.getRg());
                     }
                     
-                    cliente.setNome(request.getNome());
+                    cliente.setRg(request.getRg());
                     cliente.setCpf(request.getCpf());
-                    cliente.setTelefone(request.getTelefone());
-                    cliente.setEmail(request.getEmail());
+                    cliente.setNome(request.getNome());
                     cliente.setEndereco(request.getEndereco());
+                    cliente.setProfissao(request.getProfissao());
                     
                     Cliente updatedCliente = clienteRepository.save(cliente);
                     return new ClienteResponse(updatedCliente);

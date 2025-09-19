@@ -44,6 +44,13 @@ public class ClienteController {
                 .orElse(ResponseEntity.notFound().build());
     }
     
+    @GetMapping("/rg/{rg}")
+    public ResponseEntity<ClienteResponse> getClienteByRg(@PathVariable String rg) {
+        Optional<ClienteResponse> cliente = clienteService.findByRg(rg);
+        return cliente.map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
+    }
+    
     @GetMapping("/buscar")
     public ResponseEntity<List<ClienteResponse>> buscarClientesPorNome(
             @RequestParam String nome) {

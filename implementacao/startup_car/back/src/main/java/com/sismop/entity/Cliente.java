@@ -16,30 +16,30 @@ public class Cliente {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
-    @NotBlank(message = "Nome é obrigatório")
-    @Size(max = 100, message = "Nome deve ter no máximo 100 caracteres")
-    @Column(name = "nome", nullable = false)
-    private String nome;
+    @NotBlank(message = "RG é obrigatório")
+    @Size(max = 20, message = "RG deve ter no máximo 20 caracteres")
+    @Column(name = "rg", nullable = false)
+    private String rg;
     
     @NotBlank(message = "CPF é obrigatório")
     @Pattern(regexp = "\\d{3}\\.\\d{3}\\.\\d{3}-\\d{2}", message = "CPF deve estar no formato 000.000.000-00")
     @Column(name = "cpf", nullable = false, unique = true)
     private String cpf;
     
-    @NotBlank(message = "Telefone é obrigatório")
-    @Pattern(regexp = "\\(\\d{2}\\)\\s\\d{4,5}-\\d{4}", message = "Telefone deve estar no formato (00) 00000-0000")
-    @Column(name = "telefone", nullable = false)
-    private String telefone;
+    @NotBlank(message = "Nome é obrigatório")
+    @Size(max = 100, message = "Nome deve ter no máximo 100 caracteres")
+    @Column(name = "nome", nullable = false)
+    private String nome;
     
-    @NotBlank(message = "Email é obrigatório")
-    @Email(message = "Email deve ter um formato válido")
-    @Size(max = 100, message = "Email deve ter no máximo 100 caracteres")
-    @Column(name = "email", nullable = false, unique = true)
-    private String email;
-    
+    @NotBlank(message = "Endereço é obrigatório")
     @Size(max = 200, message = "Endereço deve ter no máximo 200 caracteres")
-    @Column(name = "endereco")
+    @Column(name = "endereco", nullable = false)
     private String endereco;
+    
+    @NotBlank(message = "Profissão é obrigatória")
+    @Size(max = 100, message = "Profissão deve ter no máximo 100 caracteres")
+    @Column(name = "profissao", nullable = false)
+    private String profissao;
     
     @Column(name = "ativo", nullable = false)
     private Boolean ativo = true;
@@ -64,11 +64,12 @@ public class Cliente {
     // Constructors
     public Cliente() {}
     
-    public Cliente(String nome, String cpf, String telefone, String email) {
-        this.nome = nome;
+    public Cliente(String rg, String cpf, String nome, String endereco, String profissao) {
+        this.rg = rg;
         this.cpf = cpf;
-        this.telefone = telefone;
-        this.email = email;
+        this.nome = nome;
+        this.endereco = endereco;
+        this.profissao = profissao;
     }
     
     // Getters and Setters
@@ -80,12 +81,12 @@ public class Cliente {
         this.id = id;
     }
     
-    public String getNome() {
-        return nome;
+    public String getRg() {
+        return rg;
     }
     
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setRg(String rg) {
+        this.rg = rg;
     }
     
     public String getCpf() {
@@ -96,20 +97,12 @@ public class Cliente {
         this.cpf = cpf;
     }
     
-    public String getTelefone() {
-        return telefone;
+    public String getNome() {
+        return nome;
     }
     
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
-    
-    public String getEmail() {
-        return email;
-    }
-    
-    public void setEmail(String email) {
-        this.email = email;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
     
     public String getEndereco() {
@@ -118,6 +111,14 @@ public class Cliente {
     
     public void setEndereco(String endereco) {
         this.endereco = endereco;
+    }
+    
+    public String getProfissao() {
+        return profissao;
+    }
+    
+    public void setProfissao(String profissao) {
+        this.profissao = profissao;
     }
     
     public Boolean getAtivo() {

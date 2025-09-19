@@ -7,11 +7,11 @@ import java.time.LocalDateTime;
 public class ClienteResponse {
     
     private Long id;
-    private String nome;
+    private String rg;
     private String cpf;
-    private String telefone;
-    private String email;
+    private String nome;
     private String endereco;
+    private String profissao;
     private Boolean ativo;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
@@ -21,11 +21,11 @@ public class ClienteResponse {
     
     public ClienteResponse(Cliente cliente) {
         this.id = cliente.getId();
-        this.nome = cliente.getNome();
+        this.rg = cliente.getRg();
         this.cpf = cliente.getCpf();
-        this.telefone = cliente.getTelefone();
-        this.email = cliente.getEmail();
+        this.nome = cliente.getNome();
         this.endereco = cliente.getEndereco();
+        this.profissao = cliente.getProfissao();
         this.ativo = cliente.getAtivo();
         this.createdAt = cliente.getCreatedAt();
         this.updatedAt = cliente.getUpdatedAt();
@@ -40,12 +40,12 @@ public class ClienteResponse {
         this.id = id;
     }
     
-    public String getNome() {
-        return nome;
+    public String getRg() {
+        return rg;
     }
     
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setRg(String rg) {
+        this.rg = rg;
     }
     
     public String getCpf() {
@@ -56,20 +56,12 @@ public class ClienteResponse {
         this.cpf = cpf;
     }
     
-    public String getTelefone() {
-        return telefone;
+    public String getNome() {
+        return nome;
     }
     
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
-    
-    public String getEmail() {
-        return email;
-    }
-    
-    public void setEmail(String email) {
-        this.email = email;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
     
     public String getEndereco() {
@@ -78,6 +70,14 @@ public class ClienteResponse {
     
     public void setEndereco(String endereco) {
         this.endereco = endereco;
+    }
+    
+    public String getProfissao() {
+        return profissao;
+    }
+    
+    public void setProfissao(String profissao) {
+        this.profissao = profissao;
     }
     
     public Boolean getAtivo() {

@@ -14,11 +14,11 @@ public interface ClienteRepository extends JpaRepository<Cliente, Long> {
     
     Optional<Cliente> findByCpf(String cpf);
     
-    Optional<Cliente> findByEmail(String email);
+    Optional<Cliente> findByRg(String rg);
     
     Boolean existsByCpf(String cpf);
     
-    Boolean existsByEmail(String email);
+    Boolean existsByRg(String rg);
     
     List<Cliente> findByAtivoTrue();
     

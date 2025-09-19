@@ -1,7 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { User, AuthResponse } from '@/types/auth';
+import { User, AuthResponse, SignupRequest } from '@/types/auth';
 import { authService } from '@/lib/auth';
 import toast from 'react-hot-toast';
 
@@ -9,7 +9,7 @@ interface AuthContextType {
   user: User | null;
   loading: boolean;
   login: (email: string, password: string) => Promise<boolean>;
-  signup: (name: string, email: string, password: string) => Promise<boolean>;
+  signup: (name: string, email: string, password: string, role: string, additionalData?: any) => Promise<boolean>;
   logout: () => Promise<void>;
 }
 
@@ -69,10 +69,17 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     }
   };
 
-  const signup = async (name: string, email: string, password: string): Promise<boolean> => {
+  const signup = async (name: string, email: string, password: string, role: string, additionalData?: any): Promise<boolean> => {
     try {
       setLoading(true);
-      await authService.signup({ name, email, password });
+      const signupData: SignupRequest = {
+        name,
+        email,
+        password,
+        role: role as any,
+        ...additionalData
+      };
+      await authService.signup(signupData);
       toast.success('Conta criada com sucesso!');
       return true;
     } catch (error: any) {

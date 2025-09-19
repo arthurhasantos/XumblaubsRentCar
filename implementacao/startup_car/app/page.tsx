@@ -3,8 +3,8 @@ import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "Sistema de Aluguel de Carros",
+  description: "Sistema completo para gestão de aluguel de carros com análise financeira e contratos de crédito",
   // other metadata
 };
 

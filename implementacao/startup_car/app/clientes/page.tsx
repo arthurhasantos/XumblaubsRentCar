@@ -6,22 +6,22 @@ import toast from "react-hot-toast";
 
 interface Cliente {
   id: number;
-  nome: string;
+  rg: string;
   cpf: string;
-  telefone: string;
-  email: string;
-  endereco?: string;
+  nome: string;
+  endereco: string;
+  profissao: string;
   ativo: boolean;
   createdAt: string;
   updatedAt: string;
 }
 
 interface ClienteFormData {
-  nome: string;
+  rg: string;
   cpf: string;
-  telefone: string;
-  email: string;
+  nome: string;
   endereco: string;
+  profissao: string;
 }
 
 const API_BASE_URL = "http://localhost:8080/api";
@@ -118,11 +118,11 @@ export default function ClientesPage() {
 
   const handleEdit = (cliente: Cliente) => {
     setEditingCliente(cliente);
-    setValue("nome", cliente.nome);
+    setValue("rg", cliente.rg);
     setValue("cpf", cliente.cpf);
-    setValue("telefone", cliente.telefone);
-    setValue("email", cliente.email);
-    setValue("endereco", cliente.endereco || "");
+    setValue("nome", cliente.nome);
+    setValue("endereco", cliente.endereco);
+    setValue("profissao", cliente.profissao);
     setShowModal(true);
   };
 
@@ -178,18 +178,14 @@ export default function ClientesPage() {
     return cpf.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, "$1.$2.$3-$4");
   };
 
-  const formatPhone = (phone: string) => {
-    return phone.replace(/(\d{2})(\d{4,5})(\d{4})/, "($1) $2-$3");
-  };
-
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
-          Gerenciar Clientes
+          CRUD de Clientes - Sistema de Aluguel
         </h1>
         <p className="text-gray-600 dark:text-gray-400">
-          Gerencie os clientes do sistema de aluguel de carros
+          Gerencie os clientes conforme especificação UML (RG, CPF, Nome, Endereço, Profissão)
         </p>
       </div>
 
@@ -243,16 +239,22 @@ export default function ClientesPage() {
               <thead className="bg-gray-50 dark:bg-gray-700">
                 <tr>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
-                    Nome
+                    ID
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
+                    RG
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
                     CPF
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
-                    Telefone
+                    Nome
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
-                    Email
+                    Endereço
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
+                    Profissão
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
                     Status
@@ -267,7 +269,12 @@ export default function ClientesPage() {
                   <tr key={cliente.id} className="hover:bg-gray-50 dark:hover:bg-gray-700">
                     <td className="px-6 py-4 whitespace-nowrap">
                       <div className="text-sm font-medium text-gray-900 dark:text-white">
-                        {cliente.nome}
+                        {cliente.id}
+                      </div>
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      <div className="text-sm text-gray-900 dark:text-white">
+                        {cliente.rg}
                       </div>
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap">
@@ -276,13 +283,18 @@ export default function ClientesPage() {
                       </div>
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap">
-                      <div className="text-sm text-gray-900 dark:text-white">
-                        {formatPhone(cliente.telefone)}
+                      <div className="text-sm font-medium text-gray-900 dark:text-white">
+                        {cliente.nome}
                       </div>
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap">
                       <div className="text-sm text-gray-900 dark:text-white">
-                        {cliente.email}
+                        {cliente.endereco}
+                      </div>
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      <div className="text-sm text-gray-900 dark:text-white">
+                        {cliente.profissao}
                       </div>
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap">
@@ -344,14 +356,15 @@ export default function ClientesPage() {
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                  Nome *
+                  RG *
                 </label>
                 <input
-                  {...register("nome", { required: "Nome é obrigatório" })}
+                  {...register("rg", { required: "RG é obrigatório" })}
+                  placeholder="1234567890"
                   className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
                 />
-                {errors.nome && (
-                  <p className="text-red-500 text-sm mt-1">{errors.nome.message}</p>
+                {errors.rg && (
+                  <p className="text-red-500 text-sm mt-1">{errors.rg.message}</p>
                 )}
               </div>
 
@@ -377,53 +390,45 @@ export default function ClientesPage() {
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                  Telefone *
+                  Nome *
                 </label>
                 <input
-                  {...register("telefone", {
-                    required: "Telefone é obrigatório",
-                    pattern: {
-                      value: /^\(\d{2}\)\s\d{4,5}-\d{4}$/,
-                      message: "Telefone deve estar no formato (00) 00000-0000",
-                    },
-                  })}
-                  placeholder="(00) 00000-0000"
+                  {...register("nome", { required: "Nome é obrigatório" })}
+                  placeholder="Nome completo"
                   className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
                 />
-                {errors.telefone && (
-                  <p className="text-red-500 text-sm mt-1">{errors.telefone.message}</p>
+                {errors.nome && (
+                  <p className="text-red-500 text-sm mt-1">{errors.nome.message}</p>
                 )}
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                  Email *
-                </label>
-                <input
-                  type="email"
-                  {...register("email", {
-                    required: "Email é obrigatório",
-                    pattern: {
-                      value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-                      message: "Email deve ter um formato válido",
-                    },
-                  })}
-                  className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
-                />
-                {errors.email && (
-                  <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>
-                )}
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                  Endereço
+                  Endereço *
                 </label>
                 <textarea
-                  {...register("endereco")}
+                  {...register("endereco", { required: "Endereço é obrigatório" })}
+                  placeholder="Endereço completo"
                   rows={3}
                   className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
                 />
+                {errors.endereco && (
+                  <p className="text-red-500 text-sm mt-1">{errors.endereco.message}</p>
+                )}
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                  Profissão *
+                </label>
+                <input
+                  {...register("profissao", { required: "Profissão é obrigatória" })}
+                  placeholder="Profissão"
+                  className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
+                />
+                {errors.profissao && (
+                  <p className="text-red-500 text-sm mt-1">{errors.profissao.message}</p>
+                )}
               </div>
 
               <div className="flex justify-end space-x-3 pt-4">
@@ -445,6 +450,24 @@ export default function ClientesPage() {
           </div>
         </div>
       )}
+
+      {/* Estatísticas */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+        <div className="bg-blue-100 dark:bg-blue-900/20 p-6 rounded-lg">
+          <h3 className="text-lg font-semibold text-blue-800 dark:text-blue-400 mb-2">Total de Clientes</h3>
+          <p className="text-3xl font-bold text-blue-800 dark:text-blue-400">{clientes.length}</p>
+        </div>
+        <div className="bg-green-100 dark:bg-green-900/20 p-6 rounded-lg">
+          <h3 className="text-lg font-semibold text-green-800 dark:text-green-400 mb-2">Clientes Ativos</h3>
+          <p className="text-3xl font-bold text-green-800 dark:text-green-400">
+            {clientes.filter(c => c.ativo).length}
+          </p>
+        </div>
+        <div className="bg-purple-100 dark:bg-purple-900/20 p-6 rounded-lg">
+          <h3 className="text-lg font-semibold text-purple-800 dark:text-purple-400 mb-2">Sistema Online</h3>
+          <p className="text-3xl font-bold text-purple-800 dark:text-purple-400">✓</p>
+        </div>
+      </div>
     </div>
   );
 }
