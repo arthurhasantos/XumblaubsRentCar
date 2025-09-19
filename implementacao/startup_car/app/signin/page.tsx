@@ -26,7 +26,7 @@ const SigninPage = () => {
     setIsLoading(true);
     const success = await login(data.email, data.password);
     if (success) {
-      router.push('/');
+      router.push('/clientes');
     }
     setIsLoading(false);
   };
@@ -41,7 +41,7 @@ const SigninPage = () => {
                   Entrar no Sistema
                 </h3>
                 <p className="mb-11 text-center text-base font-medium text-body-color">
-                  Faça login para acessar o sistema de aluguel de carros.
+                  Faça login para acessar o CRUD de clientes.
                 </p>
                 <form onSubmit={handleSubmit(onSubmit)}>
                   <div className="mb-8">
