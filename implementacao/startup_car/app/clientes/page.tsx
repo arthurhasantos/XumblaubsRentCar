@@ -44,7 +44,7 @@ export default function ClientesPage() {
 
   useEffect(() => {
     fetchClientes();
-  }, [showInativos]);
+  }, [showInativos]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const fetchClientes = async () => {
     try {

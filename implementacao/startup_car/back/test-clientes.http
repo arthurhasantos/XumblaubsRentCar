@@ -2,7 +2,7 @@
 ### Baseado no UML da classe Cliente
 
 ### 1. Criar Cliente (CREATE)
-POST http://localhost:8080/api/api/clientes
+POST http://localhost:8080/api/clientes
 Content-Type: application/json
 
 {
@@ -14,7 +14,7 @@ Content-Type: application/json
 }
 
 ### 2. Criar outro Cliente
-POST http://localhost:8080/api/api/clientes
+POST http://localhost:8080/api/clientes
 Content-Type: application/json
 
 {
@@ -26,22 +26,22 @@ Content-Type: application/json
 }
 
 ### 3. Buscar todos os clientes (READ - Lista)
-GET http://localhost:8080/api/api/clientes
+GET http://localhost:8080/api/clientes
 
 ### 4. Buscar cliente por ID (READ - Individual)
-GET http://localhost:8080/api/api/clientes/1
+GET http://localhost:8080/api/clientes/1
 
 ### 5. Buscar cliente por CPF
-GET http://localhost:8080/api/api/clientes/cpf/123.456.789-00
+GET http://localhost:8080/api/clientes/cpf/123.456.789-00
 
 ### 6. Buscar cliente por RG
-GET http://localhost:8080/api/api/clientes/rg/1234567890
+GET http://localhost:8080/api/clientes/rg/1234567890
 
 ### 7. Buscar clientes por nome
-GET http://localhost:8080/api/api/clientes/buscar?nome=João
+GET http://localhost:8080/api/clientes/buscar?nome=João
 
 ### 8. Atualizar cliente (UPDATE)
-PUT http://localhost:8080/api/api/clientes/1
+PUT http://localhost:8080/api/clientes/1
 Content-Type: application/json
 
 {
@@ -53,16 +53,16 @@ Content-Type: application/json
 }
 
 ### 9. Desativar cliente (DELETE - Soft Delete)
-DELETE http://localhost:8080/api/api/clientes/1
+DELETE http://localhost:8080/api/clientes/1
 
 ### 10. Reativar cliente
-PUT http://localhost:8080/api/api/clientes/1/ativar
+PUT http://localhost:8080/api/clientes/1/ativar
 
 ### 11. Remover cliente permanentemente (DELETE - Hard Delete)
-DELETE http://localhost:8080/api/api/clientes/1/hard
+DELETE http://localhost:8080/api/clientes/1/hard
 
 ### 12. Teste de validação - CPF inválido
-POST http://localhost:8080/api/api/clientes
+POST http://localhost:8080/api/clientes
 Content-Type: application/json
 
 {
@@ -74,7 +74,7 @@ Content-Type: application/json
 }
 
 ### 13. Teste de validação - Campos obrigatórios
-POST http://localhost:8080/api/api/clientes
+POST http://localhost:8080/api/clientes
 Content-Type: application/json
 
 {
@@ -86,7 +86,7 @@ Content-Type: application/json
 }
 
 ### 14. Teste de duplicação - CPF já existente
-POST http://localhost:8080/api/api/clientes
+POST http://localhost:8080/api/clientes
 Content-Type: application/json
 
 {
@@ -98,7 +98,7 @@ Content-Type: application/json
 }
 
 ### 15. Teste de duplicação - RG já existente
-POST http://localhost:8080/api/api/clientes
+POST http://localhost:8080/api/clientes
 Content-Type: application/json
 
 {

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- Console Appender -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- File Appender -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/xumblaubs-backend.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logs/xumblaubs-backend.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>300MB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Database Appender -->
+    <appender name="DATABASE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/database-operations.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logs/database-operations.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>5MB</maxFileSize>
+            <maxHistory>15</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Specific loggers for database operations -->
+    <logger name="org.hibernate.SQL" level="DEBUG" additivity="false">
+        <appender-ref ref="DATABASE"/>
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+    
+    <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="TRACE" additivity="false">
+        <appender-ref ref="DATABASE"/>
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+    
+    <logger name="org.hibernate.tool.hbm2ddl" level="DEBUG" additivity="false">
+        <appender-ref ref="DATABASE"/>
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <!-- Application specific loggers -->
+    <logger name="com.xumblaubs" level="DEBUG" additivity="false">
+        <appender-ref ref="FILE"/>
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <!-- Spring Framework loggers -->
+    <logger name="org.springframework.orm.jpa" level="DEBUG" additivity="false">
+        <appender-ref ref="DATABASE"/>
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+    
+    <logger name="org.springframework.jdbc" level="DEBUG" additivity="false">
+        <appender-ref ref="DATABASE"/>
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <!-- PostgreSQL driver logger -->
+    <logger name="org.postgresql" level="DEBUG" additivity="false">
+        <appender-ref ref="DATABASE"/>
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <!-- HikariCP connection pool logger -->
+    <logger name="com.zaxxer.hikari" level="DEBUG" additivity="false">
+        <appender-ref ref="DATABASE"/>
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <!-- Root logger -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+</configuration>

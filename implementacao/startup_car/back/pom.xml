@@ -8,11 +8,11 @@
         <version>3.2.0</version>
         <relativePath/>
     </parent>
-    <groupId>com.sismop</groupId>
-    <artifactId>sismop-backend</artifactId>
+    <groupId>com.xumblaubs</groupId>
+    <artifactId>xumblaubs-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sismop-backend</name>
-    <description>Sismop - Backend</description>
+    <name>xumblaubs-backend</name>
+    <description>Xumblaubs - Backend</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -64,6 +64,10 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
 

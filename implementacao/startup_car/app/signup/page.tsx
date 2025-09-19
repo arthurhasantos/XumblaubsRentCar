@@ -13,7 +13,7 @@ interface SignupForm {
 }
 
 const SignupPage = () => {
-  const { signup, loading } = useAuth();
+  const { loading } = useAuth();
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
   
