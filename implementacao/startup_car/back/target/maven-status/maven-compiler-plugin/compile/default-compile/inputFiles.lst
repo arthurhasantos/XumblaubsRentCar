@@ -1,0 +1,15 @@
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\entity\Role.java
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\security\AuthEntryPointJwt.java
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\security\WebSecurityConfig.java
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\dto\MessageResponse.java
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\dto\SignupRequest.java
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\security\JwtUtils.java
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\entity\User.java
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\dto\LoginRequest.java
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\controller\AuthController.java
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\repository\UserRepository.java
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\service\UserDetailsServiceImpl.java
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\SismopBackendApplication.java
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\security\AuthTokenFilter.java
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\dto\JwtResponse.java
+D:\Documentos\Faculdade\Periodo Atual\TIS 4\sismop\back\src\main\java\com\sismop\controller\TestController.java

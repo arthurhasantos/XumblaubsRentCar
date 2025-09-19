@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: sismop-backend
+  
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sismop
+    username: postgres
+    password: ${DB_PASSWORD:admin}
+    driver-class-name: org.postgresql.Driver
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+  
+  security:
+    jwt:
+      secret: mySecretKey123456789012345678901234567890
+      expiration: 86400000 # 24 hours
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+logging:
+  level:
+    com.sismop: DEBUG
+    org.springframework.security: DEBUG

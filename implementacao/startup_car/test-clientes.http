@@ -1,0 +1,95 @@
+### Teste do CRUD de Clientes
+### Use este arquivo para testar os endpoints da API de clientes
+
+### 1. Listar todos os clientes
+GET http://localhost:8080/api/clientes
+
+### 2. Listar apenas clientes ativos
+GET http://localhost:8080/api/clientes?incluirInativos=false
+
+### 3. Buscar clientes por nome
+GET http://localhost:8080/api/clientes/buscar?nome=João
+
+### 4. Criar novo cliente
+POST http://localhost:8080/api/clientes
+Content-Type: application/json
+
+{
+  "nome": "João Silva",
+  "cpf": "123.456.789-00",
+  "telefone": "(11) 99999-9999",
+  "email": "joao.silva@email.com",
+  "endereco": "Rua das Flores, 123, São Paulo - SP"
+}
+
+### 5. Criar outro cliente
+POST http://localhost:8080/api/clientes
+Content-Type: application/json
+
+{
+  "nome": "Maria Santos",
+  "cpf": "987.654.321-00",
+  "telefone": "(11) 88888-8888",
+  "email": "maria.santos@email.com",
+  "endereco": "Av. Paulista, 456, São Paulo - SP"
+}
+
+### 6. Buscar cliente por ID (substitua {id} pelo ID retornado na criação)
+GET http://localhost:8080/api/clientes/1
+
+### 7. Buscar cliente por CPF
+GET http://localhost:8080/api/clientes/cpf/123.456.789-00
+
+### 8. Atualizar cliente (substitua {id} pelo ID do cliente)
+PUT http://localhost:8080/api/clientes/1
+Content-Type: application/json
+
+{
+  "nome": "João Silva Santos",
+  "cpf": "123.456.789-00",
+  "telefone": "(11) 99999-9999",
+  "email": "joao.silva@email.com",
+  "endereco": "Rua das Flores, 123, São Paulo - SP, CEP: 01234-567"
+}
+
+### 9. Desativar cliente (substitua {id} pelo ID do cliente)
+DELETE http://localhost:8080/api/clientes/1
+
+### 10. Reativar cliente (substitua {id} pelo ID do cliente)
+PUT http://localhost:8080/api/clientes/1/ativar
+
+### 11. Remover cliente permanentemente (substitua {id} pelo ID do cliente)
+DELETE http://localhost:8080/api/clientes/1/hard
+
+### 12. Teste de validação - CPF inválido
+POST http://localhost:8080/api/clientes
+Content-Type: application/json
+
+{
+  "nome": "Teste",
+  "cpf": "12345678900",
+  "telefone": "(11) 99999-9999",
+  "email": "teste@email.com"
+}
+
+### 13. Teste de validação - Email inválido
+POST http://localhost:8080/api/clientes
+Content-Type: application/json
+
+{
+  "nome": "Teste",
+  "cpf": "111.222.333-44",
+  "telefone": "(11) 99999-9999",
+  "email": "email-invalido"
+}
+
+### 14. Teste de validação - Telefone inválido
+POST http://localhost:8080/api/clientes
+Content-Type: application/json
+
+{
+  "nome": "Teste",
+  "cpf": "111.222.333-44",
+  "telefone": "11999999999",
+  "email": "teste@email.com"
+}
