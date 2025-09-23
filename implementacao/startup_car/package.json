@@ -1,34 +1,26 @@
 {
-  "name": "startup-nextjs-template",
-  "version": "0.2.0",
-  "private": true,
+  "name": "startup-car-fullstack",
+  "version": "1.0.0",
+  "description": "Sistema completo de aluguel de carros com frontend Next.js e backend Spring Boot",
   "scripts": {
-    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
-    "dev:frontend": "next dev",
-    "dev:backend": "cd back && mvn clean compile && mvn spring-boot:run",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "eslint": "8.33.0",
-    "eslint-config-next": "13.1.6",
-    "next": "^13.5.6",
-    "next-themes": "^0.2.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-hook-form": "^7.47.0",
-    "react-hot-toast": "^2.4.1"
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "cd front && npm run dev",
+    "dev:backend": "cd back && mvn spring-boot:run",
+    "build": "cd front && npm run build",
+    "install:frontend": "cd front && npm install",
+    "install:all": "npm run install:frontend",
+    "start": "npm run dev"
   },
   "devDependencies": {
-    "@types/node": "^20.8.9",
-    "@types/react": "^18.2.33",
-    "autoprefixer": "^10.4.16",
-    "concurrently": "^8.2.2",
-    "postcss": "^8.4.31",
-    "prettier": "^3.0.3",
-    "prettier-plugin-tailwindcss": "^0.5.6",
-    "tailwindcss": "^3.3.5",
-    "typescript": "^5.2.2"
-  }
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "nextjs",
+    "spring-boot",
+    "postgresql",
+    "crud",
+    "car-rental"
+  ],
+  "author": "Xumblaubs Team",
+  "license": "MIT"
 }

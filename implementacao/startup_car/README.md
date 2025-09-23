@@ -26,7 +26,7 @@ npm run dev
 - 🔧 **Backend Spring Boot** na porta `8080`
 - 📊 **Logs detalhados** no console e arquivos
 
-### **Métodos Individuais (se necessário):**
+### **Métodos Individuais:**
 
 ```bash
 # Apenas Frontend
@@ -34,6 +34,19 @@ npm run dev:frontend
 
 # Apenas Backend
 npm run dev:backend
+```
+
+### **Outros Comandos Úteis:**
+
+```bash
+# Instalar dependências do frontend
+npm run install:frontend
+
+# Build do frontend
+npm run build
+
+# Instalar todas as dependências
+npm run install:all
 ```
 
 ## 🗄️ Configuração do Banco de Dados
@@ -102,25 +115,37 @@ Content-Type: application/json
 ## 📁 Estrutura do Projeto
 
 ```
-xumblaubs/
-├── app/                    # Frontend Next.js
-│   ├── clientes/          # Página CRUD de clientes
-│   ├── signin/            # Página de login
-│   └── signup/            # Página de registro
-├── components/            # Componentes React
-├── contexts/              # Contextos (Auth)
-├── types/                 # Tipos TypeScript
-├── back/                  # Backend Spring Boot
+startup_car/
+├── front/                 # Frontend Next.js
+│   ├── app/              # App Router (Next.js 13+)
+│   │   ├── clientes/     # Página CRUD de clientes
+│   │   ├── signin/       # Página de login
+│   │   ├── signup/       # Página de registro
+│   │   ├── components/   # Componentes específicos do app
+│   │   ├── hooks/        # Hooks customizados
+│   │   ├── types/        # Tipos TypeScript
+│   │   └── utils/        # Utilitários
+│   ├── components/       # Componentes globais
+│   ├── contexts/         # Contextos (Auth)
+│   ├── lib/              # Bibliotecas e configurações
+│   ├── public/           # Assets estáticos
+│   ├── styles/           # Estilos globais
+│   ├── types/            # Tipos globais
+│   ├── package.json      # Dependências frontend
+│   ├── next.config.js    # Configuração Next.js
+│   └── tailwind.config.js # Configuração Tailwind
+├── back/                 # Backend Spring Boot
 │   ├── src/main/java/com/xumblaubs/
-│   │   ├── config/        # Configurações e inicializadores
-│   │   ├── controller/    # Controllers REST
-│   │   ├── entity/        # Entidades JPA
-│   │   ├── repository/    # Repositórios
-│   │   ├── service/       # Serviços de negócio
-│   │   └── security/      # Configurações de segurança
-│   ├── logs/              # Arquivos de log
-│   └── test-*.http        # Arquivos de teste
-└── package.json           # Scripts npm
+│   │   ├── config/       # Configurações e inicializadores
+│   │   ├── controller/   # Controllers REST
+│   │   ├── entity/       # Entidades JPA
+│   │   ├── repository/   # Repositórios
+│   │   ├── service/      # Serviços de negócio
+│   │   └── security/     # Configurações de segurança
+│   ├── logs/             # Arquivos de log
+│   └── test-*.http       # Arquivos de teste
+├── package.json          # Scripts npm para gerenciar o projeto
+└── README.md             # Documentação
 ```
 
 ## 🔧 Configurações Técnicas
