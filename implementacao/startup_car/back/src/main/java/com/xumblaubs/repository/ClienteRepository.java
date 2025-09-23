@@ -25,6 +25,9 @@ public interface ClienteRepository extends JpaRepository<Cliente, Long> {
     @Query("SELECT c FROM Cliente c WHERE c.nome LIKE %:nome% AND c.ativo = true")
     List<Cliente> findByNomeContainingAndAtivoTrue(@Param("nome") String nome);
     
+    @Query("SELECT c FROM Cliente c WHERE LOWER(c.nome) LIKE LOWER(CONCAT('%', :nome, '%'))")
+    List<Cliente> findByNomeContainingIgnoreCase(@Param("nome") String nome);
+    
     @Query("SELECT c FROM Cliente c WHERE c.cpf LIKE %:cpf% AND c.ativo = true")
     List<Cliente> findByCpfContainingAndAtivoTrue(@Param("cpf") String cpf);
 }

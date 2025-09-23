@@ -136,3 +136,63 @@
 2025-09-19 20:43:28.500 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/clientes' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
 2025-09-19 20:43:28.516 [http-nio-8080-exec-1] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
 2025-09-19 20:43:28.562 [http-nio-8080-exec-1] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
+2025-09-22 22:58:40.113 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-09-22 22:58:40.179 [main] INFO  c.x.XumblaubsBackendApplication - Starting XumblaubsBackendApplication using Java 22.0.2 with PID 9048 (D:\Documentos\Faculdade\Periodo Atual\LDS\implementacao\startup_car\back\target\classes started by lucas in D:\Documentos\Faculdade\Periodo Atual\LDS\implementacao\startup_car\back)
+2025-09-22 22:58:40.180 [main] DEBUG c.x.XumblaubsBackendApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-09-22 22:58:40.180 [main] INFO  c.x.XumblaubsBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-22 22:58:40.821 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-22 22:58:40.874 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2025-09-22 22:58:41.470 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-22 22:58:41.477 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-22 22:58:41.478 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-22 22:58:41.478 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-09-22 22:58:41.533 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-22 22:58:41.533 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1320 ms
+2025-09-22 22:58:41.781 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-22 22:58:41.826 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-09-22 22:58:41.849 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-22 22:58:42.188 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-22 22:58:42.815 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 22:58:42.835 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-22 22:58:42.835 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - tabela "clientes" não existe, ignorando
+2025-09-22 22:58:42.837 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-22 22:58:42.837 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - tabela "users" não existe, ignorando
+2025-09-22 22:58:43.237 [main] DEBUG c.xumblaubs.security.AuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+2025-09-22 22:58:43.385 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-22 22:58:43.668 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-22 22:58:44.016 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+2025-09-22 22:58:44.070 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@25d73ca6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7902b006, org.springframework.security.web.context.SecurityContextHolderFilter@193b6f5b, org.springframework.security.web.header.HeaderWriterFilter@5a32ab89, org.springframework.web.filter.CorsFilter@5ee63d9, org.springframework.security.web.authentication.logout.LogoutFilter@743a9292, com.xumblaubs.security.AuthTokenFilter@71e2ddd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@219a9b16, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ef09e1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b68a50c, org.springframework.security.web.session.SessionManagementFilter@222557fc, org.springframework.security.web.access.ExceptionTranslationFilter@5a2e4e77, org.springframework.security.web.access.intercept.AuthorizationFilter@672c6b93]
+2025-09-22 22:58:44.388 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-22 22:58:44.400 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-09-22 22:58:44.407 [main] INFO  c.x.XumblaubsBackendApplication - Started XumblaubsBackendApplication in 4.687 seconds (process running for 4.941)
+2025-09-22 22:58:44.451 [main] INFO  c.x.config.DatabaseInitializer - 🚀 Iniciando verificação e criação das tabelas do banco de dados...
+2025-09-22 22:58:44.451 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Verificando conexão com o banco de dados...
+2025-09-22 22:58:44.459 [main] INFO  c.x.config.DatabaseInitializer - ✅ Conexão com banco estabelecida: Conexão OK
+2025-09-22 22:58:44.459 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Verificando criação das tabelas...
+2025-09-22 22:58:44.463 [main] INFO  c.x.config.DatabaseInitializer - ✅ Tabela 'clientes' criada com sucesso!
+2025-09-22 22:58:44.464 [main] INFO  c.x.config.DatabaseInitializer - 📊 Tabela 'clientes' contém 0 registros
+2025-09-22 22:58:44.465 [main] INFO  c.x.config.DatabaseInitializer - ✅ Tabela 'users' criada com sucesso!
+2025-09-22 22:58:44.468 [main] INFO  c.x.config.DatabaseInitializer - 📊 Tabela 'users' contém 0 registros
+2025-09-22 22:58:44.469 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Listando entidades JPA mapeadas...
+2025-09-22 22:58:44.469 [main] INFO  c.x.config.DatabaseInitializer - 📋 Entidades JPA encontradas: 2
+2025-09-22 22:58:44.469 [main] INFO  c.x.config.DatabaseInitializer -   - User (tabela: User)
+2025-09-22 22:58:44.469 [main] INFO  c.x.config.DatabaseInitializer -   - Cliente (tabela: Cliente)
+2025-09-22 22:58:44.469 [main] INFO  c.x.config.DatabaseInitializer - ✅ Inicialização do banco de dados concluída com sucesso!
+2025-09-22 22:58:44.469 [main] INFO  c.xumblaubs.config.DataInitializer - 🚀 Iniciando criação de dados padrão...
+2025-09-22 22:58:44.692 [main] INFO  c.xumblaubs.config.DataInitializer - 👤 Usuário administrador criado: admin@xumblaubs.com / admin123
+2025-09-22 22:58:44.767 [main] INFO  c.xumblaubs.config.DataInitializer - 👤 Usuário comum criado: user@xumblaubs.com / user123
+2025-09-22 22:58:44.767 [main] INFO  c.xumblaubs.config.DataInitializer - ✅ Dados padrão criados com sucesso!
+2025-09-22 22:58:44.921 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 22:58:44.921 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-22 22:58:44.922 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-22 22:58:44.958 [http-nio-8080-exec-3] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/clientes' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-09-22 23:02:56.705 [http-nio-8080-exec-10] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
+2025-09-22 23:02:56.715 [http-nio-8080-exec-4] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
+2025-09-22 23:02:59.540 [http-nio-8080-exec-7] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
+2025-09-22 23:02:59.566 [http-nio-8080-exec-5] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
+2025-09-22 23:03:09.261 [http-nio-8080-exec-8] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
+2025-09-22 23:03:09.273 [http-nio-8080-exec-10] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
+2025-09-22 23:03:30.416 [http-nio-8080-exec-7] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
+2025-09-22 23:03:30.422 [http-nio-8080-exec-9] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
+2025-09-22 23:03:43.678 [http-nio-8080-exec-8] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
+2025-09-22 23:03:43.682 [http-nio-8080-exec-4] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource

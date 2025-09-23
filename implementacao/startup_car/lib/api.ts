@@ -1,13 +1,33 @@
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080/api';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080';
+
+// Helper function to get auth token
+const getAuthToken = (): string | null => {
+  if (typeof window !== 'undefined') {
+    return localStorage.getItem('authToken');
+  }
+  return null;
+};
+
+// Helper function to get headers with auth token
+const getHeaders = (): HeadersInit => {
+  const token = getAuthToken();
+  const headers: HeadersInit = {
+    'Content-Type': 'application/json',
+  };
+  
+  if (token) {
+    headers['Authorization'] = `Bearer ${token}`;
+  }
+  
+  return headers;
+};
 
 // Simple API utility using fetch
 export const api = {
   get: async (url: string) => {
     const response = await fetch(`${API_BASE_URL}${url}`, {
       method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: getHeaders(),
     });
     return response.json();
   },
@@ -15,9 +35,7 @@ export const api = {
   post: async (url: string, data: any) => {
     const response = await fetch(`${API_BASE_URL}${url}`, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: getHeaders(),
       body: JSON.stringify(data),
     });
     return response.json();
@@ -26,9 +44,7 @@ export const api = {
   put: async (url: string, data: any) => {
     const response = await fetch(`${API_BASE_URL}${url}`, {
       method: 'PUT',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: getHeaders(),
       body: JSON.stringify(data),
     });
     return response.json();
@@ -37,9 +53,7 @@ export const api = {
   delete: async (url: string) => {
     const response = await fetch(`${API_BASE_URL}${url}`, {
       method: 'DELETE',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: getHeaders(),
     });
     return response.json();
   },

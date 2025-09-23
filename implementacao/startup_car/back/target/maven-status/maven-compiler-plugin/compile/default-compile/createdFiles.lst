@@ -15,6 +15,7 @@ com\xumblaubs\controller\TestController.class
 com\xumblaubs\dto\JwtResponse.class
 com\xumblaubs\XumblaubsBackendApplication.class
 com\xumblaubs\controller\ClienteController.class
+com\xumblaubs\config\DataInitializer.class
 com\xumblaubs\service\UserDetailsServiceImpl.class
 com\xumblaubs\dto\LoginRequest.class
 com\xumblaubs\dto\ClienteResponse.class

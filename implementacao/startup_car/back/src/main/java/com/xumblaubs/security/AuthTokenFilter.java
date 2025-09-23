@@ -60,7 +60,7 @@ public class AuthTokenFilter extends OncePerRequestFilter {
     private boolean isPublicEndpoint(String requestURI) {
         return requestURI.startsWith("/api/auth/") ||
                requestURI.startsWith("/api/test/") ||
-               requestURI.startsWith("/api/clientes/") ||
+               requestURI.startsWith("/api/clientes") ||
                requestURI.startsWith("/api/actuator/");
     }
     

@@ -47,7 +47,7 @@ public class ClienteService {
     }
     
     public List<ClienteResponse> findByNomeContaining(String nome) {
-        return clienteRepository.findByNomeContainingAndAtivoTrue(nome).stream()
+        return clienteRepository.findByNomeContainingIgnoreCase(nome).stream()
                 .map(ClienteResponse::new)
                 .collect(Collectors.toList());
     }
