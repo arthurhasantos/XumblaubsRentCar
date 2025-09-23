@@ -37,31 +37,17 @@ public class DataInitializer implements CommandLineRunner {
 
     private void createDefaultUsers() {
         // Verificar se já existe um usuário admin
-        if (!userRepository.existsByEmail("admin@xumblaubs.com")) {
+        if (!userRepository.existsByEmail("admin@admin.com")) {
             User admin = new User();
             admin.setName("Administrador");
-            admin.setEmail("admin@xumblaubs.com");
-            admin.setPassword(passwordEncoder.encode("admin123"));
+            admin.setEmail("admin@admin.com");
+            admin.setPassword(passwordEncoder.encode("admin"));
             admin.setRole(Role.ADMIN);
             
             userRepository.save(admin);
-            logger.info("👤 Usuário administrador criado: admin@xumblaubs.com / admin123");
+            logger.info("👤 Usuário administrador criado: admin@admin.com / admin");
         } else {
             logger.info("👤 Usuário administrador já existe");
-        }
-
-        // Verificar se já existe um usuário comum
-        if (!userRepository.existsByEmail("user@xumblaubs.com")) {
-            User user = new User();
-            user.setName("Usuário Teste");
-            user.setEmail("user@xumblaubs.com");
-            user.setPassword(passwordEncoder.encode("user123"));
-            user.setRole(Role.USER);
-            
-            userRepository.save(user);
-            logger.info("👤 Usuário comum criado: user@xumblaubs.com / user123");
-        } else {
-            logger.info("👤 Usuário comum já existe");
         }
     }
 }

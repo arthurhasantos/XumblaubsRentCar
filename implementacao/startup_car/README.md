@@ -91,14 +91,20 @@ npm run install:all
 http://localhost:3000
 ```
 
-### **2. Testar API Diretamente:**
+### **2. Credenciais de Login:**
+```
+Email: admin@admin.com
+Senha: admin
+```
+
+### **3. Testar API Diretamente:**
 ```bash
 # Usar os arquivos de teste
 back/test-clientes.http
 back/test-database-creation.http
 ```
 
-### **3. Exemplo de Criação de Cliente:**
+### **4. Exemplo de Criação de Cliente:**
 ```bash
 POST http://localhost:8080/api/clientes
 Content-Type: application/json
