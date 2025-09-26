@@ -1,93 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Aluguel de Carros</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .status {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .links a {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .links a:hover {
+            background: #0056b3;
+        }
+        .api-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <a class="navbar-brand" href="/">
-                <i class="fas fa-car"></i> Xumblaubs Rent Car
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/login">
-                            <i class="fas fa-sign-in-alt"></i> Login
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/register">
-                            <i class="fas fa-user-plus"></i> Cadastrar
-                        </a>
-                    </li>
-                </ul>
-            </div>
+    <div class="container">
+        <h1>🚗 Sistema de Aluguel de Carros</h1>
+        
+        <div class="status">
+            ✅ <strong>Aplicação funcionando!</strong> Spring Boot rodando na porta 8080
         </div>
-    </nav>
-
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
-                <h1 class="display-4 mb-4">
-                    <i class="fas fa-car text-primary"></i>
-                    Sistema de Aluguel de Carros
-                </h1>
-                <p class="lead mb-5">
-                    Gerencie pedidos de aluguel, contratos e avaliações financeiras de forma eficiente e segura.
-                </p>
-                
-                <div class="row g-4">
-                    <div class="col-md-4">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <div class="card-body text-center">
-                                <i class="fas fa-users fa-3x text-primary mb-3"></i>
-                                <h5 class="card-title">Para Clientes</h5>
-                                <p class="card-text">Cadastre-se e gerencie seus pedidos de aluguel de forma simples e rápida.</p>
-                                <a href="/register" class="btn btn-primary">Cadastrar-se</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <div class="card-body text-center">
-                                <i class="fas fa-building fa-3x text-success mb-3"></i>
-                                <h5 class="card-title">Para Agentes</h5>
-                                <p class="card-text">Empresas e bancos podem analisar e avaliar pedidos financeiramente.</p>
-                                <a href="/login" class="btn btn-success">Acessar Sistema</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <div class="card-body text-center">
-                                <i class="fas fa-chart-line fa-3x text-info mb-3"></i>
-                                <h5 class="card-title">Gestão Completa</h5>
-                                <p class="card-text">Controle total sobre automóveis, contratos e análises financeiras.</p>
-                                <a href="/dashboard" class="btn btn-info">Dashboard</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        
+        <div class="links">
+            <a href="/dashboard">Dashboard</a>
+            <a href="/clientes">Clientes</a>
+            <a href="/login">Login</a>
+            <a href="/register">Registro</a>
+            <a href="/h2-console" target="_blank">Console H2</a>
+        </div>
+        
+        <div class="api-info">
+            <h3>🔗 API REST Endpoints:</h3>
+            <ul>
+                <li><strong>GET</strong> <a href="/api/automoveis">/api/automoveis</a> - Listar automóveis</li>
+                <li><strong>GET</strong> <a href="/api/clientes">/api/clientes</a> - Listar clientes</li>
+                <li><strong>GET</strong> <a href="/api/automoveis/disponiveis">/api/automoveis/disponiveis</a> - Automóveis disponíveis</li>
+            </ul>
+        </div>
+        
+        <div class="api-info">
+            <h3>🗄️ Console H2 Database:</h3>
+            <p><strong>URL:</strong> <a href="/h2-console" target="_blank">http://localhost:8080/h2-console</a></p>
+            <p><strong>JDBC URL:</strong> <code>jdbc:h2:mem:testdb</code></p>
+            <p><strong>Username:</strong> <code>sa</code></p>
+            <p><strong>Password:</strong> (deixe vazio)</p>
         </div>
     </div>
-
-    <footer class="bg-dark text-light py-4 mt-5">
-        <div class="container text-center">
-            <p>&copy; 2024 Xumblaubs Rent Car. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
