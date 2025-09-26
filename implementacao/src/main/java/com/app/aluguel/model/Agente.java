@@ -48,7 +48,8 @@ public class Agente {
     @OneToMany(mappedBy = "banco", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<ContratoCredito> contratosCredito = new ArrayList<>();
     
-    @OneToOne(mappedBy = "agente", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinColumn(name = "usuario_id")
     private Usuario usuario;
     
     // Construtores

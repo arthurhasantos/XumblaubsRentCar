@@ -4,7 +4,7 @@ import com.app.aluguel.model.Usuario;
 import com.app.aluguel.model.TipoUsuario;
 import com.app.aluguel.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.password.PasswordEncoder;
+// import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDateTime;
@@ -18,8 +18,8 @@ public class UsuarioService {
     @Autowired
     private UsuarioRepository usuarioRepository;
     
-    @Autowired
-    private PasswordEncoder passwordEncoder;
+    // @Autowired
+    // private PasswordEncoder passwordEncoder;
     
     public List<Usuario> listarTodos() {
         return usuarioRepository.findAll();
@@ -46,8 +46,7 @@ public class UsuarioService {
     }
     
     public Usuario salvar(Usuario usuario) {
-        // Criptografar senha antes de salvar
-        usuario.setPassword(passwordEncoder.encode(usuario.getPassword()));
+        // Salvar senha sem criptografia por enquanto
         return usuarioRepository.save(usuario);
     }
     
@@ -66,7 +65,8 @@ public class UsuarioService {
         Optional<Usuario> usuarioOpt = usuarioRepository.findActiveByUsername(username);
         if (usuarioOpt.isPresent()) {
             Usuario usuario = usuarioOpt.get();
-            if (passwordEncoder.matches(password, usuario.getPassword())) {
+            // Comparação simples de senha por enquanto
+            if (password.equals(usuario.getPassword())) {
                 usuario.setUltimoAcesso(LocalDateTime.now());
                 usuarioRepository.save(usuario);
                 return true;

@@ -45,11 +45,7 @@ public class Usuario {
     @Column(nullable = false)
     private Boolean ativo = true;
     
-    @OneToOne(mappedBy = "usuario", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private Cliente cliente;
-    
-    @OneToOne(mappedBy = "usuario", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private Agente agente;
+    // Relacionamentos removidos para evitar referência circular
     
     // Construtores
     public Usuario() {}
@@ -90,11 +86,7 @@ public class Usuario {
     public Boolean getAtivo() { return ativo; }
     public void setAtivo(Boolean ativo) { this.ativo = ativo; }
     
-    public Cliente getCliente() { return cliente; }
-    public void setCliente(Cliente cliente) { this.cliente = cliente; }
-    
-    public Agente getAgente() { return agente; }
-    public void setAgente(Agente agente) { this.agente = agente; }
+    // Getters e setters de relacionamentos removidos
     
     // Métodos auxiliares
     public boolean isCliente() {
