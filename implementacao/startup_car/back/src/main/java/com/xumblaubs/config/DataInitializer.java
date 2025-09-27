@@ -41,11 +41,11 @@ public class DataInitializer implements CommandLineRunner {
             User admin = new User();
             admin.setName("Administrador");
             admin.setEmail("admin@admin.com");
-            admin.setPassword(passwordEncoder.encode("admin"));
+            admin.setPassword(passwordEncoder.encode("admin123"));
             admin.setRole(Role.ADMIN);
             
             userRepository.save(admin);
-            logger.info("👤 Usuário administrador criado: admin@admin.com / admin");
+            logger.info("👤 Usuário administrador criado: admin@admin.com / admin123");
         } else {
             logger.info("👤 Usuário administrador já existe");
         }

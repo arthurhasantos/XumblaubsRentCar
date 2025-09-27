@@ -21,7 +21,7 @@ spring:
   
   security:
     jwt:
-      secret: mySecretKey123456789012345678901234567890
+      secret: mySecretKey123456789012345678901234567890123456789012345678901234567890abcdefghijklmnop
       expiration: 86400000 # 24 hours
 
 server:
