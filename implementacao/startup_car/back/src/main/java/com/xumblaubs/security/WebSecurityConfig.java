@@ -65,6 +65,8 @@ public class WebSecurityConfig {
                 auth.requestMatchers("/api/auth/**").permitAll()
                     .requestMatchers("/api/test/**").permitAll()
                     .requestMatchers("/api/clientes/**").permitAll()
+                    .requestMatchers("/api/automoveis/**").permitAll()
+                    .requestMatchers("/api/pedidos/**").permitAll() // Added for PedidoAluguel endpoints
                     .requestMatchers("/api/actuator/**").permitAll()
                     .anyRequest().authenticated()
             );

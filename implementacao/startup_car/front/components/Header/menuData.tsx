@@ -14,5 +14,12 @@ const menuData: Menu[] = [
     newTab: false,
     requireAdmin: true,
   },
+  {
+    id: 3,
+    title: "CRUD Automóveis",
+    path: "/automoveis",
+    newTab: false,
+    requireAdmin: true,
+  },
 ];
 export default menuData;
