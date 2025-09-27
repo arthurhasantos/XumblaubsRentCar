@@ -1762,3 +1762,589 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2025-09-27 19:37:40.850 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2025-09-27 19:37:40.851 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
 2025-09-27 19:37:40.886 [http-nio-8080-exec-4] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/clientes' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-09-27 19:40:35.394 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-09-27 19:40:35.466 [main] INFO  c.x.XumblaubsBackendApplication - Starting XumblaubsBackendApplication using Java 22.0.2 with PID 14548 (D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\target\classes started by lucas in D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back)
+2025-09-27 19:40:35.467 [main] DEBUG c.x.XumblaubsBackendApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-09-27 19:40:35.467 [main] INFO  c.x.XumblaubsBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-27 19:40:36.123 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-27 19:40:36.163 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2025-09-27 19:40:36.802 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-27 19:40:36.807 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-27 19:40:36.810 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-27 19:40:36.811 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-09-27 19:40:36.857 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-27 19:40:36.857 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1359 ms
+2025-09-27 19:40:37.096 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-27 19:40:37.132 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-09-27 19:40:37.160 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-27 19:40:37.490 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-27 19:40:38.108 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-27 19:40:38.544 [main] DEBUG c.xumblaubs.security.AuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+2025-09-27 19:40:38.683 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-27 19:40:39.040 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-27 19:40:39.466 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+2025-09-27 19:40:39.528 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@787f97b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37e682da, org.springframework.security.web.context.SecurityContextHolderFilter@1582dfec, org.springframework.security.web.header.HeaderWriterFilter@2809e7ab, org.springframework.web.filter.CorsFilter@3ace955c, org.springframework.security.web.authentication.logout.LogoutFilter@30ee1a38, com.xumblaubs.security.AuthTokenFilter@7ab8f93, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@abce494, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5cbdc23b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c00c8ce, org.springframework.security.web.session.SessionManagementFilter@49e8f283, org.springframework.security.web.access.ExceptionTranslationFilter@2a38b5c7, org.springframework.security.web.access.intercept.AuthorizationFilter@7cc9970a]
+2025-09-27 19:40:39.880 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-27 19:40:39.884 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-09-27 19:40:39.915 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-27 19:40:39.927 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-09-27 19:41:23.333 [SpringApplicationShutdownHook] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-27 19:41:23.334 [SpringApplicationShutdownHook] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - tabela "clientes" não existe, ignorando
+2025-09-27 19:41:23.335 [SpringApplicationShutdownHook] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-27 19:41:23.335 [SpringApplicationShutdownHook] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - tabela "users" não existe, ignorando
+2025-09-27 19:42:21.154 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-09-27 19:42:21.236 [main] INFO  c.x.XumblaubsBackendApplication - Starting XumblaubsBackendApplication using Java 22.0.2 with PID 10488 (D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\target\classes started by lucas in D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back)
+2025-09-27 19:42:21.237 [main] DEBUG c.x.XumblaubsBackendApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-09-27 19:42:21.237 [main] INFO  c.x.XumblaubsBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-27 19:42:21.998 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-27 19:42:22.046 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+2025-09-27 19:42:22.638 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-27 19:42:22.644 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-27 19:42:22.646 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-27 19:42:22.646 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-09-27 19:42:22.687 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-27 19:42:22.687 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1418 ms
+2025-09-27 19:42:22.913 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-27 19:42:22.960 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-09-27 19:42:22.987 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-27 19:42:23.350 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-27 19:42:23.998 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-27 19:42:24.011 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-27 19:42:24.012 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - tabela "clientes" não existe, ignorando
+2025-09-27 19:42:24.012 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-27 19:42:24.012 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - tabela "users" não existe, ignorando
+2025-09-27 19:42:24.401 [main] DEBUG c.xumblaubs.security.AuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+2025-09-27 19:42:24.565 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-27 19:42:24.910 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-27 19:42:25.294 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+2025-09-27 19:42:25.355 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d24bd80, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a28f67a, org.springframework.security.web.context.SecurityContextHolderFilter@5a271f3b, org.springframework.security.web.header.HeaderWriterFilter@5bf963a, org.springframework.web.filter.CorsFilter@4d4ae76, org.springframework.security.web.authentication.logout.LogoutFilter@7fc2e0b7, com.xumblaubs.security.AuthTokenFilter@4fcb796f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@490f4b14, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1be598c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28e9f6b8, org.springframework.security.web.session.SessionManagementFilter@d015dba, org.springframework.security.web.access.ExceptionTranslationFilter@3d118651, org.springframework.security.web.access.intercept.AuthorizationFilter@70a8d2e1]
+2025-09-27 19:42:25.715 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-27 19:42:25.732 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-09-27 19:42:25.739 [main] INFO  c.x.XumblaubsBackendApplication - Started XumblaubsBackendApplication in 4.964 seconds (process running for 5.223)
+2025-09-27 19:42:25.788 [main] INFO  c.x.config.DatabaseInitializer - 🚀 Iniciando verificação e criação das tabelas do banco de dados...
+2025-09-27 19:42:25.788 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Verificando conexão com o banco de dados...
+2025-09-27 19:42:25.796 [main] INFO  c.x.config.DatabaseInitializer - ✅ Conexão com banco estabelecida: Conexão OK
+2025-09-27 19:42:25.796 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Verificando criação das tabelas...
+2025-09-27 19:42:25.801 [main] INFO  c.x.config.DatabaseInitializer - ✅ Tabela 'clientes' criada com sucesso!
+2025-09-27 19:42:25.803 [main] INFO  c.x.config.DatabaseInitializer - 📊 Tabela 'clientes' contém 0 registros
+2025-09-27 19:42:25.803 [main] INFO  c.x.config.DatabaseInitializer - ✅ Tabela 'users' criada com sucesso!
+2025-09-27 19:42:25.804 [main] INFO  c.x.config.DatabaseInitializer - 📊 Tabela 'users' contém 0 registros
+2025-09-27 19:42:25.804 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Listando entidades JPA mapeadas...
+2025-09-27 19:42:25.804 [main] INFO  c.x.config.DatabaseInitializer - 📋 Entidades JPA encontradas: 2
+2025-09-27 19:42:25.804 [main] INFO  c.x.config.DatabaseInitializer -   - User (tabela: User)
+2025-09-27 19:42:25.804 [main] INFO  c.x.config.DatabaseInitializer -   - Cliente (tabela: Cliente)
+2025-09-27 19:42:25.805 [main] INFO  c.x.config.DatabaseInitializer - ✅ Inicialização do banco de dados concluída com sucesso!
+2025-09-27 19:42:25.805 [main] INFO  c.xumblaubs.config.DataInitializer - 🚀 Iniciando criação de dados padrão...
+2025-09-27 19:42:26.022 [main] INFO  c.xumblaubs.config.DataInitializer - 👤 Usuário administrador criado: admin@admin.com / admin123
+2025-09-27 19:42:26.097 [main] INFO  c.xumblaubs.config.DataInitializer - 👤 Usuário comum criado: user@user.com / user123
+2025-09-27 19:42:26.097 [main] INFO  c.xumblaubs.config.DataInitializer - ✅ Dados padrão criados com sucesso!
+2025-09-27 19:43:09.219 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-09-27 19:43:09.286 [main] INFO  c.x.XumblaubsBackendApplication - Starting XumblaubsBackendApplication using Java 22.0.2 with PID 20296 (D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\target\classes started by lucas in D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back)
+2025-09-27 19:43:09.286 [main] DEBUG c.x.XumblaubsBackendApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-09-27 19:43:09.289 [main] INFO  c.x.XumblaubsBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-27 19:43:09.870 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-27 19:43:09.907 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces.
+2025-09-27 19:43:10.438 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-27 19:43:10.443 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-27 19:43:10.445 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-27 19:43:10.445 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-09-27 19:43:10.487 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-27 19:43:10.488 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1174 ms
+2025-09-27 19:43:10.684 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-27 19:43:10.723 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-09-27 19:43:10.752 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-27 19:43:11.095 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-27 19:43:11.705 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-27 19:43:12.084 [main] DEBUG c.xumblaubs.security.AuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+2025-09-27 19:43:12.214 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-27 19:43:12.548 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-27 19:43:12.871 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+2025-09-27 19:43:12.923 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@10009505, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8dbe78f, org.springframework.security.web.context.SecurityContextHolderFilter@5cb9ef8a, org.springframework.security.web.header.HeaderWriterFilter@8611b3f, org.springframework.web.filter.CorsFilter@735a3e0d, org.springframework.security.web.authentication.logout.LogoutFilter@12a9889e, com.xumblaubs.security.AuthTokenFilter@46cb800b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@681f5a1e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3396d2a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17ed6578, org.springframework.security.web.session.SessionManagementFilter@171b3f38, org.springframework.security.web.access.ExceptionTranslationFilter@4ca62855, org.springframework.security.web.access.intercept.AuthorizationFilter@3c2e7a83]
+2025-09-27 19:43:13.210 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-27 19:43:13.214 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-09-27 19:43:13.238 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-27 19:43:13.247 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-09-27 19:44:17.303 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-27 19:44:17.303 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-27 19:44:17.304 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-27 19:44:17.351 [http-nio-8080-exec-2] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/auth/signin' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-09-27 19:44:17.547 [http-nio-8080-exec-2] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 42P01
+2025-09-27 19:44:17.547 [http-nio-8080-exec-2] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERRO: relação "public.users" não existe
+  Posição: 111
+2025-09-27 19:44:17.557 [http-nio-8080-exec-2] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: JDBC exception executing SQL [select u1_0.id,u1_0.created_at,u1_0.email,u1_0.enabled,u1_0.name,u1_0.password,u1_0.role,u1_0.updated_at from public.users u1_0 where u1_0.email=?] [ERRO: relação "public.users" não existe
+  Posição: 111] [n/a]; SQL [n/a]
+2025-09-27 19:45:29.769 [http-nio-8080-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 42P01
+2025-09-27 19:45:29.769 [http-nio-8080-exec-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERRO: relação "public.clientes" não existe
+  Posição: 120
+2025-09-27 19:45:29.771 [http-nio-8080-exec-6] ERROR c.xumblaubs.security.AuthTokenFilter - Cannot set user authentication: Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select c1_0.id,c1_0.ativo,c1_0.cpf,c1_0.created_at,c1_0.endereco,c1_0.nome,c1_0.profissao,c1_0.rg,c1_0.updated_at from public.clientes c1_0 where c1_0.ativo] [ERRO: relação "public.clientes" não existe
+  Posição: 120] [n/a]; SQL [n/a]
+2025-09-27 19:45:29.774 [http-nio-8080-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 42P01
+2025-09-27 19:45:29.774 [http-nio-8080-exec-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERRO: relação "public.clientes" não existe
+  Posição: 120
+2025-09-27 19:45:29.777 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select c1_0.id,c1_0.ativo,c1_0.cpf,c1_0.created_at,c1_0.endereco,c1_0.nome,c1_0.profissao,c1_0.rg,c1_0.updated_at from public.clientes c1_0 where c1_0.ativo] [ERRO: relação "public.clientes" não existe
+  Posição: 120] [n/a]; SQL [n/a]] with root cause
+org.postgresql.util.PSQLException: ERRO: relação "public.clientes" não existe
+  Posição: 120
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:240)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:164)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
+	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
+	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:200)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:361)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:168)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.list(JdbcSelectExecutorStandardImpl.java:93)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:31)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$0(ConcreteSqmSelectQueryPlan.java:109)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:305)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:246)
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:509)
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:427)
+	at org.hibernate.query.Query.getResultList(Query.java:120)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:129)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:92)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:149)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:249)
+	at jdk.proxy2/jdk.proxy2.$Proxy153.findByAtivoTrue(Unknown Source)
+	at com.xumblaubs.service.ClienteService.findAllAtivos(ClienteService.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:352)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
+	at com.xumblaubs.service.ClienteService$$SpringCGLIB$$0.findAllAtivos(<generated>)
+	at com.xumblaubs.controller.ClienteController.getAllClientes(ClienteController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:479)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:340)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:82)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:128)
+	at com.xumblaubs.security.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:323)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:224)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-09-27 19:45:29.786 [http-nio-8080-exec-6] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
+2025-09-27 19:45:29.792 [http-nio-8080-exec-7] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 42P01
+2025-09-27 19:45:29.792 [http-nio-8080-exec-7] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERRO: relação "public.clientes" não existe
+  Posição: 120
+2025-09-27 19:45:29.793 [http-nio-8080-exec-7] ERROR c.xumblaubs.security.AuthTokenFilter - Cannot set user authentication: Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select c1_0.id,c1_0.ativo,c1_0.cpf,c1_0.created_at,c1_0.endereco,c1_0.nome,c1_0.profissao,c1_0.rg,c1_0.updated_at from public.clientes c1_0 where c1_0.ativo] [ERRO: relação "public.clientes" não existe
+  Posição: 120] [n/a]; SQL [n/a]
+2025-09-27 19:45:29.796 [http-nio-8080-exec-7] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 42P01
+2025-09-27 19:45:29.797 [http-nio-8080-exec-7] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERRO: relação "public.clientes" não existe
+  Posição: 120
+2025-09-27 19:45:29.798 [http-nio-8080-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select c1_0.id,c1_0.ativo,c1_0.cpf,c1_0.created_at,c1_0.endereco,c1_0.nome,c1_0.profissao,c1_0.rg,c1_0.updated_at from public.clientes c1_0 where c1_0.ativo] [ERRO: relação "public.clientes" não existe
+  Posição: 120] [n/a]; SQL [n/a]] with root cause
+org.postgresql.util.PSQLException: ERRO: relação "public.clientes" não existe
+  Posição: 120
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:240)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:164)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
+	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
+	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:200)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:361)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:168)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.list(JdbcSelectExecutorStandardImpl.java:93)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:31)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$0(ConcreteSqmSelectQueryPlan.java:109)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:305)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:246)
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:509)
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:427)
+	at org.hibernate.query.Query.getResultList(Query.java:120)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:129)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:92)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:149)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:249)
+	at jdk.proxy2/jdk.proxy2.$Proxy153.findByAtivoTrue(Unknown Source)
+	at com.xumblaubs.service.ClienteService.findAllAtivos(ClienteService.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:352)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
+	at com.xumblaubs.service.ClienteService$$SpringCGLIB$$0.findAllAtivos(<generated>)
+	at com.xumblaubs.controller.ClienteController.getAllClientes(ClienteController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:479)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:340)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:82)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:128)
+	at com.xumblaubs.security.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:323)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:224)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-09-27 19:45:29.801 [http-nio-8080-exec-7] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
+2025-09-27 19:45:41.489 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-09-27 19:45:41.563 [main] INFO  c.x.XumblaubsBackendApplication - Starting XumblaubsBackendApplication using Java 22.0.2 with PID 35844 (D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\target\classes started by lucas in D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back)
+2025-09-27 19:45:41.564 [main] DEBUG c.x.XumblaubsBackendApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-09-27 19:45:41.565 [main] INFO  c.x.XumblaubsBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-27 19:45:42.205 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-27 19:45:42.245 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2025-09-27 19:45:42.804 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-27 19:45:42.810 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-27 19:45:42.812 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-27 19:45:42.812 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-09-27 19:45:42.853 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-27 19:45:42.854 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1258 ms
+2025-09-27 19:45:43.068 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-27 19:45:43.101 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-09-27 19:45:43.121 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-27 19:45:43.444 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-27 19:45:43.993 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-27 19:45:44.008 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-27 19:45:44.008 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - tabela "clientes" não existe, ignorando
+2025-09-27 19:45:44.010 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-27 19:45:44.010 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - tabela "users" não existe, ignorando
+2025-09-27 19:45:44.345 [main] DEBUG c.xumblaubs.security.AuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+2025-09-27 19:45:44.467 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-27 19:45:44.790 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-27 19:45:45.142 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+2025-09-27 19:45:45.198 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d24bd80, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a28f67a, org.springframework.security.web.context.SecurityContextHolderFilter@5a271f3b, org.springframework.security.web.header.HeaderWriterFilter@5bf963a, org.springframework.web.filter.CorsFilter@4d4ae76, org.springframework.security.web.authentication.logout.LogoutFilter@7fc2e0b7, com.xumblaubs.security.AuthTokenFilter@6037748a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@490f4b14, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1be598c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28e9f6b8, org.springframework.security.web.session.SessionManagementFilter@d015dba, org.springframework.security.web.access.ExceptionTranslationFilter@3d118651, org.springframework.security.web.access.intercept.AuthorizationFilter@70a8d2e1]
+2025-09-27 19:45:45.517 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-27 19:45:45.520 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-09-27 19:45:45.546 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-27 19:45:45.556 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-09-27 19:48:06.523 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-09-27 19:48:06.597 [main] INFO  c.x.XumblaubsBackendApplication - Starting XumblaubsBackendApplication using Java 22.0.2 with PID 15160 (D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\target\classes started by lucas in D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back)
+2025-09-27 19:48:06.597 [main] DEBUG c.x.XumblaubsBackendApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-09-27 19:48:06.598 [main] INFO  c.x.XumblaubsBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-27 19:48:07.218 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-27 19:48:07.261 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2025-09-27 19:48:07.822 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-27 19:48:07.828 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-27 19:48:07.830 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-27 19:48:07.830 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-09-27 19:48:07.873 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-27 19:48:07.873 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1244 ms
+2025-09-27 19:48:08.087 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-27 19:48:08.124 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-09-27 19:48:08.146 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-27 19:48:08.571 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-27 19:48:09.154 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-27 19:48:09.167 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-27 19:48:09.167 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - tabela "clientes" não existe, ignorando
+2025-09-27 19:48:09.168 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-27 19:48:09.168 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - tabela "users" não existe, ignorando
+2025-09-27 19:48:09.488 [main] DEBUG c.xumblaubs.security.AuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+2025-09-27 19:48:09.613 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-27 19:48:09.933 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-27 19:48:10.297 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+2025-09-27 19:48:10.355 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7669fc90, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a538180, org.springframework.security.web.context.SecurityContextHolderFilter@681f5a1e, org.springframework.security.web.header.HeaderWriterFilter@4518bffd, org.springframework.web.filter.CorsFilter@21b4a7d, org.springframework.security.web.authentication.logout.LogoutFilter@6a28f67a, com.xumblaubs.security.AuthTokenFilter@408bb173, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ed43328, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75952723, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e744b4b, org.springframework.security.web.session.SessionManagementFilter@7d6c4c43, org.springframework.security.web.access.ExceptionTranslationFilter@3b0305dd, org.springframework.security.web.access.intercept.AuthorizationFilter@10009505]
+2025-09-27 19:48:10.680 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-27 19:48:10.694 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-09-27 19:48:10.700 [main] INFO  c.x.XumblaubsBackendApplication - Started XumblaubsBackendApplication in 4.523 seconds (process running for 4.769)
+2025-09-27 19:48:10.748 [main] INFO  c.x.config.DatabaseInitializer - 🚀 Iniciando verificação e criação das tabelas do banco de dados...
+2025-09-27 19:48:10.748 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Verificando conexão com o banco de dados...
+2025-09-27 19:48:10.754 [main] INFO  c.x.config.DatabaseInitializer - ✅ Conexão com banco estabelecida: Conexão OK
+2025-09-27 19:48:10.754 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Verificando criação das tabelas...
+2025-09-27 19:48:10.758 [main] INFO  c.x.config.DatabaseInitializer - ✅ Tabela 'clientes' criada com sucesso!
+2025-09-27 19:48:10.760 [main] INFO  c.x.config.DatabaseInitializer - 📊 Tabela 'clientes' contém 0 registros
+2025-09-27 19:48:10.760 [main] INFO  c.x.config.DatabaseInitializer - ✅ Tabela 'users' criada com sucesso!
+2025-09-27 19:48:10.761 [main] INFO  c.x.config.DatabaseInitializer - 📊 Tabela 'users' contém 0 registros
+2025-09-27 19:48:10.761 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Listando entidades JPA mapeadas...
+2025-09-27 19:48:10.763 [main] INFO  c.x.config.DatabaseInitializer - 📋 Entidades JPA encontradas: 2
+2025-09-27 19:48:10.763 [main] INFO  c.x.config.DatabaseInitializer -   - Cliente (tabela: Cliente)
+2025-09-27 19:48:10.763 [main] INFO  c.x.config.DatabaseInitializer -   - User (tabela: User)
+2025-09-27 19:48:10.763 [main] INFO  c.x.config.DatabaseInitializer - ✅ Inicialização do banco de dados concluída com sucesso!
+2025-09-27 19:48:10.763 [main] INFO  c.xumblaubs.config.DataInitializer - 🚀 Iniciando criação de dados padrão...
+2025-09-27 19:48:10.981 [main] INFO  c.xumblaubs.config.DataInitializer - 👤 Usuário administrador criado: admin@admin.com / admin123
+2025-09-27 19:48:11.059 [main] INFO  c.xumblaubs.config.DataInitializer - 👤 Usuário comum criado: user@user.com / user123
+2025-09-27 19:48:11.059 [main] INFO  c.xumblaubs.config.DataInitializer - ✅ Dados padrão criados com sucesso!
+2025-09-27 19:48:20.175 [http-nio-8080-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-27 19:48:20.175 [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-27 19:48:20.177 [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-09-27 19:48:20.247 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/clientes' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.

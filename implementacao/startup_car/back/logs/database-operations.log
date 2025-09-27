@@ -1766,3 +1766,1354 @@ jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
 2025-09-27 19:38:04.350 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
 2025-09-27 19:38:34.363 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
 2025-09-27 19:38:34.363 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:39:04.378 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:39:04.378 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:39:34.388 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:39:34.388 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:40:04.403 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:40:04.403 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:40:34.408 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:40:34.408 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:40:37.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
+
+2025-09-27 19:40:37.082 [main] DEBUG o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2025-09-27 19:40:37.307 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-27 19:40:37.325 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2025-09-27 19:40:37.327 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2025-09-27 19:40:37.327 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2025-09-27 19:40:37.327 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2025-09-27 19:40:37.327 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2025-09-27 19:40:37.327 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2025-09-27 19:40:37.327 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2025-09-27 19:40:37.328 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2025-09-27 19:40:37.328 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2025-09-27 19:40:37.328 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2025-09-27 19:40:37.328 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2025-09-27 19:40:37.328 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+2025-09-27 19:40:37.328 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2025-09-27 19:40:37.328 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2025-09-27 19:40:37.328 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2025-09-27 19:40:37.328 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+2025-09-27 19:40:37.329 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2025-09-27 19:40:37.329 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-27 19:40:37.339 [main] DEBUG org.postgresql.Driver - Loading driver configuration via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
+2025-09-27 19:40:37.340 [main] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:40:37.346 [main] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:40:37.346 [main] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:40:37.346 [main] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:40:37.352 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:40:37.369 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:40:37.369 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:40:37.464 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a3bc0da
+2025-09-27 19:40:37.467 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-27 19:40:37.571 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-09-27 19:40:37.572 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:40:37.572 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:40:37.572 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:40:37.572 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:40:37.572 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:40:37.573 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:40:37.574 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:40:37.624 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@8465df3
+2025-09-27 19:40:37.650 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:40:37.650 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:40:37.651 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:40:37.651 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:40:37.651 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:40:37.652 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:40:37.652 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:40:37.696 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2be3683
+2025-09-27 19:40:37.712 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:40:37.712 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:40:37.712 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:40:37.713 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:40:37.713 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:40:37.713 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:40:37.713 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:40:37.761 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47bca8b0
+2025-09-27 19:40:37.774 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:40:37.774 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:40:37.774 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:40:37.774 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:40:37.774 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:40:37.775 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:40:37.776 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:40:37.832 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d2fdc71
+2025-09-27 19:40:37.852 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:40:37.852 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:40:37.852 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:40:37.852 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:40:37.852 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:40:37.853 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:40:37.853 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:40:37.899 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7631aca5
+2025-09-27 19:40:37.914 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:40:37.915 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:40:37.915 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:40:37.915 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:40:37.915 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:40:37.916 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:40:37.916 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:40:37.961 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54886ce
+2025-09-27 19:40:37.977 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:40:37.977 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:40:37.977 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:40:37.978 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:40:37.978 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:40:37.979 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:40:37.979 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:40:38.034 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@279357ff
+2025-09-27 19:40:38.054 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:40:38.054 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:40:38.054 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:40:38.054 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:40:38.054 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:40:38.055 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:40:38.056 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:40:38.102 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@24dccb28
+2025-09-27 19:40:38.117 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:40:38.117 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:40:38.117 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:40:38.117 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:40:38.117 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:40:38.118 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.clientes cascade
+2025-09-27 19:40:38.118 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:40:38.118 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:40:38.123 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.users cascade
+2025-09-27 19:40:38.133 [main] DEBUG org.hibernate.SQL - 
+    create table public.clientes (
+        ativo boolean not null,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        updated_at timestamp(6),
+        cpf varchar(255) not null unique,
+        endereco varchar(255) not null,
+        nome varchar(255) not null,
+        profissao varchar(255) not null,
+        rg varchar(255) not null,
+        primary key (id)
+    )
+2025-09-27 19:40:38.143 [main] DEBUG org.hibernate.SQL - 
+    create table public.users (
+        enabled boolean not null,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        updated_at timestamp(6),
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        password varchar(255) not null,
+        role varchar(255) not null check (role in ('USER','ADMIN')),
+        primary key (id)
+    )
+2025-09-27 19:40:38.153 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-27 19:40:38.163 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f730f92
+2025-09-27 19:40:38.180 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:40:38.243 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.267 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.311 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.352 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.405 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.406 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.658 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.661 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.674 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.799 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.963 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.969 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.981 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.983 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.984 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:38.985 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:40:39.886 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-27 19:40:39.886 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.clientes cascade
+2025-09-27 19:40:39.891 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.users cascade
+2025-09-27 19:40:39.898 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-27 19:40:39.898 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:40:39.899 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3a3bc0da: (connection evicted)
+2025-09-27 19:40:39.899 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@8465df3: (connection evicted)
+2025-09-27 19:40:39.899 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2be3683: (connection evicted)
+2025-09-27 19:40:39.900 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@47bca8b0: (connection evicted)
+2025-09-27 19:40:39.900 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7d2fdc71: (connection evicted)
+2025-09-27 19:40:39.900 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7631aca5: (connection evicted)
+2025-09-27 19:40:39.901 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@54886ce: (connection evicted)
+2025-09-27 19:40:39.902 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@279357ff: (connection evicted)
+2025-09-27 19:40:39.903 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@24dccb28: (connection evicted)
+2025-09-27 19:40:39.903 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5f730f92: (connection evicted)
+2025-09-27 19:40:39.903 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-09-27 19:40:39.903 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-27 19:41:04.418 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:41:04.418 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:41:23.331 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-27 19:41:23.332 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - 
+    drop table if exists public.clientes cascade
+2025-09-27 19:41:23.334 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - 
+    drop table if exists public.users cascade
+2025-09-27 19:41:23.336 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-27 19:41:23.336 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:41:23.337 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2aa0feb2: (connection evicted)
+2025-09-27 19:41:23.338 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@75909d11: (connection evicted)
+2025-09-27 19:41:23.339 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7f68f661: (connection evicted)
+2025-09-27 19:41:23.339 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3a6a77e8: (connection evicted)
+2025-09-27 19:41:23.339 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@4b631da1: (connection evicted)
+2025-09-27 19:41:23.340 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@b1a48fb: (connection evicted)
+2025-09-27 19:41:23.340 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@33f97c07: (connection evicted)
+2025-09-27 19:41:23.340 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5a4588a7: (connection evicted)
+2025-09-27 19:41:23.341 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@998085b: (connection evicted)
+2025-09-27 19:41:23.341 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@509cd403: (connection evicted)
+2025-09-27 19:41:23.341 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-09-27 19:41:23.341 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-27 19:42:22.838 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
+
+2025-09-27 19:42:22.904 [main] DEBUG o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2025-09-27 19:42:23.158 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-27 19:42:23.179 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2025-09-27 19:42:23.181 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2025-09-27 19:42:23.181 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2025-09-27 19:42:23.181 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2025-09-27 19:42:23.181 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2025-09-27 19:42:23.181 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2025-09-27 19:42:23.182 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2025-09-27 19:42:23.182 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2025-09-27 19:42:23.182 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2025-09-27 19:42:23.182 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2025-09-27 19:42:23.182 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2025-09-27 19:42:23.183 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2025-09-27 19:42:23.184 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2025-09-27 19:42:23.184 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2025-09-27 19:42:23.184 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2025-09-27 19:42:23.184 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2025-09-27 19:42:23.184 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2025-09-27 19:42:23.184 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2025-09-27 19:42:23.184 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2025-09-27 19:42:23.184 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+2025-09-27 19:42:23.184 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2025-09-27 19:42:23.185 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-27 19:42:23.195 [main] DEBUG org.postgresql.Driver - Loading driver configuration via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
+2025-09-27 19:42:23.196 [main] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:42:23.202 [main] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:42:23.202 [main] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:42:23.203 [main] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:42:23.207 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:42:23.224 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:42:23.225 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:42:23.324 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@74eab077
+2025-09-27 19:42:23.325 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-27 19:42:23.442 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-09-27 19:42:23.442 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:42:23.442 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:42:23.443 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:42:23.443 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:42:23.443 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:42:23.443 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:42:23.443 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:42:23.604 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@8be8d24
+2025-09-27 19:42:23.628 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:42:23.628 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:42:23.629 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:42:23.629 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:42:23.629 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:42:23.630 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:42:23.630 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:42:23.676 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@246e654
+2025-09-27 19:42:23.691 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:42:23.691 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:42:23.691 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:42:23.691 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:42:23.691 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:42:23.692 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:42:23.692 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:42:23.738 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47446878
+2025-09-27 19:42:23.753 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:42:23.753 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:42:23.753 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:42:23.753 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:42:23.753 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:42:23.754 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:42:23.754 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:42:23.807 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3bef1a19
+2025-09-27 19:42:23.831 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:42:23.831 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:42:23.831 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:42:23.831 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:42:23.831 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:42:23.832 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:42:23.833 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:42:23.905 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@76490c5d
+2025-09-27 19:42:23.924 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:42:23.924 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:42:23.924 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:42:23.924 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:42:23.925 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:42:23.926 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:42:23.926 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:42:23.973 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43082086
+2025-09-27 19:42:23.986 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:42:23.986 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:42:23.986 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:42:23.987 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:42:23.987 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:42:23.988 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:42:23.988 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:42:24.008 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.clientes cascade
+2025-09-27 19:42:24.012 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.users cascade
+2025-09-27 19:42:24.021 [main] DEBUG org.hibernate.SQL - 
+    create table public.clientes (
+        ativo boolean not null,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        updated_at timestamp(6),
+        cpf varchar(255) not null unique,
+        endereco varchar(255) not null,
+        nome varchar(255) not null,
+        profissao varchar(255) not null,
+        rg varchar(255) not null,
+        primary key (id)
+    )
+2025-09-27 19:42:24.032 [main] DEBUG org.hibernate.SQL - 
+    create table public.users (
+        enabled boolean not null,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        updated_at timestamp(6),
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        password varchar(255) not null,
+        role varchar(255) not null check (role in ('USER','ADMIN')),
+        primary key (id)
+    )
+2025-09-27 19:42:24.036 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@276b9737
+2025-09-27 19:42:24.040 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-27 19:42:24.047 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:42:24.047 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:42:24.047 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:42:24.047 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:42:24.048 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:42:24.048 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:42:24.048 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:42:24.099 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@64176e11
+2025-09-27 19:42:24.111 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:42:24.111 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:42:24.111 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:42:24.111 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:42:24.111 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:42:24.112 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:42:24.112 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:42:24.130 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.160 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.164 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a82bd2a
+2025-09-27 19:42:24.176 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:42:24.210 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.261 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.314 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.315 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.530 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.536 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.678 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.839 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.840 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.846 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.856 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.858 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.859 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:24.859 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:25.789 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT 'Conexão OK' as status]
+2025-09-27 19:42:25.791 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-27 19:42:25.796 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT CASE WHEN EXISTS (SELECT FROM information_schema.tables WHERE table_name = 'clientes') THEN 'EXISTS' ELSE 'NOT_EXISTS' END]
+2025-09-27 19:42:25.796 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-27 19:42:25.801 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT COUNT(*) FROM clientes]
+2025-09-27 19:42:25.801 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-27 19:42:25.803 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT CASE WHEN EXISTS (SELECT FROM information_schema.tables WHERE table_name = 'users') THEN 'EXISTS' ELSE 'NOT_EXISTS' END]
+2025-09-27 19:42:25.803 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-27 19:42:25.803 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT COUNT(*) FROM users]
+2025-09-27 19:42:25.803 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-27 19:42:25.808 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:25.871 [main] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=? 
+    fetch
+        first ? rows only
+2025-09-27 19:42:25.951 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-27 19:42:25.952 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(996406430<open>)] for JPA transaction
+2025-09-27 19:42:25.953 [main] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-27 19:42:25.955 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@2db6d66d]
+2025-09-27 19:42:26.007 [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.users
+        (created_at, email, enabled, name, password, role, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-09-27 19:42:26.016 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-27 19:42:26.017 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(996406430<open>)]
+2025-09-27 19:42:26.021 [main] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-27 19:42:26.021 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(996406430<open>)] after transaction
+2025-09-27 19:42:26.022 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:42:26.023 [main] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=? 
+    fetch
+        first ? rows only
+2025-09-27 19:42:26.093 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-27 19:42:26.093 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1910124190<open>)] for JPA transaction
+2025-09-27 19:42:26.093 [main] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-27 19:42:26.094 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@19a71722]
+2025-09-27 19:42:26.095 [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.users
+        (created_at, email, enabled, name, password, role, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-09-27 19:42:26.096 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-27 19:42:26.096 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1910124190<open>)]
+2025-09-27 19:42:26.096 [main] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-27 19:42:26.096 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(1910124190<open>)] after transaction
+2025-09-27 19:42:53.442 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:42:53.442 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:43:10.617 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
+
+2025-09-27 19:43:10.674 [main] DEBUG o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2025-09-27 19:43:10.916 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-27 19:43:10.933 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2025-09-27 19:43:10.935 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2025-09-27 19:43:10.936 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2025-09-27 19:43:10.936 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2025-09-27 19:43:10.936 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2025-09-27 19:43:10.936 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2025-09-27 19:43:10.937 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2025-09-27 19:43:10.937 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2025-09-27 19:43:10.937 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2025-09-27 19:43:10.937 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2025-09-27 19:43:10.937 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+2025-09-27 19:43:10.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2025-09-27 19:43:10.938 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-27 19:43:10.948 [main] DEBUG org.postgresql.Driver - Loading driver configuration via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
+2025-09-27 19:43:10.950 [main] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:43:10.958 [main] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:43:10.958 [main] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:43:10.958 [main] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:43:10.962 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:43:10.977 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:43:10.977 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:43:11.071 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f82209e
+2025-09-27 19:43:11.072 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-27 19:43:11.179 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-09-27 19:43:11.180 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:43:11.180 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:43:11.181 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:43:11.181 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:43:11.181 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:43:11.182 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:43:11.182 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:43:11.228 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@675c260d
+2025-09-27 19:43:11.240 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:43:11.240 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:43:11.240 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:43:11.240 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:43:11.240 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:43:11.241 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:43:11.241 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:43:11.283 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6da44d7d
+2025-09-27 19:43:11.301 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:43:11.301 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:43:11.301 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:43:11.301 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:43:11.301 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:43:11.302 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:43:11.302 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:43:11.352 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@28a6dead
+2025-09-27 19:43:11.363 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:43:11.363 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:43:11.363 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:43:11.363 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:43:11.363 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:43:11.364 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:43:11.364 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:43:11.408 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e4ce9fa
+2025-09-27 19:43:11.424 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:43:11.424 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:43:11.424 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:43:11.424 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:43:11.424 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:43:11.425 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:43:11.425 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:43:11.470 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1944b7c1
+2025-09-27 19:43:11.487 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:43:11.487 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:43:11.487 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:43:11.487 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:43:11.488 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:43:11.489 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:43:11.489 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:43:11.535 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5644de31
+2025-09-27 19:43:11.550 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:43:11.550 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:43:11.550 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:43:11.550 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:43:11.550 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:43:11.551 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:43:11.551 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:43:11.598 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@488921e2
+2025-09-27 19:43:11.613 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:43:11.613 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:43:11.613 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:43:11.613 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:43:11.613 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:43:11.614 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:43:11.614 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:43:11.657 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c31230
+2025-09-27 19:43:11.676 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:43:11.676 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:43:11.676 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:43:11.676 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:43:11.676 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:43:11.677 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:43:11.677 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:43:11.716 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.clientes cascade
+2025-09-27 19:43:11.718 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d055776
+2025-09-27 19:43:11.722 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.users cascade
+2025-09-27 19:43:11.731 [main] DEBUG org.hibernate.SQL - 
+    create table public.clientes (
+        ativo boolean not null,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        updated_at timestamp(6),
+        cpf varchar(255) not null unique,
+        endereco varchar(255) not null,
+        nome varchar(255) not null,
+        profissao varchar(255) not null,
+        rg varchar(255) not null,
+        primary key (id)
+    )
+2025-09-27 19:43:11.738 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2025-09-27 19:43:11.740 [main] DEBUG org.hibernate.SQL - 
+    create table public.users (
+        enabled boolean not null,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        updated_at timestamp(6),
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        password varchar(255) not null,
+        role varchar(255) not null check (role in ('USER','ADMIN')),
+        primary key (id)
+    )
+2025-09-27 19:43:11.748 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-27 19:43:11.838 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:11.865 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:11.906 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:11.953 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:11.996 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:11.997 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:12.188 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:12.192 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:12.207 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:12.332 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:12.483 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:12.488 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:12.498 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:12.499 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:12.500 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:12.501 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:43:13.216 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-27 19:43:13.216 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.clientes cascade
+2025-09-27 19:43:13.219 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.users cascade
+2025-09-27 19:43:13.222 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-27 19:43:13.222 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:43:13.224 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5f82209e: (connection evicted)
+2025-09-27 19:43:13.224 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@675c260d: (connection evicted)
+2025-09-27 19:43:13.224 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6da44d7d: (connection evicted)
+2025-09-27 19:43:13.224 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@28a6dead: (connection evicted)
+2025-09-27 19:43:13.225 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2e4ce9fa: (connection evicted)
+2025-09-27 19:43:13.225 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1944b7c1: (connection evicted)
+2025-09-27 19:43:13.225 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5644de31: (connection evicted)
+2025-09-27 19:43:13.227 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@488921e2: (connection evicted)
+2025-09-27 19:43:13.227 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1c31230: (connection evicted)
+2025-09-27 19:43:13.227 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3d055776: (connection evicted)
+2025-09-27 19:43:13.229 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-09-27 19:43:13.229 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-27 19:43:23.443 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:43:23.443 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:43:53.448 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:43:53.448 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:44:17.362 [http-nio-8080-exec-2] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:44:17.532 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(2150526<open>)] for JPA transaction
+2025-09-27 19:44:17.533 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.UserDetailsServiceImpl.loadUserByUsername]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-27 19:44:17.534 [http-nio-8080-exec-2] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-27 19:44:17.534 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@29aad3ce]
+2025-09-27 19:44:17.545 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=?
+2025-09-27 19:44:17.553 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction rollback
+2025-09-27 19:44:17.553 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Rolling back JPA transaction on EntityManager [SessionImpl(2150526<open>)]
+2025-09-27 19:44:17.553 [http-nio-8080-exec-2] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-27 19:44:17.554 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-27 19:44:17.556 [http-nio-8080-exec-2] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:44:23.462 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:44:23.462 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:44:53.463 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:44:53.463 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:45:23.476 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:45:23.476 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:45:29.761 [http-nio-8080-exec-6] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:45:29.763 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(877877866<open>)] for JPA transaction
+2025-09-27 19:45:29.763 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.ClienteService.findAllAtivos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-27 19:45:29.764 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-27 19:45:29.764 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@3f8f7863]
+2025-09-27 19:45:29.768 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.ativo,
+        c1_0.cpf,
+        c1_0.created_at,
+        c1_0.endereco,
+        c1_0.nome,
+        c1_0.profissao,
+        c1_0.rg,
+        c1_0.updated_at 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.ativo
+2025-09-27 19:45:29.770 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction rollback
+2025-09-27 19:45:29.770 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Rolling back JPA transaction on EntityManager [SessionImpl(877877866<open>)]
+2025-09-27 19:45:29.770 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-27 19:45:29.770 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-27 19:45:29.770 [http-nio-8080-exec-6] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:45:29.772 [http-nio-8080-exec-6] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:45:29.772 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(419416598<open>)] for JPA transaction
+2025-09-27 19:45:29.772 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.ClienteService.findAllAtivos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-27 19:45:29.772 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-27 19:45:29.773 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@7470f316]
+2025-09-27 19:45:29.774 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.ativo,
+        c1_0.cpf,
+        c1_0.created_at,
+        c1_0.endereco,
+        c1_0.nome,
+        c1_0.profissao,
+        c1_0.rg,
+        c1_0.updated_at 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.ativo
+2025-09-27 19:45:29.774 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction rollback
+2025-09-27 19:45:29.774 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Rolling back JPA transaction on EntityManager [SessionImpl(419416598<open>)]
+2025-09-27 19:45:29.776 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-27 19:45:29.776 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-27 19:45:29.776 [http-nio-8080-exec-6] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:45:29.790 [http-nio-8080-exec-7] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:45:29.791 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(669882700<open>)] for JPA transaction
+2025-09-27 19:45:29.791 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.ClienteService.findAllAtivos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-27 19:45:29.791 [http-nio-8080-exec-7] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-27 19:45:29.791 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@23d21969]
+2025-09-27 19:45:29.792 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.ativo,
+        c1_0.cpf,
+        c1_0.created_at,
+        c1_0.endereco,
+        c1_0.nome,
+        c1_0.profissao,
+        c1_0.rg,
+        c1_0.updated_at 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.ativo
+2025-09-27 19:45:29.793 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction rollback
+2025-09-27 19:45:29.793 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Rolling back JPA transaction on EntityManager [SessionImpl(669882700<open>)]
+2025-09-27 19:45:29.793 [http-nio-8080-exec-7] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-27 19:45:29.793 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-27 19:45:29.793 [http-nio-8080-exec-7] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:45:29.795 [http-nio-8080-exec-7] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:45:29.795 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1476153897<open>)] for JPA transaction
+2025-09-27 19:45:29.795 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.ClienteService.findAllAtivos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-27 19:45:29.796 [http-nio-8080-exec-7] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-27 19:45:29.796 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@645600ee]
+2025-09-27 19:45:29.796 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.ativo,
+        c1_0.cpf,
+        c1_0.created_at,
+        c1_0.endereco,
+        c1_0.nome,
+        c1_0.profissao,
+        c1_0.rg,
+        c1_0.updated_at 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.ativo
+2025-09-27 19:45:29.797 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction rollback
+2025-09-27 19:45:29.797 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Rolling back JPA transaction on EntityManager [SessionImpl(1476153897<open>)]
+2025-09-27 19:45:29.797 [http-nio-8080-exec-7] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-27 19:45:29.797 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-27 19:45:29.797 [http-nio-8080-exec-7] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:45:42.994 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
+
+2025-09-27 19:45:43.052 [main] DEBUG o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2025-09-27 19:45:43.263 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-27 19:45:43.281 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2025-09-27 19:45:43.284 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2025-09-27 19:45:43.284 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2025-09-27 19:45:43.284 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2025-09-27 19:45:43.284 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2025-09-27 19:45:43.284 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2025-09-27 19:45:43.285 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2025-09-27 19:45:43.285 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2025-09-27 19:45:43.285 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2025-09-27 19:45:43.285 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2025-09-27 19:45:43.285 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2025-09-27 19:45:43.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+2025-09-27 19:45:43.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2025-09-27 19:45:43.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2025-09-27 19:45:43.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2025-09-27 19:45:43.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2025-09-27 19:45:43.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2025-09-27 19:45:43.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2025-09-27 19:45:43.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:45:43.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2025-09-27 19:45:43.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2025-09-27 19:45:43.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2025-09-27 19:45:43.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2025-09-27 19:45:43.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2025-09-27 19:45:43.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2025-09-27 19:45:43.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2025-09-27 19:45:43.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2025-09-27 19:45:43.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2025-09-27 19:45:43.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2025-09-27 19:45:43.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2025-09-27 19:45:43.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2025-09-27 19:45:43.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2025-09-27 19:45:43.288 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2025-09-27 19:45:43.288 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2025-09-27 19:45:43.288 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+2025-09-27 19:45:43.288 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2025-09-27 19:45:43.288 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-27 19:45:43.299 [main] DEBUG org.postgresql.Driver - Loading driver configuration via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
+2025-09-27 19:45:43.300 [main] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:45:43.306 [main] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:45:43.307 [main] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:45:43.307 [main] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:45:43.311 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:45:43.324 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:45:43.324 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:45:43.418 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c6919ff
+2025-09-27 19:45:43.420 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-27 19:45:43.526 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-09-27 19:45:43.526 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:45:43.527 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:45:43.527 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:45:43.527 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:45:43.527 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:45:43.528 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:45:43.528 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:45:43.576 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f192496
+2025-09-27 19:45:43.590 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:45:43.590 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:45:43.590 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:45:43.590 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:45:43.590 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:45:43.590 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:45:43.591 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:45:43.734 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55e14fe6
+2025-09-27 19:45:43.745 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:45:43.745 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:45:43.745 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:45:43.745 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:45:43.745 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:45:43.746 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:45:43.746 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:45:43.791 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@10e3db3e
+2025-09-27 19:45:43.807 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:45:43.807 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:45:43.807 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:45:43.807 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:45:43.807 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:45:43.808 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:45:43.808 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:45:43.852 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6486020
+2025-09-27 19:45:43.870 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:45:43.870 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:45:43.870 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:45:43.870 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:45:43.870 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:45:43.871 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:45:43.871 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:45:43.922 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2139cf15
+2025-09-27 19:45:43.934 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:45:43.934 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:45:43.934 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:45:43.934 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:45:43.935 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:45:43.935 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:45:43.936 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:45:43.982 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e782aab
+2025-09-27 19:45:43.996 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:45:43.996 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:45:43.996 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:45:43.996 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:45:43.996 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:45:43.997 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:45:43.997 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:45:44.005 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.clientes cascade
+2025-09-27 19:45:44.008 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.users cascade
+2025-09-27 19:45:44.015 [main] DEBUG org.hibernate.SQL - 
+    create table public.clientes (
+        ativo boolean not null,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        updated_at timestamp(6),
+        cpf varchar(255) not null unique,
+        endereco varchar(255) not null,
+        nome varchar(255) not null,
+        profissao varchar(255) not null,
+        rg varchar(255) not null,
+        primary key (id)
+    )
+2025-09-27 19:45:44.025 [main] DEBUG org.hibernate.SQL - 
+    create table public.users (
+        enabled boolean not null,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        updated_at timestamp(6),
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        password varchar(255) not null,
+        role varchar(255) not null check (role in ('USER','ADMIN')),
+        primary key (id)
+    )
+2025-09-27 19:45:44.032 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-27 19:45:44.041 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@70cc2471
+2025-09-27 19:45:44.060 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:45:44.060 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:45:44.060 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:45:44.060 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:45:44.060 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:45:44.061 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:45:44.061 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:45:44.105 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35c00328
+2025-09-27 19:45:44.108 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.122 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:45:44.122 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:45:44.122 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:45:44.122 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:45:44.122 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:45:44.123 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:45:44.123 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:45:44.131 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.166 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a6e23e2
+2025-09-27 19:45:44.178 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.185 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:45:44.215 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.252 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.253 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.439 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.444 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.459 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.579 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.725 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.730 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.738 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.740 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.741 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:44.742 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:45:45.522 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-27 19:45:45.523 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.clientes cascade
+2025-09-27 19:45:45.527 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.users cascade
+2025-09-27 19:45:45.531 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-27 19:45:45.531 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:45:45.532 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6c6919ff: (connection evicted)
+2025-09-27 19:45:45.532 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5f192496: (connection evicted)
+2025-09-27 19:45:45.532 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@55e14fe6: (connection evicted)
+2025-09-27 19:45:45.532 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@10e3db3e: (connection evicted)
+2025-09-27 19:45:45.532 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6486020: (connection evicted)
+2025-09-27 19:45:45.533 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2139cf15: (connection evicted)
+2025-09-27 19:45:45.533 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7e782aab: (connection evicted)
+2025-09-27 19:45:45.534 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@70cc2471: (connection evicted)
+2025-09-27 19:45:45.534 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@35c00328: (connection evicted)
+2025-09-27 19:45:45.534 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5a6e23e2: (connection evicted)
+2025-09-27 19:45:45.534 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-09-27 19:45:45.534 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-27 19:45:53.481 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:45:53.481 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:46:23.487 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:46:23.487 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:46:53.488 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:46:53.488 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:47:23.491 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:47:23.491 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-27 19:48:08.010 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
+
+2025-09-27 19:48:08.070 [main] DEBUG o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2025-09-27 19:48:08.290 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-27 19:48:08.307 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2025-09-27 19:48:08.310 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2025-09-27 19:48:08.311 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2025-09-27 19:48:08.311 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2025-09-27 19:48:08.311 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2025-09-27 19:48:08.311 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2025-09-27 19:48:08.312 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2025-09-27 19:48:08.312 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2025-09-27 19:48:08.312 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2025-09-27 19:48:08.312 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2025-09-27 19:48:08.313 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2025-09-27 19:48:08.313 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+2025-09-27 19:48:08.313 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2025-09-27 19:48:08.313 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2025-09-27 19:48:08.313 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2025-09-27 19:48:08.313 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2025-09-27 19:48:08.313 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2025-09-27 19:48:08.313 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2025-09-27 19:48:08.313 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:48:08.313 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2025-09-27 19:48:08.313 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2025-09-27 19:48:08.313 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2025-09-27 19:48:08.314 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2025-09-27 19:48:08.314 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2025-09-27 19:48:08.314 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2025-09-27 19:48:08.314 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2025-09-27 19:48:08.314 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2025-09-27 19:48:08.314 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2025-09-27 19:48:08.314 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2025-09-27 19:48:08.314 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2025-09-27 19:48:08.314 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2025-09-27 19:48:08.314 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2025-09-27 19:48:08.314 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2025-09-27 19:48:08.314 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2025-09-27 19:48:08.314 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+2025-09-27 19:48:08.315 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2025-09-27 19:48:08.315 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-27 19:48:08.324 [main] DEBUG org.postgresql.Driver - Loading driver configuration via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
+2025-09-27 19:48:08.325 [main] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:48:08.333 [main] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:48:08.333 [main] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:48:08.333 [main] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:48:08.337 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:48:08.350 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:48:08.351 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:48:08.548 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@df6f19b
+2025-09-27 19:48:08.548 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-27 19:48:08.656 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-09-27 19:48:08.656 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:48:08.658 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:48:08.658 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:48:08.658 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:48:08.658 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:48:08.659 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:48:08.660 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:48:08.708 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d765524
+2025-09-27 19:48:08.720 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:48:08.720 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:48:08.720 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:48:08.720 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:48:08.720 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:48:08.721 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:48:08.721 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:48:08.771 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@378e3e54
+2025-09-27 19:48:08.782 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:48:08.782 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:48:08.782 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:48:08.782 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:48:08.783 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:48:08.783 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:48:08.783 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:48:08.926 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@728ca6c1
+2025-09-27 19:48:08.938 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:48:08.938 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:48:08.938 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:48:08.938 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:48:08.938 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:48:08.939 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:48:08.939 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:48:08.984 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ddc12c1
+2025-09-27 19:48:09.000 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:48:09.000 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:48:09.000 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:48:09.000 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:48:09.000 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:48:09.001 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:48:09.001 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:48:09.048 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4334b7fc
+2025-09-27 19:48:09.062 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:48:09.062 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:48:09.062 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:48:09.062 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:48:09.063 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:48:09.064 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:48:09.064 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:48:09.110 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58e5d50
+2025-09-27 19:48:09.124 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:48:09.124 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:48:09.124 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:48:09.124 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:48:09.124 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:48:09.125 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:48:09.125 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:48:09.164 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.clientes cascade
+2025-09-27 19:48:09.168 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.users cascade
+2025-09-27 19:48:09.174 [main] DEBUG org.hibernate.SQL - 
+    create table public.clientes (
+        ativo boolean not null,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        updated_at timestamp(6),
+        cpf varchar(255) not null unique,
+        endereco varchar(255) not null,
+        nome varchar(255) not null,
+        profissao varchar(255) not null,
+        rg varchar(255) not null,
+        primary key (id)
+    )
+2025-09-27 19:48:09.183 [main] DEBUG org.hibernate.SQL - 
+    create table public.users (
+        enabled boolean not null,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        updated_at timestamp(6),
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        password varchar(255) not null,
+        role varchar(255) not null check (role in ('USER','ADMIN')),
+        primary key (id)
+    )
+2025-09-27 19:48:09.190 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-27 19:48:09.263 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.268 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@12a3598e
+2025-09-27 19:48:09.281 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:48:09.281 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:48:09.281 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:48:09.281 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:48:09.281 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:48:09.282 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:48:09.283 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:48:09.285 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.325 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f740b01
+2025-09-27 19:48:09.329 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.343 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-27 19:48:09.343 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-27 19:48:09.343 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-27 19:48:09.343 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-27 19:48:09.343 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-27 19:48:09.344 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-27 19:48:09.344 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-27 19:48:09.368 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.387 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6919c644
+2025-09-27 19:48:09.405 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:48:09.407 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.408 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.585 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.590 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.604 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.717 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.861 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.866 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.876 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.877 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.878 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:09.878 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:10.749 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT 'Conexão OK' as status]
+2025-09-27 19:48:10.750 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-27 19:48:10.754 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT CASE WHEN EXISTS (SELECT FROM information_schema.tables WHERE table_name = 'clientes') THEN 'EXISTS' ELSE 'NOT_EXISTS' END]
+2025-09-27 19:48:10.754 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-27 19:48:10.758 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT COUNT(*) FROM clientes]
+2025-09-27 19:48:10.758 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-27 19:48:10.760 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT CASE WHEN EXISTS (SELECT FROM information_schema.tables WHERE table_name = 'users') THEN 'EXISTS' ELSE 'NOT_EXISTS' END]
+2025-09-27 19:48:10.760 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-27 19:48:10.760 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT COUNT(*) FROM users]
+2025-09-27 19:48:10.760 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-27 19:48:10.766 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:10.829 [main] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=? 
+    fetch
+        first ? rows only
+2025-09-27 19:48:10.908 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-27 19:48:10.908 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1980933707<open>)] for JPA transaction
+2025-09-27 19:48:10.911 [main] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-27 19:48:10.911 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@b54a7b9]
+2025-09-27 19:48:10.966 [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.users
+        (created_at, email, enabled, name, password, role, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-09-27 19:48:10.975 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-27 19:48:10.975 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1980933707<open>)]
+2025-09-27 19:48:10.981 [main] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-27 19:48:10.981 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(1980933707<open>)] after transaction
+2025-09-27 19:48:10.982 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-27 19:48:10.983 [main] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=? 
+    fetch
+        first ? rows only
+2025-09-27 19:48:11.054 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-27 19:48:11.054 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(778078611<open>)] for JPA transaction
+2025-09-27 19:48:11.054 [main] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-27 19:48:11.054 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@1675adad]
+2025-09-27 19:48:11.055 [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.users
+        (created_at, email, enabled, name, password, role, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-09-27 19:48:11.057 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-27 19:48:11.057 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(778078611<open>)]
+2025-09-27 19:48:11.058 [main] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-27 19:48:11.059 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(778078611<open>)] after transaction
+2025-09-27 19:48:20.267 [http-nio-8080-exec-1] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:48:20.291 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1553329842<open>)] for JPA transaction
+2025-09-27 19:48:20.291 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.ClienteService.findAllAtivos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-27 19:48:20.292 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-27 19:48:20.292 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@1ad6be12]
+2025-09-27 19:48:20.311 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.ativo,
+        c1_0.cpf,
+        c1_0.created_at,
+        c1_0.endereco,
+        c1_0.nome,
+        c1_0.profissao,
+        c1_0.rg,
+        c1_0.updated_at 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.ativo
+2025-09-27 19:48:20.314 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-27 19:48:20.314 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1553329842<open>)]
+2025-09-27 19:48:20.314 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-27 19:48:20.314 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-27 19:48:20.358 [http-nio-8080-exec-1] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:48:20.371 [http-nio-8080-exec-3] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:48:20.372 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1851107605<open>)] for JPA transaction
+2025-09-27 19:48:20.376 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.ClienteService.findAllAtivos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-27 19:48:20.376 [http-nio-8080-exec-3] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-27 19:48:20.376 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@6a6a3007]
+2025-09-27 19:48:20.378 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.ativo,
+        c1_0.cpf,
+        c1_0.created_at,
+        c1_0.endereco,
+        c1_0.nome,
+        c1_0.profissao,
+        c1_0.rg,
+        c1_0.updated_at 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.ativo
+2025-09-27 19:48:20.380 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-27 19:48:20.380 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1851107605<open>)]
+2025-09-27 19:48:20.380 [http-nio-8080-exec-3] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-27 19:48:20.380 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-27 19:48:20.382 [http-nio-8080-exec-3] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:48:26.507 [http-nio-8080-exec-5] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:48:26.655 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(949440116<open>)] for JPA transaction
+2025-09-27 19:48:26.655 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.UserDetailsServiceImpl.loadUserByUsername]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-27 19:48:26.656 [http-nio-8080-exec-5] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-27 19:48:26.656 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@5b291ea2]
+2025-09-27 19:48:26.659 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=?
+2025-09-27 19:48:26.666 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-27 19:48:26.666 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(949440116<open>)]
+2025-09-27 19:48:26.667 [http-nio-8080-exec-5] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-27 19:48:26.667 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-27 19:48:26.794 [http-nio-8080-exec-5] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:48:26.840 [http-nio-8080-exec-2] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:48:26.840 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(959975502<open>)] for JPA transaction
+2025-09-27 19:48:26.840 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.ClienteService.findAllAtivos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-27 19:48:26.840 [http-nio-8080-exec-2] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-27 19:48:26.840 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@3d0793b1]
+2025-09-27 19:48:26.842 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.ativo,
+        c1_0.cpf,
+        c1_0.created_at,
+        c1_0.endereco,
+        c1_0.nome,
+        c1_0.profissao,
+        c1_0.rg,
+        c1_0.updated_at 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.ativo
+2025-09-27 19:48:26.844 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-27 19:48:26.844 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(959975502<open>)]
+2025-09-27 19:48:26.844 [http-nio-8080-exec-2] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-27 19:48:26.844 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-27 19:48:26.845 [http-nio-8080-exec-2] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:48:26.852 [http-nio-8080-exec-9] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:48:26.854 [http-nio-8080-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1614808131<open>)] for JPA transaction
+2025-09-27 19:48:26.854 [http-nio-8080-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.ClienteService.findAllAtivos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-27 19:48:26.854 [http-nio-8080-exec-9] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-27 19:48:26.854 [http-nio-8080-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@647f9c93]
+2025-09-27 19:48:26.857 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.ativo,
+        c1_0.cpf,
+        c1_0.created_at,
+        c1_0.endereco,
+        c1_0.nome,
+        c1_0.profissao,
+        c1_0.rg,
+        c1_0.updated_at 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.ativo
+2025-09-27 19:48:26.858 [http-nio-8080-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-27 19:48:26.858 [http-nio-8080-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1614808131<open>)]
+2025-09-27 19:48:26.858 [http-nio-8080-exec-9] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-27 19:48:26.859 [http-nio-8080-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-27 19:48:26.859 [http-nio-8080-exec-9] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-27 19:48:38.660 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-27 19:48:38.660 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).

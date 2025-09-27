@@ -12,6 +12,7 @@ const menuData: Menu[] = [
     title: "CRUD Clientes",
     path: "/clientes",
     newTab: false,
+    requireAdmin: true,
   },
 ];
 export default menuData;

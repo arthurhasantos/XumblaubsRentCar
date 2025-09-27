@@ -49,5 +49,19 @@ public class DataInitializer implements CommandLineRunner {
         } else {
             logger.info("👤 Usuário administrador já existe");
         }
+
+        // Verificar se já existe um usuário comum
+        if (!userRepository.existsByEmail("user@user.com")) {
+            User user = new User();
+            user.setName("Usuário Comum");
+            user.setEmail("user@user.com");
+            user.setPassword(passwordEncoder.encode("user123"));
+            user.setRole(Role.USER);
+            
+            userRepository.save(user);
+            logger.info("👤 Usuário comum criado: user@user.com / user123");
+        } else {
+            logger.info("👤 Usuário comum já existe");
+        }
     }
 }

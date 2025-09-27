@@ -108,7 +108,16 @@ const Header = () => {
                   }`}
                 >
                   <ul className="block lg:flex lg:space-x-12">
-                    {menuData.map((menuItem, index) => (
+                    {menuData
+                      .filter((menuItem) => {
+                        // Se o item requer admin, verificar se o usuário é admin
+                        if (menuItem.requireAdmin) {
+                          return user && user.roles.includes('ROLE_ADMIN');
+                        }
+                        // Se não requer admin, mostrar para todos
+                        return true;
+                      })
+                      .map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
                           <Link
