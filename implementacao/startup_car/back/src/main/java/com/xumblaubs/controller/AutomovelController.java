@@ -26,9 +26,8 @@ public class AutomovelController {
     @Autowired
     private AutomovelService automovelService;
     
-    // Criar novo automóvel - APENAS ADMIN
+    // Criar novo automóvel - PÚBLICO
     @PostMapping
-    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<?> criarAutomovel(@Valid @RequestBody AutomovelRequest request) {
         try {
             logger.info("Admin criando novo automóvel: {} {}", request.getMarca(), request.getModelo());

@@ -21,5 +21,12 @@ const menuData: Menu[] = [
     newTab: false,
     requireAdmin: true,
   },
+  {
+    id: 4,
+    title: "Pedidos de Aluguel",
+    path: "/pedidos",
+    newTab: false,
+    requireAdmin: false, // Usuários comuns podem acessar
+  },
 ];
 export default menuData;

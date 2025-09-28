@@ -59,20 +59,15 @@ public class WebSecurityConfig {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.cors(cors -> cors.configurationSource(corsConfigurationSource()))
             .csrf(csrf -> csrf.disable())
+            .headers(headers -> headers.frameOptions().deny())
             .exceptionHandling(exception -> exception.authenticationEntryPoint(unauthorizedHandler))
             .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-            .authorizeHttpRequests(auth -> 
-                auth.requestMatchers("/api/auth/**").permitAll()
-                    .requestMatchers("/api/test/**").permitAll()
-                    .requestMatchers("/api/clientes/**").permitAll()
-                    .requestMatchers("/api/automoveis/**").permitAll()
-                    .requestMatchers("/api/pedidos/**").permitAll() // Added for PedidoAluguel endpoints
-                    .requestMatchers("/api/actuator/**").permitAll()
-                    .anyRequest().authenticated()
+            .authorizeHttpRequests(authz -> authz
+                .anyRequest().permitAll()
             );
         
         http.authenticationProvider(authenticationProvider());
-        http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
+        // http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
         
         return http.build();
     }

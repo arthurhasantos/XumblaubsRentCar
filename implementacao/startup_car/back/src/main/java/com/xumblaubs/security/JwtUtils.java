@@ -5,8 +5,6 @@ import io.jsonwebtoken.security.Keys;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
 import javax.crypto.SecretKey;
@@ -23,46 +21,73 @@ public class JwtUtils {
     @Value("${spring.security.jwt.expiration}")
     private int jwtExpirationMs;
     
-    private SecretKey getSigningKey() {
-        return Keys.hmacShaKeyFor(jwtSecret.getBytes());
+    public String generateJwtToken(String email) {
+        return generateTokenFromEmail(email, null);
     }
     
-    public String generateJwtToken(Authentication authentication) {
-        UserDetails userPrincipal = (UserDetails) authentication.getPrincipal();
+    public String generateJwtToken(String email, String role) {
+        return generateTokenFromEmail(email, role);
+    }
+    
+    public String generateTokenFromEmail(String email, String role) {
+        SecretKey key = Keys.hmacShaKeyFor(jwtSecret.getBytes());
         
-        return Jwts.builder()
-                .setSubject((userPrincipal.getUsername()))
+        JwtBuilder builder = Jwts.builder()
+                .setSubject(email)
                 .setIssuedAt(new Date())
-                .setExpiration(new Date((new Date()).getTime() + jwtExpirationMs))
-                .signWith(getSigningKey(), SignatureAlgorithm.HS512)
-                .compact();
+                .setExpiration(new Date(System.currentTimeMillis() + jwtExpirationMs))
+                .signWith(key, SignatureAlgorithm.HS512);
+        
+        if (role != null) {
+            builder.claim("role", role);
+        }
+        
+        return builder.compact();
     }
     
-    public String generateTokenFromUsername(String username) {
-        return Jwts.builder()
-                .setSubject(username)
-                .setIssuedAt(new Date())
-                .setExpiration(new Date((new Date()).getTime() + jwtExpirationMs))
-                .signWith(getSigningKey(), SignatureAlgorithm.HS512)
-                .compact();
-    }
-    
-    public String getUserNameFromJwtToken(String token) {
+    public String getEmailFromJwtToken(String token) {
+        SecretKey key = Keys.hmacShaKeyFor(jwtSecret.getBytes());
+        
         return Jwts.parserBuilder()
-                .setSigningKey(getSigningKey())
+                .setSigningKey(key)
                 .build()
                 .parseClaimsJws(token)
                 .getBody()
                 .getSubject();
     }
     
+    public String getRoleFromJwtToken(String token) {
+        SecretKey key = Keys.hmacShaKeyFor(jwtSecret.getBytes());
+        
+        Claims claims = Jwts.parserBuilder()
+                .setSigningKey(key)
+                .build()
+                .parseClaimsJws(token)
+                .getBody();
+        
+        return claims.get("role", String.class);
+    }
+    
+    public Claims getAllClaimsFromJwtToken(String token) {
+        SecretKey key = Keys.hmacShaKeyFor(jwtSecret.getBytes());
+        
+        return Jwts.parserBuilder()
+                .setSigningKey(key)
+                .build()
+                .parseClaimsJws(token)
+                .getBody();
+    }
+    
     public boolean validateJwtToken(String authToken) {
         try {
+            SecretKey key = Keys.hmacShaKeyFor(jwtSecret.getBytes());
             Jwts.parserBuilder()
-                .setSigningKey(getSigningKey())
+                .setSigningKey(key)
                 .build()
                 .parseClaimsJws(authToken);
             return true;
+        } catch (SecurityException e) {
+            logger.error("Invalid JWT signature: {}", e.getMessage());
         } catch (MalformedJwtException e) {
             logger.error("Invalid JWT token: {}", e.getMessage());
         } catch (ExpiredJwtException e) {
