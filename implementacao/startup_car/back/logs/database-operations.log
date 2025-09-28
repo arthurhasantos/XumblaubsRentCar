@@ -35237,3 +35237,1214 @@ jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
 2025-09-28 16:34:47.213 [http-nio-8080-exec-4] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
 2025-09-28 16:34:47.213 [http-nio-8080-exec-4] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
 2025-09-28 16:34:47.215 [http-nio-8080-exec-4] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:35:02.226 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:35:02.226 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:35:32.238 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:35:32.238 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:36:02.246 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:36:02.246 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:36:32.253 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:36:32.253 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:37:02.267 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:37:02.267 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:37:32.278 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:37:32.278 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:38:02.286 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:38:02.286 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:38:32.296 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:38:32.296 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:39:02.307 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:39:02.307 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:39:32.318 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:39:32.318 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:40:02.332 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:40:02.332 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:40:05.847 [http-nio-8080-exec-2] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:40:05.849 [http-nio-8080-exec-2] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:40:05.853 [http-nio-8080-exec-2] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:40:05.858 [http-nio-8080-exec-2] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:40:13.603 [http-nio-8080-exec-3] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:40:13.603 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(2029703731<open>)] for JPA transaction
+2025-09-28 16:40:13.603 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.ClienteService.findAllAtivos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-28 16:40:13.603 [http-nio-8080-exec-3] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:40:13.603 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@7ce0d358]
+2025-09-28 16:40:13.606 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.ativo,
+        c1_0.cpf,
+        c1_0.created_at,
+        c1_0.email,
+        c1_0.endereco,
+        c1_0.nome,
+        c1_0.profissao,
+        c1_0.rg,
+        c1_0.senha,
+        c1_0.updated_at 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.ativo
+2025-09-28 16:40:13.607 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:40:13.607 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(2029703731<open>)]
+2025-09-28 16:40:13.608 [http-nio-8080-exec-3] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:40:13.608 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:40:13.609 [http-nio-8080-exec-3] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:40:18.962 [http-nio-8080-exec-6] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:40:18.962 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1039946319<open>)] for JPA transaction
+2025-09-28 16:40:18.962 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.BancoService.listarTodos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:40:18.963 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@1850887604 wrapping org.postgresql.jdbc.PgConnection@1657b5fa] read-only
+2025-09-28 16:40:18.963 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:40:18.963 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:40:18.963 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@3b935a31]
+2025-09-28 16:40:18.965 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        b1_0.id,
+        b1_0.ativo,
+        b1_0.cnpj,
+        b1_0.codigo,
+        b1_0.created_at,
+        b1_0.email,
+        b1_0.endereco,
+        b1_0.limite_credito_maximo,
+        b1_0.nome,
+        b1_0.taxa_juros_padrao,
+        b1_0.telefone,
+        b1_0.updated_at 
+    from
+        public.bancos b1_0 
+    where
+        b1_0.ativo 
+    order by
+        b1_0.nome
+2025-09-28 16:40:18.967 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:40:18.967 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1039946319<open>)]
+2025-09-28 16:40:18.967 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:40:18.967 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1850887604 wrapping org.postgresql.jdbc.PgConnection@1657b5fa]
+2025-09-28 16:40:18.967 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:40:18.967 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:40:18.967 [http-nio-8080-exec-6] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:40:23.992 [http-nio-8080-exec-9] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:40:23.993 [http-nio-8080-exec-9] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:40:28.215 [http-nio-8080-exec-7] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:40:28.216 [http-nio-8080-exec-7] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:40:32.346 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:40:32.346 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:41:02.352 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:41:02.352 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:41:32.355 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:41:32.355 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:42:02.362 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:42:02.362 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:42:08.607 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.UserDetailsServiceImpl.loadUserByUsername]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-28 16:42:08.607 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1569129645<open>)] for JPA transaction
+2025-09-28 16:42:08.607 [http-nio-8080-exec-10] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.UserDetailsServiceImpl.loadUserByUsername]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-28 16:42:08.607 [http-nio-8080-exec-10] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1477720107<open>)] for JPA transaction
+2025-09-28 16:42:08.608 [http-nio-8080-exec-8] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.UserDetailsServiceImpl.loadUserByUsername]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-28 16:42:08.608 [http-nio-8080-exec-8] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(404553393<open>)] for JPA transaction
+2025-09-28 16:42:08.608 [http-nio-8080-exec-1] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.608 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(207616464<open>)] for JPA transaction
+2025-09-28 16:42:08.608 [http-nio-8080-exec-7] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.608 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.PedidoAluguelService.contarPedidosAtivos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.608 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@174e6ef]
+2025-09-28 16:42:08.608 [http-nio-8080-exec-10] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.608 [http-nio-8080-exec-10] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@71eb29f1]
+2025-09-28 16:42:08.609 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@896209360 wrapping org.postgresql.jdbc.PgConnection@1657b5fa] read-only
+2025-09-28 16:42:08.609 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.609 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.609 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@6ec4760b]
+2025-09-28 16:42:08.610 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=?
+2025-09-28 16:42:08.610 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=?
+2025-09-28 16:42:08.610 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.id,
+        pa1_0.ativo,
+        pa1_0.automovel_id,
+        pa1_0.cliente_id,
+        pa1_0.contrato_credito_id,
+        pa1_0.created_at,
+        pa1_0.data_fim,
+        pa1_0.data_inicio,
+        pa1_0.motivo_rejeicao,
+        pa1_0.observacoes,
+        pa1_0.status,
+        pa1_0.updated_at,
+        pa1_0.valor_total 
+    from
+        public.pedidos_aluguel pa1_0 
+    where
+        pa1_0.ativo 
+    order by
+        pa1_0.created_at desc
+2025-09-28 16:42:08.610 [http-nio-8080-exec-8] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.612 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.613 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1569129645<open>)]
+2025-09-28 16:42:08.613 [http-nio-8080-exec-10] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.613 [http-nio-8080-exec-10] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1477720107<open>)]
+2025-09-28 16:42:08.613 [http-nio-8080-exec-7] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.613 [http-nio-8080-exec-10] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.613 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.613 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(1569129645<open>)] after transaction
+2025-09-28 16:42:08.613 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(207616464<open>)]
+2025-09-28 16:42:08.613 [http-nio-8080-exec-10] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(1477720107<open>)] after transaction
+2025-09-28 16:42:08.613 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.613 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@896209360 wrapping org.postgresql.jdbc.PgConnection@1657b5fa]
+2025-09-28 16:42:08.613 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.613 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.613 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(207616464<open>)] for JPA transaction
+2025-09-28 16:42:08.613 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.PedidoAluguelService.contarPedidosPendentes]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.613 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@896209360 wrapping org.postgresql.jdbc.PgConnection@1657b5fa] read-only
+2025-09-28 16:42:08.614 [http-nio-8080-exec-7] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.614 [http-nio-8080-exec-10] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.614 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.614 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.614 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@4d34b2d6]
+2025-09-28 16:42:08.614 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(226472453<open>)] for JPA transaction
+2025-09-28 16:42:08.614 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.PedidoAluguelService.listarTodos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.614 [http-nio-8080-exec-10] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(196893193<open>)] for JPA transaction
+2025-09-28 16:42:08.614 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@581821382 wrapping org.postgresql.jdbc.PgConnection@53e166ad] read-only
+2025-09-28 16:42:08.614 [http-nio-8080-exec-7] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.614 [http-nio-8080-exec-7] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.614 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@5392b047]
+2025-09-28 16:42:08.614 [http-nio-8080-exec-10] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.ClienteService.findAllAtivos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-28 16:42:08.614 [http-nio-8080-exec-10] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.614 [http-nio-8080-exec-10] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@76256243]
+2025-09-28 16:42:08.614 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.id,
+        pa1_0.ativo,
+        pa1_0.automovel_id,
+        pa1_0.cliente_id,
+        pa1_0.contrato_credito_id,
+        pa1_0.created_at,
+        pa1_0.data_fim,
+        pa1_0.data_inicio,
+        pa1_0.motivo_rejeicao,
+        pa1_0.observacoes,
+        pa1_0.status,
+        pa1_0.updated_at,
+        pa1_0.valor_total 
+    from
+        public.pedidos_aluguel pa1_0 
+    where
+        pa1_0.status='PENDENTE' 
+        and pa1_0.ativo=true 
+    order by
+        pa1_0.created_at
+2025-09-28 16:42:08.615 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.ativo,
+        c1_0.cpf,
+        c1_0.created_at,
+        c1_0.email,
+        c1_0.endereco,
+        c1_0.nome,
+        c1_0.profissao,
+        c1_0.rg,
+        c1_0.senha,
+        c1_0.updated_at 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.ativo
+2025-09-28 16:42:08.615 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.id,
+        pa1_0.ativo,
+        pa1_0.automovel_id,
+        pa1_0.cliente_id,
+        pa1_0.contrato_credito_id,
+        pa1_0.created_at,
+        pa1_0.data_fim,
+        pa1_0.data_inicio,
+        pa1_0.motivo_rejeicao,
+        pa1_0.observacoes,
+        pa1_0.status,
+        pa1_0.updated_at,
+        pa1_0.valor_total 
+    from
+        public.pedidos_aluguel pa1_0 
+    where
+        pa1_0.ativo 
+    order by
+        pa1_0.created_at desc
+2025-09-28 16:42:08.615 [http-nio-8080-exec-8] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@319f98c6]
+2025-09-28 16:42:08.615 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.616 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(207616464<open>)]
+2025-09-28 16:42:08.616 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.616 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@896209360 wrapping org.postgresql.jdbc.PgConnection@1657b5fa]
+2025-09-28 16:42:08.616 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.616 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.616 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(207616464<open>)] for JPA transaction
+2025-09-28 16:42:08.616 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.PedidoAluguelService.contarPedidosPorStatus]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.616 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@896209360 wrapping org.postgresql.jdbc.PgConnection@1657b5fa] read-only
+2025-09-28 16:42:08.616 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.616 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.616 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@486b439a]
+2025-09-28 16:42:08.616 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.ativo,
+        c1_0.cpf,
+        c1_0.created_at,
+        c1_0.email,
+        c1_0.endereco,
+        c1_0.nome,
+        c1_0.profissao,
+        c1_0.rg,
+        c1_0.senha,
+        c1_0.updated_at 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.id=?
+2025-09-28 16:42:08.617 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.id,
+        pa1_0.ativo,
+        pa1_0.automovel_id,
+        pa1_0.cliente_id,
+        pa1_0.contrato_credito_id,
+        pa1_0.created_at,
+        pa1_0.data_fim,
+        pa1_0.data_inicio,
+        pa1_0.motivo_rejeicao,
+        pa1_0.observacoes,
+        pa1_0.status,
+        pa1_0.updated_at,
+        pa1_0.valor_total 
+    from
+        public.pedidos_aluguel pa1_0 
+    where
+        pa1_0.status=? 
+        and pa1_0.ativo 
+    order by
+        pa1_0.created_at desc
+2025-09-28 16:42:08.618 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=?
+2025-09-28 16:42:08.619 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        a1_0.id,
+        a1_0.ano,
+        a1_0.ativo,
+        a1_0.created_at,
+        a1_0.marca,
+        a1_0.matricula,
+        a1_0.modelo,
+        a1_0.observacoes,
+        a1_0.placa,
+        a1_0.proprietario_id,
+        a1_0.proprietario_nome,
+        a1_0.tipo_proprietario,
+        a1_0.updated_at 
+    from
+        public.automoveis a1_0 
+    where
+        a1_0.id=?
+2025-09-28 16:42:08.619 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.619 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.620 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(226472453<open>)]
+2025-09-28 16:42:08.619 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(207616464<open>)]
+2025-09-28 16:42:08.620 [http-nio-8080-exec-7] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.620 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@581821382 wrapping org.postgresql.jdbc.PgConnection@53e166ad]
+2025-09-28 16:42:08.620 [http-nio-8080-exec-7] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.620 [http-nio-8080-exec-7] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.620 [http-nio-8080-exec-8] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.621 [http-nio-8080-exec-8] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(404553393<open>)]
+2025-09-28 16:42:08.621 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.621 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@896209360 wrapping org.postgresql.jdbc.PgConnection@1657b5fa]
+2025-09-28 16:42:08.621 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.621 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.621 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(207616464<open>)] for JPA transaction
+2025-09-28 16:42:08.621 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.PedidoAluguelService.contarPedidosPorStatus]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.621 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@896209360 wrapping org.postgresql.jdbc.PgConnection@1657b5fa] read-only
+2025-09-28 16:42:08.621 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.621 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.621 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@32c73174]
+2025-09-28 16:42:08.622 [http-nio-8080-exec-7] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.623 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.id,
+        pa1_0.ativo,
+        pa1_0.automovel_id,
+        pa1_0.cliente_id,
+        pa1_0.contrato_credito_id,
+        pa1_0.created_at,
+        pa1_0.data_fim,
+        pa1_0.data_inicio,
+        pa1_0.motivo_rejeicao,
+        pa1_0.observacoes,
+        pa1_0.status,
+        pa1_0.updated_at,
+        pa1_0.valor_total 
+    from
+        public.pedidos_aluguel pa1_0 
+    where
+        pa1_0.status=? 
+        and pa1_0.ativo 
+    order by
+        pa1_0.created_at desc
+2025-09-28 16:42:08.623 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.623 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(207616464<open>)]
+2025-09-28 16:42:08.625 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.625 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@896209360 wrapping org.postgresql.jdbc.PgConnection@1657b5fa]
+2025-09-28 16:42:08.625 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.625 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.625 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(207616464<open>)] for JPA transaction
+2025-09-28 16:42:08.625 [http-nio-8080-exec-8] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.625 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.PedidoAluguelService.contarPedidosPorStatus]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.625 [http-nio-8080-exec-8] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(404553393<open>)] after transaction
+2025-09-28 16:42:08.625 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@896209360 wrapping org.postgresql.jdbc.PgConnection@1657b5fa] read-only
+2025-09-28 16:42:08.625 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.625 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.625 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@52c78ea7]
+2025-09-28 16:42:08.627 [http-nio-8080-exec-8] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.627 [http-nio-8080-exec-8] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1980472124<open>)] for JPA transaction
+2025-09-28 16:42:08.627 [http-nio-8080-exec-8] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.AutomovelService.listarTodos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.627 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@1947522114 wrapping org.postgresql.jdbc.PgConnection@59ad5a84] read-only
+2025-09-28 16:42:08.627 [http-nio-8080-exec-8] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.627 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.id,
+        pa1_0.ativo,
+        pa1_0.automovel_id,
+        pa1_0.cliente_id,
+        pa1_0.contrato_credito_id,
+        pa1_0.created_at,
+        pa1_0.data_fim,
+        pa1_0.data_inicio,
+        pa1_0.motivo_rejeicao,
+        pa1_0.observacoes,
+        pa1_0.status,
+        pa1_0.updated_at,
+        pa1_0.valor_total 
+    from
+        public.pedidos_aluguel pa1_0 
+    where
+        pa1_0.status=? 
+        and pa1_0.ativo 
+    order by
+        pa1_0.created_at desc
+2025-09-28 16:42:08.627 [http-nio-8080-exec-8] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.627 [http-nio-8080-exec-8] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@39854c43]
+2025-09-28 16:42:08.627 [http-nio-8080-exec-8] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1980472124<open>)] for JPA transaction
+2025-09-28 16:42:08.627 [http-nio-8080-exec-8] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2025-09-28 16:42:08.627 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.627 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(207616464<open>)]
+2025-09-28 16:42:08.628 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.628 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@896209360 wrapping org.postgresql.jdbc.PgConnection@1657b5fa]
+2025-09-28 16:42:08.628 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.628 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.628 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(207616464<open>)] for JPA transaction
+2025-09-28 16:42:08.628 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.PedidoAluguelService.contarPedidosPorStatus]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.628 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@896209360 wrapping org.postgresql.jdbc.PgConnection@1657b5fa] read-only
+2025-09-28 16:42:08.628 [http-nio-8080-exec-10] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.628 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.628 [http-nio-8080-exec-10] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(196893193<open>)]
+2025-09-28 16:42:08.628 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.628 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@e5d99c7]
+2025-09-28 16:42:08.628 [http-nio-8080-exec-10] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.628 [http-nio-8080-exec-10] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.629 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.id,
+        pa1_0.ativo,
+        pa1_0.automovel_id,
+        pa1_0.cliente_id,
+        pa1_0.contrato_credito_id,
+        pa1_0.created_at,
+        pa1_0.data_fim,
+        pa1_0.data_inicio,
+        pa1_0.motivo_rejeicao,
+        pa1_0.observacoes,
+        pa1_0.status,
+        pa1_0.updated_at,
+        pa1_0.valor_total 
+    from
+        public.pedidos_aluguel pa1_0 
+    where
+        pa1_0.status=? 
+        and pa1_0.ativo 
+    order by
+        pa1_0.created_at desc
+2025-09-28 16:42:08.629 [http-nio-8080-exec-10] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.630 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.630 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(207616464<open>)]
+2025-09-28 16:42:08.630 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.630 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@896209360 wrapping org.postgresql.jdbc.PgConnection@1657b5fa]
+2025-09-28 16:42:08.630 [http-nio-8080-exec-1] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.630 [http-nio-8080-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.631 [http-nio-8080-exec-1] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.633 [http-nio-8080-exec-6] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.635 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        a1_0.id,
+        a1_0.ano,
+        a1_0.ativo,
+        a1_0.created_at,
+        a1_0.marca,
+        a1_0.matricula,
+        a1_0.modelo,
+        a1_0.observacoes,
+        a1_0.placa,
+        a1_0.proprietario_id,
+        a1_0.proprietario_nome,
+        a1_0.tipo_proprietario,
+        a1_0.updated_at 
+    from
+        public.automoveis a1_0
+2025-09-28 16:42:08.635 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(515043699<open>)] for JPA transaction
+2025-09-28 16:42:08.635 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.PedidoAluguelService.contarPedidosAtivos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.635 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@562906839 wrapping org.postgresql.jdbc.PgConnection@1657b5fa] read-only
+2025-09-28 16:42:08.635 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.636 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.UserDetailsServiceImpl.loadUserByUsername]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-28 16:42:08.636 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.636 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@7aca95cf]
+2025-09-28 16:42:08.637 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1261584518<open>)] for JPA transaction
+2025-09-28 16:42:08.637 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.UserDetailsServiceImpl.loadUserByUsername]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-28 16:42:08.637 [http-nio-8080-exec-8] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.637 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(529973976<open>)] for JPA transaction
+2025-09-28 16:42:08.637 [http-nio-8080-exec-8] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1980472124<open>)]
+2025-09-28 16:42:08.637 [http-nio-8080-exec-3] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.637 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@7a27136e]
+2025-09-28 16:42:08.637 [http-nio-8080-exec-8] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.637 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1947522114 wrapping org.postgresql.jdbc.PgConnection@59ad5a84]
+2025-09-28 16:42:08.637 [http-nio-8080-exec-8] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.637 [http-nio-8080-exec-8] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.637 [http-nio-8080-exec-2] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.637 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@a70906d]
+2025-09-28 16:42:08.637 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.id,
+        pa1_0.ativo,
+        pa1_0.automovel_id,
+        pa1_0.cliente_id,
+        pa1_0.contrato_credito_id,
+        pa1_0.created_at,
+        pa1_0.data_fim,
+        pa1_0.data_inicio,
+        pa1_0.motivo_rejeicao,
+        pa1_0.observacoes,
+        pa1_0.status,
+        pa1_0.updated_at,
+        pa1_0.valor_total 
+    from
+        public.pedidos_aluguel pa1_0 
+    where
+        pa1_0.ativo 
+    order by
+        pa1_0.created_at desc
+2025-09-28 16:42:08.638 [http-nio-8080-exec-8] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.640 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=?
+2025-09-28 16:42:08.641 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.641 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(515043699<open>)]
+2025-09-28 16:42:08.641 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.641 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@562906839 wrapping org.postgresql.jdbc.PgConnection@1657b5fa]
+2025-09-28 16:42:08.641 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.641 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.642 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(515043699<open>)] for JPA transaction
+2025-09-28 16:42:08.642 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.PedidoAluguelService.contarPedidosPendentes]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.642 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@562906839 wrapping org.postgresql.jdbc.PgConnection@1657b5fa] read-only
+2025-09-28 16:42:08.642 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.642 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.642 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=?
+2025-09-28 16:42:08.642 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@27b6675c]
+2025-09-28 16:42:08.643 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.id,
+        pa1_0.ativo,
+        pa1_0.automovel_id,
+        pa1_0.cliente_id,
+        pa1_0.contrato_credito_id,
+        pa1_0.created_at,
+        pa1_0.data_fim,
+        pa1_0.data_inicio,
+        pa1_0.motivo_rejeicao,
+        pa1_0.observacoes,
+        pa1_0.status,
+        pa1_0.updated_at,
+        pa1_0.valor_total 
+    from
+        public.pedidos_aluguel pa1_0 
+    where
+        pa1_0.status='PENDENTE' 
+        and pa1_0.ativo=true 
+    order by
+        pa1_0.created_at
+2025-09-28 16:42:08.643 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.643 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(529973976<open>)]
+2025-09-28 16:42:08.643 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.643 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1261584518<open>)]
+2025-09-28 16:42:08.643 [http-nio-8080-exec-3] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.643 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.643 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(529973976<open>)] after transaction
+2025-09-28 16:42:08.643 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(515043699<open>)]
+2025-09-28 16:42:08.643 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.UserDetailsServiceImpl.loadUserByUsername]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-28 16:42:08.643 [http-nio-8080-exec-2] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.643 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.643 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(1261584518<open>)] after transaction
+2025-09-28 16:42:08.643 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@562906839 wrapping org.postgresql.jdbc.PgConnection@1657b5fa]
+2025-09-28 16:42:08.643 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.643 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.645 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(515043699<open>)] for JPA transaction
+2025-09-28 16:42:08.645 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.PedidoAluguelService.contarPedidosPorStatus]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.645 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@562906839 wrapping org.postgresql.jdbc.PgConnection@1657b5fa] read-only
+2025-09-28 16:42:08.645 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.645 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.645 [http-nio-8080-exec-3] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.645 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(265961703<open>)] for JPA transaction
+2025-09-28 16:42:08.645 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@403e2b5d]
+2025-09-28 16:42:08.645 [http-nio-8080-exec-5] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.645 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@7cc903fc]
+2025-09-28 16:42:08.645 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(74026035<open>)] for JPA transaction
+2025-09-28 16:42:08.645 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.PedidoAluguelService.listarTodos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.645 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@1389732539 wrapping org.postgresql.jdbc.PgConnection@53e166ad] read-only
+2025-09-28 16:42:08.645 [http-nio-8080-exec-3] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.645 [http-nio-8080-exec-3] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.645 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@1b1fee90]
+2025-09-28 16:42:08.646 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=?
+2025-09-28 16:42:08.646 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.id,
+        pa1_0.ativo,
+        pa1_0.automovel_id,
+        pa1_0.cliente_id,
+        pa1_0.contrato_credito_id,
+        pa1_0.created_at,
+        pa1_0.data_fim,
+        pa1_0.data_inicio,
+        pa1_0.motivo_rejeicao,
+        pa1_0.observacoes,
+        pa1_0.status,
+        pa1_0.updated_at,
+        pa1_0.valor_total 
+    from
+        public.pedidos_aluguel pa1_0 
+    where
+        pa1_0.status=? 
+        and pa1_0.ativo 
+    order by
+        pa1_0.created_at desc
+2025-09-28 16:42:08.647 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.id,
+        pa1_0.ativo,
+        pa1_0.automovel_id,
+        pa1_0.cliente_id,
+        pa1_0.contrato_credito_id,
+        pa1_0.created_at,
+        pa1_0.data_fim,
+        pa1_0.data_inicio,
+        pa1_0.motivo_rejeicao,
+        pa1_0.observacoes,
+        pa1_0.status,
+        pa1_0.updated_at,
+        pa1_0.valor_total 
+    from
+        public.pedidos_aluguel pa1_0 
+    where
+        pa1_0.ativo 
+    order by
+        pa1_0.created_at desc
+2025-09-28 16:42:08.647 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.647 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(515043699<open>)]
+2025-09-28 16:42:08.647 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.647 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(265961703<open>)]
+2025-09-28 16:42:08.647 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.647 [http-nio-8080-exec-5] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.647 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(265961703<open>)] after transaction
+2025-09-28 16:42:08.647 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@562906839 wrapping org.postgresql.jdbc.PgConnection@1657b5fa]
+2025-09-28 16:42:08.647 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.647 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.647 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(515043699<open>)] for JPA transaction
+2025-09-28 16:42:08.647 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.PedidoAluguelService.contarPedidosPorStatus]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.647 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@562906839 wrapping org.postgresql.jdbc.PgConnection@1657b5fa] read-only
+2025-09-28 16:42:08.647 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.647 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.647 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@798615a]
+2025-09-28 16:42:08.647 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.ativo,
+        c1_0.cpf,
+        c1_0.created_at,
+        c1_0.email,
+        c1_0.endereco,
+        c1_0.nome,
+        c1_0.profissao,
+        c1_0.rg,
+        c1_0.senha,
+        c1_0.updated_at 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.id=?
+2025-09-28 16:42:08.648 [http-nio-8080-exec-5] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.648 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1652629703<open>)] for JPA transaction
+2025-09-28 16:42:08.648 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.AutomovelService.listarTodos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.648 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@1572787889 wrapping org.postgresql.jdbc.PgConnection@535531f4] read-only
+2025-09-28 16:42:08.648 [http-nio-8080-exec-5] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.648 [http-nio-8080-exec-5] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.648 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@5a137431]
+2025-09-28 16:42:08.648 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1652629703<open>)] for JPA transaction
+2025-09-28 16:42:08.648 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2025-09-28 16:42:08.648 [http-nio-8080-exec-2] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.649 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(390371926<open>)] for JPA transaction
+2025-09-28 16:42:08.649 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.ClienteService.findAllAtivos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-09-28 16:42:08.649 [http-nio-8080-exec-2] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.649 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@3294e3fd]
+2025-09-28 16:42:08.649 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        a1_0.id,
+        a1_0.ano,
+        a1_0.ativo,
+        a1_0.created_at,
+        a1_0.marca,
+        a1_0.matricula,
+        a1_0.modelo,
+        a1_0.observacoes,
+        a1_0.placa,
+        a1_0.proprietario_id,
+        a1_0.proprietario_nome,
+        a1_0.tipo_proprietario,
+        a1_0.updated_at 
+    from
+        public.automoveis a1_0
+2025-09-28 16:42:08.649 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.ativo,
+        c1_0.cpf,
+        c1_0.created_at,
+        c1_0.email,
+        c1_0.endereco,
+        c1_0.nome,
+        c1_0.profissao,
+        c1_0.rg,
+        c1_0.senha,
+        c1_0.updated_at 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.ativo
+2025-09-28 16:42:08.650 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.id,
+        pa1_0.ativo,
+        pa1_0.automovel_id,
+        pa1_0.cliente_id,
+        pa1_0.contrato_credito_id,
+        pa1_0.created_at,
+        pa1_0.data_fim,
+        pa1_0.data_inicio,
+        pa1_0.motivo_rejeicao,
+        pa1_0.observacoes,
+        pa1_0.status,
+        pa1_0.updated_at,
+        pa1_0.valor_total 
+    from
+        public.pedidos_aluguel pa1_0 
+    where
+        pa1_0.status=? 
+        and pa1_0.ativo 
+    order by
+        pa1_0.created_at desc
+2025-09-28 16:42:08.651 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.651 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(515043699<open>)]
+2025-09-28 16:42:08.651 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        a1_0.id,
+        a1_0.ano,
+        a1_0.ativo,
+        a1_0.created_at,
+        a1_0.marca,
+        a1_0.matricula,
+        a1_0.modelo,
+        a1_0.observacoes,
+        a1_0.placa,
+        a1_0.proprietario_id,
+        a1_0.proprietario_nome,
+        a1_0.tipo_proprietario,
+        a1_0.updated_at 
+    from
+        public.automoveis a1_0 
+    where
+        a1_0.id=?
+2025-09-28 16:42:08.651 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.651 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@562906839 wrapping org.postgresql.jdbc.PgConnection@1657b5fa]
+2025-09-28 16:42:08.651 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.651 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.651 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(515043699<open>)] for JPA transaction
+2025-09-28 16:42:08.651 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.PedidoAluguelService.contarPedidosPorStatus]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.651 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@562906839 wrapping org.postgresql.jdbc.PgConnection@1657b5fa] read-only
+2025-09-28 16:42:08.651 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.651 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.651 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@11c519a1]
+2025-09-28 16:42:08.652 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.652 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(74026035<open>)]
+2025-09-28 16:42:08.652 [http-nio-8080-exec-3] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.652 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1389732539 wrapping org.postgresql.jdbc.PgConnection@53e166ad]
+2025-09-28 16:42:08.652 [http-nio-8080-exec-3] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.652 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.652 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.653 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(390371926<open>)]
+2025-09-28 16:42:08.653 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.id,
+        pa1_0.ativo,
+        pa1_0.automovel_id,
+        pa1_0.cliente_id,
+        pa1_0.contrato_credito_id,
+        pa1_0.created_at,
+        pa1_0.data_fim,
+        pa1_0.data_inicio,
+        pa1_0.motivo_rejeicao,
+        pa1_0.observacoes,
+        pa1_0.status,
+        pa1_0.updated_at,
+        pa1_0.valor_total 
+    from
+        public.pedidos_aluguel pa1_0 
+    where
+        pa1_0.status=? 
+        and pa1_0.ativo 
+    order by
+        pa1_0.created_at desc
+2025-09-28 16:42:08.653 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.653 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1652629703<open>)]
+2025-09-28 16:42:08.653 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.653 [http-nio-8080-exec-5] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.653 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(515043699<open>)]
+2025-09-28 16:42:08.653 [http-nio-8080-exec-3] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.653 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1572787889 wrapping org.postgresql.jdbc.PgConnection@535531f4]
+2025-09-28 16:42:08.653 [http-nio-8080-exec-5] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.653 [http-nio-8080-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.653 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.653 [http-nio-8080-exec-2] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.653 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@562906839 wrapping org.postgresql.jdbc.PgConnection@1657b5fa]
+2025-09-28 16:42:08.653 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.653 [http-nio-8080-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.653 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.653 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(515043699<open>)] for JPA transaction
+2025-09-28 16:42:08.653 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.xumblaubs.service.PedidoAluguelService.contarPedidosPorStatus]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:08.653 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@562906839 wrapping org.postgresql.jdbc.PgConnection@1657b5fa] read-only
+2025-09-28 16:42:08.653 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:08.653 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:08.653 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@c852492]
+2025-09-28 16:42:08.655 [http-nio-8080-exec-5] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.656 [http-nio-8080-exec-2] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:08.656 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.id,
+        pa1_0.ativo,
+        pa1_0.automovel_id,
+        pa1_0.cliente_id,
+        pa1_0.contrato_credito_id,
+        pa1_0.created_at,
+        pa1_0.data_fim,
+        pa1_0.data_inicio,
+        pa1_0.motivo_rejeicao,
+        pa1_0.observacoes,
+        pa1_0.status,
+        pa1_0.updated_at,
+        pa1_0.valor_total 
+    from
+        public.pedidos_aluguel pa1_0 
+    where
+        pa1_0.status=? 
+        and pa1_0.ativo 
+    order by
+        pa1_0.created_at desc
+2025-09-28 16:42:08.656 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:08.656 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(515043699<open>)]
+2025-09-28 16:42:08.657 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:08.657 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@562906839 wrapping org.postgresql.jdbc.PgConnection@1657b5fa]
+2025-09-28 16:42:08.657 [http-nio-8080-exec-6] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:08.657 [http-nio-8080-exec-6] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2025-09-28 16:42:08.657 [http-nio-8080-exec-6] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-09-28 16:42:54.383 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
+
+2025-09-28 16:42:54.442 [main] DEBUG o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2025-09-28 16:42:54.653 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-28 16:42:54.669 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2025-09-28 16:42:54.672 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2025-09-28 16:42:54.672 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2025-09-28 16:42:54.672 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2025-09-28 16:42:54.672 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2025-09-28 16:42:54.672 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2025-09-28 16:42:54.673 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2025-09-28 16:42:54.673 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2025-09-28 16:42:54.673 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2025-09-28 16:42:54.673 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2025-09-28 16:42:54.673 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2025-09-28 16:42:54.673 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+2025-09-28 16:42:54.673 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2025-09-28 16:42:54.673 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2025-09-28 16:42:54.673 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2025-09-28 16:42:54.673 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2025-09-28 16:42:54.673 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2025-09-28 16:42:54.675 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2025-09-28 16:42:54.675 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-28 16:42:54.675 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2025-09-28 16:42:54.675 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2025-09-28 16:42:54.675 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2025-09-28 16:42:54.675 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2025-09-28 16:42:54.675 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2025-09-28 16:42:54.675 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2025-09-28 16:42:54.675 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2025-09-28 16:42:54.675 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2025-09-28 16:42:54.675 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2025-09-28 16:42:54.675 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2025-09-28 16:42:54.676 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2025-09-28 16:42:54.676 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2025-09-28 16:42:54.676 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2025-09-28 16:42:54.676 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2025-09-28 16:42:54.676 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2025-09-28 16:42:54.676 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+2025-09-28 16:42:54.676 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2025-09-28 16:42:54.676 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-28 16:42:54.686 [main] DEBUG org.postgresql.Driver - Loading driver configuration via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
+2025-09-28 16:42:54.686 [main] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-28 16:42:54.693 [main] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-28 16:42:54.693 [main] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-28 16:42:54.693 [main] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-28 16:42:54.697 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-28 16:42:54.710 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-28 16:42:54.710 [main] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-28 16:42:54.810 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e4bfd9c
+2025-09-28 16:42:54.811 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-28 16:42:54.920 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-09-28 16:42:54.921 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-28 16:42:54.922 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-28 16:42:54.922 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-28 16:42:54.922 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-28 16:42:54.922 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-28 16:42:54.923 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-28 16:42:54.923 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-28 16:42:54.970 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@393e88ae
+2025-09-28 16:42:54.982 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-28 16:42:54.982 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-28 16:42:54.982 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-28 16:42:54.982 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-28 16:42:54.982 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-28 16:42:54.983 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-28 16:42:54.983 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-28 16:42:55.029 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@33c6e3de
+2025-09-28 16:42:55.046 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-28 16:42:55.046 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-28 16:42:55.046 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-28 16:42:55.046 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-28 16:42:55.046 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-28 16:42:55.047 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-28 16:42:55.047 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-28 16:42:55.091 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@76c47bc2
+2025-09-28 16:42:55.108 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-28 16:42:55.108 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-28 16:42:55.108 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-28 16:42:55.108 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-28 16:42:55.108 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-28 16:42:55.109 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-28 16:42:55.109 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-28 16:42:55.153 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b72e64c
+2025-09-28 16:42:55.172 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-28 16:42:55.172 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-28 16:42:55.172 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-28 16:42:55.172 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-28 16:42:55.172 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-28 16:42:55.173 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-28 16:42:55.173 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-28 16:42:55.216 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47782e62
+2025-09-28 16:42:55.235 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-28 16:42:55.235 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-28 16:42:55.235 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-28 16:42:55.236 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-28 16:42:55.236 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-28 16:42:55.237 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-28 16:42:55.237 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-28 16:42:55.281 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4324ed40
+2025-09-28 16:42:55.298 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-28 16:42:55.298 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-28 16:42:55.298 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-28 16:42:55.298 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-28 16:42:55.298 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-28 16:42:55.299 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-28 16:42:55.299 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-28 16:42:55.348 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@16eb848d
+2025-09-28 16:42:55.360 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-28 16:42:55.360 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-28 16:42:55.360 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-28 16:42:55.360 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-28 16:42:55.360 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-28 16:42:55.361 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-28 16:42:55.361 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-28 16:42:55.408 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a07409a
+2025-09-28 16:42:55.424 [HikariPool-1 connection adder] DEBUG org.postgresql.Driver - Connecting with URL: jdbc:postgresql://localhost:5432/xumblaubs_rentcar
+2025-09-28 16:42:55.424 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection - PostgreSQL JDBC Driver 42.6.0
+2025-09-28 16:42:55.424 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setDefaultFetchSize = 0
+2025-09-28 16:42:55.424 [HikariPool-1 connection adder] DEBUG org.postgresql.jdbc.PgConnection -   setPrepareThreshold = 5
+2025-09-28 16:42:55.424 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Trying to establish a protocol version 3 connection to localhost:5432
+2025-09-28 16:42:55.425 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Receive Buffer Size is 65.536
+2025-09-28 16:42:55.425 [HikariPool-1 connection adder] DEBUG o.p.core.v3.ConnectionFactoryImpl - Send Buffer Size is 65.536
+2025-09-28 16:42:55.468 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c8a6286
+2025-09-28 16:42:55.486 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:42:55.605 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28 16:42:55.675 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:55.697 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:55.747 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:55.797 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:55.842 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:55.843 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:55.938 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:55.943 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.080 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.221 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.222 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.223 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.225 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.227 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.252 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.343 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.344 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.346 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.347 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.347 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.348 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.349 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.350 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.350 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.369 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.377 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.389 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.391 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.398 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.400 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.403 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.405 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.406 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.406 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.508 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.515 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.529 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.533 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.538 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.540 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.547 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.550 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.558 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.560 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.561 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.562 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.563 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.565 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.567 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.604 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.605 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.619 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.620 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.621 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.623 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.625 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.627 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.632 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.639 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.641 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.643 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.645 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.646 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.647 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.649 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.676 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.676 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.689 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.691 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.692 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.693 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.695 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.697 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.697 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.698 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.700 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.702 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.703 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.705 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.706 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.707 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.714 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.759 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.762 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.776 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.778 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.778 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.780 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.781 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.784 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.801 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.861 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.861 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.863 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.865 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.866 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:56.867 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:57.688 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT 'Conexão OK' as status]
+2025-09-28 16:42:57.689 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-28 16:42:57.692 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT CASE WHEN EXISTS (SELECT FROM information_schema.tables WHERE table_name = 'clientes') THEN 'EXISTS' ELSE 'NOT_EXISTS' END]
+2025-09-28 16:42:57.692 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-28 16:42:57.693 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT COUNT(*) FROM clientes]
+2025-09-28 16:42:57.693 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-28 16:42:57.695 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT CASE WHEN EXISTS (SELECT FROM information_schema.tables WHERE table_name = 'users') THEN 'EXISTS' ELSE 'NOT_EXISTS' END]
+2025-09-28 16:42:57.695 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-28 16:42:57.695 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT COUNT(*) FROM users]
+2025-09-28 16:42:57.696 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2025-09-28 16:42:57.700 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:57.761 [main] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=? 
+    fetch
+        first ? rows only
+2025-09-28 16:42:57.768 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:57.769 [main] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=? 
+    fetch
+        first ? rows only
+2025-09-28 16:42:57.770 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:57.771 [main] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.cpf=? 
+    fetch
+        first ? rows only
+2025-09-28 16:42:57.772 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:57.773 [main] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.cpf=? 
+    fetch
+        first ? rows only
+2025-09-28 16:42:57.773 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-09-28 16:42:57.773 [main] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id 
+    from
+        public.clientes c1_0 
+    where
+        c1_0.cpf=? 
+    fetch
+        first ? rows only
+2025-09-28 16:42:57.778 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.count]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-09-28 16:42:57.778 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1595958982<open>)] for JPA transaction
+2025-09-28 16:42:57.780 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@318907151 wrapping org.postgresql.jdbc.PgConnection@4e4bfd9c] read-only
+2025-09-28 16:42:57.780 [main] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = true
+2025-09-28 16:42:57.781 [main] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = false
+2025-09-28 16:42:57.781 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@318fd928]
+2025-09-28 16:42:57.787 [main] DEBUG org.hibernate.SQL - 
+    select
+        count(*) 
+    from
+        public.automoveis a1_0
+2025-09-28 16:42:57.789 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-09-28 16:42:57.789 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1595958982<open>)]
+2025-09-28 16:42:57.789 [main] DEBUG org.postgresql.jdbc.PgConnection -   setAutoCommit = true
+2025-09-28 16:42:57.789 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@318907151 wrapping org.postgresql.jdbc.PgConnection@4e4bfd9c]
+2025-09-28 16:42:57.789 [main] DEBUG org.postgresql.jdbc.PgConnection -   setReadOnly = false
+2025-09-28 16:42:57.790 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(1595958982<open>)] after transaction
+2025-09-28 16:43:24.930 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:43:24.930 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-09-28 16:43:54.930 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-28 16:43:54.930 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
