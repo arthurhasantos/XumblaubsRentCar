@@ -3850,3 +3850,21 @@ Ap 402', telefone='31987371736', email='inter@inter.com', taxaJurosPadrao=0.66, 
 2025-09-28 17:31:11.665 [http-nio-8080-exec-4] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
 2025-09-28 17:31:11.666 [http-nio-8080-exec-4] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
 2025-09-28 17:31:11.666 [http-nio-8080-exec-4] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 17:45:56.767 [http-nio-8080-exec-6] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/bancos
+2025-09-28 17:45:56.767 [http-nio-8080-exec-6] INFO  c.x.controller.BancoController - Listando todos os bancos
+2025-09-28 17:45:56.768 [http-nio-8080-exec-6] INFO  com.xumblaubs.service.BancoService - Listando todos os bancos
+2025-09-28 17:45:56.775 [http-nio-8080-exec-6] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/bancos
+2025-09-28 17:45:56.776 [http-nio-8080-exec-6] INFO  c.x.controller.BancoController - Listando todos os bancos
+2025-09-28 17:45:56.776 [http-nio-8080-exec-6] INFO  com.xumblaubs.service.BancoService - Listando todos os bancos
+2025-09-28 17:46:00.969 [http-nio-8080-exec-8] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 17:46:00.970 [http-nio-8080-exec-8] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 17:46:00.970 [http-nio-8080-exec-8] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 17:46:00.978 [http-nio-8080-exec-4] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 17:46:00.978 [http-nio-8080-exec-4] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 17:46:00.978 [http-nio-8080-exec-4] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 17:47:39.071 [http-nio-8080-exec-7] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/contratos-credito
+2025-09-28 17:47:39.071 [http-nio-8080-exec-7] INFO  c.x.c.ContratoCreditoController - Listando todos os contratos de crédito
+2025-09-28 17:47:39.071 [http-nio-8080-exec-7] INFO  c.x.service.ContratoCreditoService - Listando todos os contratos de crédito
+2025-09-28 17:47:39.081 [http-nio-8080-exec-6] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/contratos-credito
+2025-09-28 17:47:39.081 [http-nio-8080-exec-6] INFO  c.x.c.ContratoCreditoController - Listando todos os contratos de crédito
+2025-09-28 17:47:39.081 [http-nio-8080-exec-6] INFO  c.x.service.ContratoCreditoService - Listando todos os contratos de crédito
