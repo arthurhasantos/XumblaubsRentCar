@@ -2985,3 +2985,284 @@ Caused by: org.postgresql.util.PSQLException: ERRO: coluna "email" da relação 
 2025-09-28 15:43:05.643 [http-nio-8080-exec-2] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
 2025-09-28 15:43:05.644 [http-nio-8080-exec-2] INFO  c.x.c.PedidoAluguelController - Listando todos os pedidos de aluguel
 2025-09-28 15:43:05.644 [http-nio-8080-exec-2] INFO  c.x.service.PedidoAluguelService - Listando todos os pedidos de aluguel
+2025-09-28 15:50:14.300 [http-nio-8080-exec-2] DEBUG c.xumblaubs.security.AuthTokenFilter - No valid JWT token found for endpoint: /api/clientes
+2025-09-28 15:50:14.310 [http-nio-8080-exec-1] DEBUG c.xumblaubs.security.AuthTokenFilter - No valid JWT token found for endpoint: /api/clientes
+2025-09-28 15:50:20.168 [http-nio-8080-exec-10] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: POST /api/auth/signin
+2025-09-28 15:50:20.296 [http-nio-8080-exec-7] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:50:20.310 [http-nio-8080-exec-8] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:50:23.590 [http-nio-8080-exec-2] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 15:50:23.591 [http-nio-8080-exec-2] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 15:50:23.591 [http-nio-8080-exec-2] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 15:50:23.605 [http-nio-8080-exec-1] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 15:50:23.606 [http-nio-8080-exec-1] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 15:50:23.606 [http-nio-8080-exec-1] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 15:50:24.345 [http-nio-8080-exec-9] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: GET /api/pedidos/estatisticas
+2025-09-28 15:50:24.346 [http-nio-8080-exec-9] INFO  c.x.c.PedidoAluguelController - Obtendo estatísticas dos pedidos
+2025-09-28 15:50:24.353 [http-nio-8080-exec-7] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 15:50:24.353 [http-nio-8080-exec-8] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
+2025-09-28 15:50:24.355 [http-nio-8080-exec-8] INFO  c.x.c.PedidoAluguelController - Listando todos os pedidos de aluguel
+2025-09-28 15:50:24.355 [http-nio-8080-exec-7] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 15:50:24.355 [http-nio-8080-exec-7] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 15:50:24.356 [http-nio-8080-exec-8] INFO  c.x.service.PedidoAluguelService - Listando todos os pedidos de aluguel
+2025-09-28 15:50:24.361 [http-nio-8080-exec-5] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:50:24.372 [http-nio-8080-exec-3] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: GET /api/pedidos/estatisticas
+2025-09-28 15:50:24.373 [http-nio-8080-exec-3] INFO  c.x.c.PedidoAluguelController - Obtendo estatísticas dos pedidos
+2025-09-28 15:50:24.373 [http-nio-8080-exec-5] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:50:24.377 [http-nio-8080-exec-1] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
+2025-09-28 15:50:24.377 [http-nio-8080-exec-1] INFO  c.x.c.PedidoAluguelController - Listando todos os pedidos de aluguel
+2025-09-28 15:50:24.378 [http-nio-8080-exec-1] INFO  c.x.service.PedidoAluguelService - Listando todos os pedidos de aluguel
+2025-09-28 15:50:24.379 [http-nio-8080-exec-10] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 15:50:24.379 [http-nio-8080-exec-10] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 15:50:24.380 [http-nio-8080-exec-10] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 15:50:25.969 [http-nio-8080-exec-2] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 15:50:25.970 [http-nio-8080-exec-2] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 15:50:25.971 [http-nio-8080-exec-2] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 15:50:26.037 [http-nio-8080-exec-4] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 15:50:26.038 [http-nio-8080-exec-4] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 15:50:26.040 [http-nio-8080-exec-4] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 15:50:26.361 [http-nio-8080-exec-6] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:50:26.380 [http-nio-8080-exec-9] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:50:55.882 [http-nio-8080-exec-1] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:50:55.897 [http-nio-8080-exec-3] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:51:53.661 [http-nio-8080-exec-5] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:51:53.717 [http-nio-8080-exec-5] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:51:55.599 [http-nio-8080-exec-2] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 15:51:55.600 [http-nio-8080-exec-2] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 15:51:55.600 [http-nio-8080-exec-2] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 15:51:55.687 [http-nio-8080-exec-4] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 15:51:55.687 [http-nio-8080-exec-4] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 15:51:55.689 [http-nio-8080-exec-4] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 15:51:56.791 [http-nio-8080-exec-1] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: GET /api/pedidos/estatisticas
+2025-09-28 15:51:56.815 [http-nio-8080-exec-1] INFO  c.x.c.PedidoAluguelController - Obtendo estatísticas dos pedidos
+2025-09-28 15:51:56.833 [http-nio-8080-exec-6] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 15:51:56.835 [http-nio-8080-exec-6] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 15:51:56.835 [http-nio-8080-exec-6] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 15:51:56.845 [http-nio-8080-exec-2] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
+2025-09-28 15:51:56.846 [http-nio-8080-exec-10] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:51:56.848 [http-nio-8080-exec-2] INFO  c.x.c.PedidoAluguelController - Listando todos os pedidos de aluguel
+2025-09-28 15:51:56.849 [http-nio-8080-exec-2] INFO  c.x.service.PedidoAluguelService - Listando todos os pedidos de aluguel
+2025-09-28 15:51:56.863 [http-nio-8080-exec-10] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: GET /api/pedidos/estatisticas
+2025-09-28 15:51:56.866 [http-nio-8080-exec-10] INFO  c.x.c.PedidoAluguelController - Obtendo estatísticas dos pedidos
+2025-09-28 15:51:56.879 [http-nio-8080-exec-4] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:51:56.895 [http-nio-8080-exec-2] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
+2025-09-28 15:51:56.895 [http-nio-8080-exec-2] INFO  c.x.c.PedidoAluguelController - Listando todos os pedidos de aluguel
+2025-09-28 15:51:56.896 [http-nio-8080-exec-2] INFO  c.x.service.PedidoAluguelService - Listando todos os pedidos de aluguel
+2025-09-28 15:51:56.927 [http-nio-8080-exec-6] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 15:51:56.929 [http-nio-8080-exec-6] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 15:51:56.929 [http-nio-8080-exec-6] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 15:52:07.144 [http-nio-8080-exec-1] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:52:07.157 [http-nio-8080-exec-5] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:52:08.670 [http-nio-8080-exec-2] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 15:52:08.671 [http-nio-8080-exec-2] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 15:52:08.672 [http-nio-8080-exec-2] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 15:52:08.683 [http-nio-8080-exec-2] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 15:52:08.683 [http-nio-8080-exec-2] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 15:52:08.683 [http-nio-8080-exec-2] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 15:52:09.571 [http-nio-8080-exec-3] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: GET /api/pedidos/estatisticas
+2025-09-28 15:52:09.574 [http-nio-8080-exec-3] INFO  c.x.c.PedidoAluguelController - Obtendo estatísticas dos pedidos
+2025-09-28 15:52:09.582 [http-nio-8080-exec-7] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 15:52:09.583 [http-nio-8080-exec-7] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 15:52:09.583 [http-nio-8080-exec-7] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 15:52:09.587 [http-nio-8080-exec-8] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
+2025-09-28 15:52:09.587 [http-nio-8080-exec-8] INFO  c.x.c.PedidoAluguelController - Listando todos os pedidos de aluguel
+2025-09-28 15:52:09.587 [http-nio-8080-exec-10] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 15:52:09.589 [http-nio-8080-exec-8] INFO  c.x.service.PedidoAluguelService - Listando todos os pedidos de aluguel
+2025-09-28 15:52:09.595 [http-nio-8080-exec-5] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: GET /api/pedidos/estatisticas
+2025-09-28 15:52:09.595 [http-nio-8080-exec-5] INFO  c.x.c.PedidoAluguelController - Obtendo estatísticas dos pedidos
+2025-09-28 15:52:09.603 [http-nio-8080-exec-2] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 15:52:09.605 [http-nio-8080-exec-2] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 15:52:09.605 [http-nio-8080-exec-9] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
+2025-09-28 15:52:09.605 [http-nio-8080-exec-2] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 15:52:09.605 [http-nio-8080-exec-9] INFO  c.x.c.PedidoAluguelController - Listando todos os pedidos de aluguel
+2025-09-28 15:52:09.606 [http-nio-8080-exec-9] INFO  c.x.service.PedidoAluguelService - Listando todos os pedidos de aluguel
+2025-09-28 15:52:09.613 [http-nio-8080-exec-4] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 16:17:29.876 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-09-28 16:17:29.949 [main] INFO  c.x.XumblaubsBackendApplication - Starting XumblaubsBackendApplication using Java 22.0.2 with PID 98660 (D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\target\classes started by lucas in D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back)
+2025-09-28 16:17:29.949 [main] DEBUG c.x.XumblaubsBackendApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-09-28 16:17:29.950 [main] INFO  c.x.XumblaubsBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-28 16:17:30.580 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-28 16:17:30.629 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 7 JPA repository interfaces.
+2025-09-28 16:17:31.173 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-28 16:17:31.179 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-28 16:17:31.180 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-28 16:17:31.180 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-09-28 16:17:31.222 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-28 16:17:31.222 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1240 ms
+2025-09-28 16:17:31.465 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-28 16:17:31.497 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-09-28 16:17:31.522 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-28 16:17:31.853 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-28 16:17:32.670 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-28 16:17:32.743 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-28 16:17:32.743 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - restrição "uk_4kaj9bmnwxpl97q9y4rejfax4" da relação "automoveis" não existe, ignorando
+2025-09-28 16:17:32.746 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-28 16:17:32.746 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - restrição "uk_26cnw34yindmrbe4nr7557sro" da relação "automoveis" não existe, ignorando
+2025-09-28 16:17:32.747 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-28 16:17:32.747 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - restrição "uk_61k4xmlsaosdjda99csvpaod3" da relação "bancos" não existe, ignorando
+2025-09-28 16:17:32.749 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-28 16:17:32.749 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - restrição "uk_2fitg66vmcwb1cr8ew0mbhbch" da relação "bancos" não existe, ignorando
+2025-09-28 16:17:32.751 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-28 16:17:32.751 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - restrição "uk_7wflw78ibh162cmq12ii6ffly" da relação "clientes" não existe, ignorando
+2025-09-28 16:17:32.753 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-28 16:17:32.753 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - restrição "uk_1c96wv36rk2hwui7qhjks3mvg" da relação "clientes" não existe, ignorando
+2025-09-28 16:17:32.755 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-28 16:17:32.755 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - restrição "uk_22prtxaybvh2e3sgpxfacbxcy" da relação "contratos_credito" não existe, ignorando
+2025-09-28 16:17:32.757 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-28 16:17:32.757 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - restrição "uk_6dotkott2kjsp8vw4d0m25fb7" da relação "users" não existe, ignorando
+2025-09-28 16:17:33.087 [main] DEBUG c.xumblaubs.security.AuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+2025-09-28 16:17:33.136 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-28 16:17:34.121 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-28 16:17:34.237 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@71f9b03b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ad31999, org.springframework.security.web.context.SecurityContextHolderFilter@1a9e4177, org.springframework.security.web.header.HeaderWriterFilter@5058da5a, org.springframework.web.filter.CorsFilter@5e397a71, org.springframework.security.web.authentication.logout.LogoutFilter@10f42aa9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31edcf2f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@172d9bb2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28860097, org.springframework.security.web.session.SessionManagementFilter@7c3f358c, org.springframework.security.web.access.ExceptionTranslationFilter@55082ca8, org.springframework.security.web.access.intercept.AuthorizationFilter@4d5397b6]
+2025-09-28 16:17:34.812 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+2025-09-28 16:17:34.871 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-28 16:17:34.886 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-09-28 16:17:34.892 [main] INFO  c.x.XumblaubsBackendApplication - Started XumblaubsBackendApplication in 5.355 seconds (process running for 5.596)
+2025-09-28 16:17:34.935 [main] INFO  c.x.config.DatabaseInitializer - 🚀 Iniciando verificação e criação das tabelas do banco de dados...
+2025-09-28 16:17:34.935 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Verificando conexão com o banco de dados...
+2025-09-28 16:17:34.940 [main] INFO  c.x.config.DatabaseInitializer - ✅ Conexão com banco estabelecida: Conexão OK
+2025-09-28 16:17:34.941 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Verificando criação das tabelas...
+2025-09-28 16:17:34.942 [main] INFO  c.x.config.DatabaseInitializer - ✅ Tabela 'clientes' criada com sucesso!
+2025-09-28 16:17:34.942 [main] INFO  c.x.config.DatabaseInitializer - 📊 Tabela 'clientes' contém 0 registros
+2025-09-28 16:17:34.943 [main] INFO  c.x.config.DatabaseInitializer - ✅ Tabela 'users' criada com sucesso!
+2025-09-28 16:17:34.945 [main] INFO  c.x.config.DatabaseInitializer - 📊 Tabela 'users' contém 0 registros
+2025-09-28 16:17:34.945 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Listando entidades JPA mapeadas...
+2025-09-28 16:17:34.945 [main] INFO  c.x.config.DatabaseInitializer - 📋 Entidades JPA encontradas: 7
+2025-09-28 16:17:34.945 [main] INFO  c.x.config.DatabaseInitializer -   - User (tabela: User)
+2025-09-28 16:17:34.945 [main] INFO  c.x.config.DatabaseInitializer -   - Empregadora (tabela: Empregadora)
+2025-09-28 16:17:34.945 [main] INFO  c.x.config.DatabaseInitializer -   - ContratoCredito (tabela: ContratoCredito)
+2025-09-28 16:17:34.945 [main] INFO  c.x.config.DatabaseInitializer -   - PedidoAluguel (tabela: PedidoAluguel)
+2025-09-28 16:17:34.945 [main] INFO  c.x.config.DatabaseInitializer -   - Cliente (tabela: Cliente)
+2025-09-28 16:17:34.945 [main] INFO  c.x.config.DatabaseInitializer -   - Automovel (tabela: Automovel)
+2025-09-28 16:17:34.945 [main] INFO  c.x.config.DatabaseInitializer -   - Banco (tabela: Banco)
+2025-09-28 16:17:34.945 [main] INFO  c.x.config.DatabaseInitializer - ✅ Inicialização do banco de dados concluída com sucesso!
+2025-09-28 16:17:34.945 [main] INFO  c.xumblaubs.config.DataInitializer - 🚀 Iniciando criação de dados padrão...
+2025-09-28 16:17:35.164 [main] INFO  c.xumblaubs.config.DataInitializer - 👤 Usuário administrador criado: admin@admin.com / admin123
+2025-09-28 16:17:35.238 [main] INFO  c.xumblaubs.config.DataInitializer - 👤 Usuário comum criado: user@user.com / user123
+2025-09-28 16:17:35.238 [main] INFO  c.xumblaubs.config.DataInitializer - ✅ Dados padrão criados com sucesso!
+2025-09-28 16:17:35.238 [main] INFO  c.x.config.ClienteDataInitializer - 🚀 Inicializando dados de clientes...
+2025-09-28 16:17:35.262 [main] INFO  c.x.config.ClienteDataInitializer - 👤 Cliente criado: Lucas Jácome (CPF: 123.456.789-01)
+2025-09-28 16:17:35.268 [main] INFO  c.x.config.ClienteDataInitializer - 👤 Cliente criado: Victor Ferreira (CPF: 987.654.321-02)
+2025-09-28 16:17:35.272 [main] INFO  c.x.config.ClienteDataInitializer - 👤 Cliente criado: Arthur Henrique (CPF: 456.789.123-03)
+2025-09-28 16:17:35.272 [main] INFO  c.x.config.ClienteDataInitializer - ✅ Inicialização de clientes concluída!
+2025-09-28 16:17:35.272 [main] INFO  c.x.config.AutomovelDataInitializer - 🚗 Iniciando criação de automóveis populares...
+2025-09-28 16:17:35.287 [main] INFO  c.x.config.AutomovelDataInitializer - 🚗 Volkswagen Golf 2023 - ABC1234 criado
+2025-09-28 16:17:35.292 [main] INFO  c.x.config.AutomovelDataInitializer - 🚗 Toyota Corolla 2022 - DEF5678 criado
+2025-09-28 16:17:35.294 [main] INFO  c.x.config.AutomovelDataInitializer - 🚗 Honda Civic 2023 - GHI9012 criado
+2025-09-28 16:17:35.295 [main] INFO  c.x.config.AutomovelDataInitializer - 🚗 Chevrolet Onix 2022 - JKL3456 criado
+2025-09-28 16:17:35.299 [main] INFO  c.x.config.AutomovelDataInitializer - 🚗 Fiat Argo 2023 - MNO7890 criado
+2025-09-28 16:17:35.301 [main] INFO  c.x.config.AutomovelDataInitializer - 🚗 BMW 320i 2022 - PQR1234 criado
+2025-09-28 16:17:35.303 [main] INFO  c.x.config.AutomovelDataInitializer - 🚗 Mercedes-Benz C200 2023 - STU5678 criado
+2025-09-28 16:17:35.306 [main] INFO  c.x.config.AutomovelDataInitializer - 🚗 Audi A4 2022 - VWX9012 criado
+2025-09-28 16:17:35.307 [main] INFO  c.x.config.AutomovelDataInitializer - 🚗 Toyota RAV4 2023 - YZA3456 criado
+2025-09-28 16:17:35.311 [main] INFO  c.x.config.AutomovelDataInitializer - 🚗 Honda CR-V 2022 - BCD7890 criado
+2025-09-28 16:17:35.311 [main] INFO  c.x.config.AutomovelDataInitializer - 🚗 10 automóveis populares criados
+2025-09-28 16:17:35.311 [main] INFO  c.x.config.AutomovelDataInitializer - ✅ Automóveis populares criados com sucesso!
+2025-09-28 16:31:32.866 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-09-28 16:31:32.953 [main] INFO  c.x.XumblaubsBackendApplication - Starting XumblaubsBackendApplication using Java 22.0.2 with PID 100896 (D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\target\classes started by lucas in D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back)
+2025-09-28 16:31:32.954 [main] DEBUG c.x.XumblaubsBackendApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-09-28 16:31:32.955 [main] INFO  c.x.XumblaubsBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-28 16:31:33.608 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-28 16:31:33.642 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: java.lang.NoClassDefFoundError: StatusPedido
+2025-09-28 16:31:33.653 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-28 16:31:33.667 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.NoClassDefFoundError: StatusPedido
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3601)
+	at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3626)
+	at java.base/java.lang.Class.getMethods(Class.java:2195)
+	at org.springframework.data.util.ReactiveWrappers.usesReactiveType(ReactiveWrappers.java:141)
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.isReactiveRepository(AbstractRepositoryMetadata.java:132)
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.useRepositoryConfiguration(RepositoryConfigurationExtensionSupport.java:337)
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:96)
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:164)
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:62)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:376)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:375)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:428)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:775)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:597)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331)
+	at com.xumblaubs.XumblaubsBackendApplication.main(XumblaubsBackendApplication.java:10)
+Caused by: java.lang.ClassNotFoundException: StatusPedido
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 28 common frames omitted
+2025-09-28 16:32:34.188 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-28 16:32:34.188 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-28 16:32:34.190 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-09-28 16:32:34.351 [http-nio-8080-exec-2] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 16:32:34.441 [http-nio-8080-exec-6] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 16:32:51.583 [http-nio-8080-exec-10] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 16:32:51.587 [http-nio-8080-exec-10] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 16:32:51.588 [http-nio-8080-exec-10] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 16:32:51.631 [http-nio-8080-exec-8] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 16:32:51.633 [http-nio-8080-exec-8] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 16:32:51.633 [http-nio-8080-exec-8] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 16:33:03.252 [http-nio-8080-exec-7] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: PUT /api/automoveis/1
+2025-09-28 16:33:03.344 [http-nio-8080-exec-7] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
+2025-09-28 16:33:05.375 [http-nio-8080-exec-3] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: PUT /api/automoveis/1
+2025-09-28 16:33:05.381 [http-nio-8080-exec-3] ERROR c.x.security.AuthEntryPointJwt - Unauthorized error: Full authentication is required to access this resource
+2025-09-28 16:33:14.637 [http-nio-8080-exec-1] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: GET /api/pedidos/estatisticas
+2025-09-28 16:33:14.639 [http-nio-8080-exec-1] INFO  c.x.c.PedidoAluguelController - Obtendo estatísticas dos pedidos
+2025-09-28 16:33:14.650 [http-nio-8080-exec-9] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
+2025-09-28 16:33:14.651 [http-nio-8080-exec-9] INFO  c.x.c.PedidoAluguelController - Listando todos os pedidos de aluguel
+2025-09-28 16:33:14.653 [http-nio-8080-exec-9] INFO  c.x.service.PedidoAluguelService - Listando todos os pedidos de aluguel
+2025-09-28 16:33:14.670 [http-nio-8080-exec-10] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 16:33:14.673 [http-nio-8080-exec-3] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 16:33:14.673 [http-nio-8080-exec-3] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 16:33:14.675 [http-nio-8080-exec-3] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 16:33:14.707 [http-nio-8080-exec-6] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
+2025-09-28 16:33:14.709 [http-nio-8080-exec-6] INFO  c.x.c.PedidoAluguelController - Listando todos os pedidos de aluguel
+2025-09-28 16:33:14.710 [http-nio-8080-exec-6] INFO  c.x.service.PedidoAluguelService - Listando todos os pedidos de aluguel
+2025-09-28 16:33:14.736 [http-nio-8080-exec-4] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: GET /api/pedidos/estatisticas
+2025-09-28 16:33:14.737 [http-nio-8080-exec-4] INFO  c.x.c.PedidoAluguelController - Obtendo estatísticas dos pedidos
+2025-09-28 16:33:14.742 [http-nio-8080-exec-8] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 16:33:14.751 [http-nio-8080-exec-8] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 16:33:14.753 [http-nio-8080-exec-8] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 16:33:14.758 [http-nio-8080-exec-5] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 16:33:24.266 [http-nio-8080-exec-7] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
+2025-09-28 16:33:24.290 [http-nio-8080-exec-7] INFO  c.x.c.PedidoAluguelController - Criando novo pedido de aluguel: PedidoAluguelRequest{clienteId=1, automovelId=2, dataInicio=2025-09-30T03:00, dataFim=2025-10-04T02:59:59, status=null, valorTotal=null, ativo=null}
+2025-09-28 16:33:24.292 [http-nio-8080-exec-7] INFO  c.x.service.PedidoAluguelService - Criando novo pedido de aluguel: PedidoAluguelRequest{clienteId=1, automovelId=2, dataInicio=2025-09-30T03:00, dataFim=2025-10-04T02:59:59, status=null, valorTotal=null, ativo=null}
+2025-09-28 16:33:24.327 [http-nio-8080-exec-7] INFO  c.x.service.PedidoAluguelService - Pedido criado com sucesso. ID: 1
+2025-09-28 16:33:24.351 [http-nio-8080-exec-3] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: GET /api/pedidos/estatisticas
+2025-09-28 16:33:24.352 [http-nio-8080-exec-3] INFO  c.x.c.PedidoAluguelController - Obtendo estatísticas dos pedidos
+2025-09-28 16:34:45.233 [http-nio-8080-exec-4] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 16:34:45.237 [http-nio-8080-exec-4] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 16:34:45.239 [http-nio-8080-exec-4] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 16:34:45.239 [http-nio-8080-exec-6] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
+2025-09-28 16:34:45.240 [http-nio-8080-exec-6] INFO  c.x.c.PedidoAluguelController - Listando todos os pedidos de aluguel
+2025-09-28 16:34:45.241 [http-nio-8080-exec-6] INFO  c.x.service.PedidoAluguelService - Listando todos os pedidos de aluguel
+2025-09-28 16:34:45.243 [http-nio-8080-exec-1] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: GET /api/pedidos/estatisticas
+2025-09-28 16:34:45.245 [http-nio-8080-exec-1] INFO  c.x.c.PedidoAluguelController - Obtendo estatísticas dos pedidos
+2025-09-28 16:34:45.251 [http-nio-8080-exec-3] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 16:34:45.414 [http-nio-8080-exec-4] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 16:34:45.415 [http-nio-8080-exec-4] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 16:34:45.415 [http-nio-8080-exec-4] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 16:34:45.422 [http-nio-8080-exec-9] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
+2025-09-28 16:34:45.423 [http-nio-8080-exec-9] INFO  c.x.c.PedidoAluguelController - Listando todos os pedidos de aluguel
+2025-09-28 16:34:45.424 [http-nio-8080-exec-9] INFO  c.x.service.PedidoAluguelService - Listando todos os pedidos de aluguel
+2025-09-28 16:34:45.435 [http-nio-8080-exec-6] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 16:34:45.454 [http-nio-8080-exec-8] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: GET /api/pedidos/estatisticas
+2025-09-28 16:34:45.454 [http-nio-8080-exec-8] INFO  c.x.c.PedidoAluguelController - Obtendo estatísticas dos pedidos
+2025-09-28 16:34:46.472 [http-nio-8080-exec-7] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 16:34:46.473 [http-nio-8080-exec-7] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 16:34:46.475 [http-nio-8080-exec-7] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 16:34:46.497 [http-nio-8080-exec-10] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 16:34:46.498 [http-nio-8080-exec-10] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 16:34:46.498 [http-nio-8080-exec-10] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 16:34:47.189 [http-nio-8080-exec-3] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 16:34:47.207 [http-nio-8080-exec-4] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes

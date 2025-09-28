@@ -50,6 +50,10 @@ public class PedidoAluguel {
     @Size(max = 500, message = "Motivo da rejeição não pode exceder 500 caracteres")
     private String motivoRejeicao;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "contrato_credito_id")
+    private ContratoCredito contratoCredito;
+
     @Column(name = "ativo", nullable = false)
     private Boolean ativo = true;
 
@@ -144,6 +148,14 @@ public class PedidoAluguel {
 
     public void setMotivoRejeicao(String motivoRejeicao) {
         this.motivoRejeicao = motivoRejeicao;
+    }
+
+    public ContratoCredito getContratoCredito() {
+        return contratoCredito;
+    }
+
+    public void setContratoCredito(ContratoCredito contratoCredito) {
+        this.contratoCredito = contratoCredito;
     }
 
     public Boolean getAtivo() {

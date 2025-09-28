@@ -7,6 +7,8 @@ import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "clientes")
@@ -60,6 +62,10 @@ public class Cliente {
     
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
+
+    // Relacionamento com empregadoras (máximo 3)
+    @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Empregadora> empregadoras = new ArrayList<>();
     
     @PrePersist
     protected void onCreate() {
@@ -172,5 +178,31 @@ public class Cliente {
     
     public void setUpdatedAt(LocalDateTime updatedAt) {
         this.updatedAt = updatedAt;
+    }
+
+    public List<Empregadora> getEmpregadoras() {
+        return empregadoras;
+    }
+
+    public void setEmpregadoras(List<Empregadora> empregadoras) {
+        this.empregadoras = empregadoras;
+    }
+
+    // Método para adicionar empregadora (máximo 3)
+    public void adicionarEmpregadora(Empregadora empregadora) {
+        if (this.empregadoras.size() < 3) {
+            empregadora.setCliente(this);
+            this.empregadoras.add(empregadora);
+        } else {
+            throw new RuntimeException("Cliente já possui o máximo de 3 empregadoras");
+        }
+    }
+
+    // Método para calcular rendimento total
+    public Double getRendimentoTotal() {
+        return empregadoras.stream()
+                .filter(Empregadora::getAtivo)
+                .mapToDouble(emp -> emp.getRendimento().doubleValue())
+                .sum();
     }
 }
