@@ -12,7 +12,31 @@ Sistema completo de gerenciamento de clientes com frontend Next.js e backend Spr
 - ✅ **Validações** completas de dados
 - ✅ **Monitoramento de Saúde** do banco de dados
 
-## 🚀 Como Executar
+## 🚀 Configuração Inicial (Primeira Vez)
+
+### **📋 Pré-requisitos:**
+- Node.js 18+ e npm
+- Java 17+ e Maven
+- PostgreSQL 15+
+
+### **🔧 Passo a Passo Rápido:**
+```bash
+# 1. Navegar para o diretório do projeto
+cd XumblaubsRentCar/implementacao/startup_car
+
+# 2. Instalar dependências
+npm install
+cd front && npm install && cd ..
+
+# 3. Criar banco PostgreSQL: xumblaubs_rentcar
+
+# 4. Iniciar o projeto
+npm run dev
+```
+
+**📖 Para instruções detalhadas, consulte:** [SETUP_INICIAL.md](./SETUP_INICIAL.md)
+
+## 🚀 Como Executar (Após Configuração)
 
 ### **Método Único - Iniciar Tudo de Uma Vez:**
 
