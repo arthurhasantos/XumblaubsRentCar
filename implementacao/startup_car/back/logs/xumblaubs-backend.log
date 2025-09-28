@@ -3507,3 +3507,33 @@ Caused by: java.lang.ClassNotFoundException: StatusPedido
 2025-09-28 16:59:38.847 [http-nio-8080-exec-7] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/empregadoras
 2025-09-28 16:59:38.848 [http-nio-8080-exec-7] INFO  c.x.controller.EmpregadoraController - Listando todas as empregadoras
 2025-09-28 16:59:38.848 [http-nio-8080-exec-7] INFO  c.x.service.EmpregadoraService - Listando todas as empregadoras
+2025-09-28 16:59:48.813 [http-nio-8080-exec-10] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/contratos-credito
+2025-09-28 16:59:48.815 [http-nio-8080-exec-10] INFO  c.x.c.ContratoCreditoController - Listando todos os contratos de crédito
+2025-09-28 16:59:48.815 [http-nio-8080-exec-10] INFO  c.x.service.ContratoCreditoService - Listando todos os contratos de crédito
+2025-09-28 16:59:48.832 [http-nio-8080-exec-6] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/contratos-credito
+2025-09-28 16:59:48.833 [http-nio-8080-exec-6] INFO  c.x.c.ContratoCreditoController - Listando todos os contratos de crédito
+2025-09-28 16:59:48.833 [http-nio-8080-exec-6] INFO  c.x.service.ContratoCreditoService - Listando todos os contratos de crédito
+2025-09-28 16:59:50.017 [http-nio-8080-exec-2] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/bancos
+2025-09-28 16:59:50.018 [http-nio-8080-exec-2] INFO  c.x.controller.BancoController - Listando todos os bancos
+2025-09-28 16:59:50.019 [http-nio-8080-exec-2] INFO  com.xumblaubs.service.BancoService - Listando todos os bancos
+2025-09-28 16:59:50.033 [http-nio-8080-exec-8] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/bancos
+2025-09-28 16:59:50.033 [http-nio-8080-exec-8] INFO  c.x.controller.BancoController - Listando todos os bancos
+2025-09-28 16:59:50.033 [http-nio-8080-exec-8] INFO  com.xumblaubs.service.BancoService - Listando todos os bancos
+2025-09-28 16:59:50.840 [http-nio-8080-exec-1] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/contratos-credito
+2025-09-28 16:59:50.842 [http-nio-8080-exec-1] INFO  c.x.c.ContratoCreditoController - Listando todos os contratos de crédito
+2025-09-28 16:59:50.842 [http-nio-8080-exec-1] INFO  c.x.service.ContratoCreditoService - Listando todos os contratos de crédito
+2025-09-28 16:59:50.855 [http-nio-8080-exec-7] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/contratos-credito
+2025-09-28 16:59:50.856 [http-nio-8080-exec-7] INFO  c.x.c.ContratoCreditoController - Listando todos os contratos de crédito
+2025-09-28 16:59:50.856 [http-nio-8080-exec-7] INFO  c.x.service.ContratoCreditoService - Listando todos os contratos de crédito
+2025-09-28 16:59:51.550 [http-nio-8080-exec-10] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/empregadoras
+2025-09-28 16:59:51.552 [http-nio-8080-exec-10] INFO  c.x.controller.EmpregadoraController - Listando todas as empregadoras
+2025-09-28 16:59:51.552 [http-nio-8080-exec-10] INFO  c.x.service.EmpregadoraService - Listando todas as empregadoras
+2025-09-28 16:59:51.569 [http-nio-8080-exec-6] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/empregadoras
+2025-09-28 16:59:51.570 [http-nio-8080-exec-6] INFO  c.x.controller.EmpregadoraController - Listando todas as empregadoras
+2025-09-28 16:59:51.571 [http-nio-8080-exec-6] INFO  c.x.service.EmpregadoraService - Listando todas as empregadoras
+2025-09-28 16:59:56.089 [http-nio-8080-exec-2] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/contratos-credito
+2025-09-28 16:59:56.090 [http-nio-8080-exec-2] INFO  c.x.c.ContratoCreditoController - Listando todos os contratos de crédito
+2025-09-28 16:59:56.091 [http-nio-8080-exec-2] INFO  c.x.service.ContratoCreditoService - Listando todos os contratos de crédito
+2025-09-28 16:59:56.106 [http-nio-8080-exec-8] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/contratos-credito
+2025-09-28 16:59:56.106 [http-nio-8080-exec-8] INFO  c.x.c.ContratoCreditoController - Listando todos os contratos de crédito
+2025-09-28 16:59:56.107 [http-nio-8080-exec-8] INFO  c.x.service.ContratoCreditoService - Listando todos os contratos de crédito
