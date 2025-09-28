@@ -14,6 +14,8 @@ export interface PedidoAluguel {
   valorTotal: number;
   observacoes?: string;
   motivoRejeicao?: string;
+  contratoCreditoId?: number;
+  contratoCreditoNumero?: string;
   ativo: boolean;
   createdAt: string;
   updatedAt: string;
@@ -34,6 +36,7 @@ export interface PedidoAluguelRequest {
   dataInicio: string;
   dataFim: string;
   observacoes?: string;
+  contratoCreditoId?: number;
 }
 
 export interface PedidoAluguelResponse {
@@ -52,6 +55,8 @@ export interface PedidoAluguelResponse {
   valorTotal: number;
   observacoes?: string;
   motivoRejeicao?: string;
+  contratoCreditoId?: number;
+  contratoCreditoNumero?: string;
   ativo: boolean;
   createdAt: string;
   updatedAt: string;

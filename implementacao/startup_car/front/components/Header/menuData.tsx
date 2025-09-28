@@ -3,9 +3,10 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Home",
-    path: "/",
+    title: "Pedidos de Aluguel",
+    path: "/pedidos",
     newTab: false,
+    requireAdmin: false, // Usuários comuns podem acessar
   },
   {
     id: 2,
@@ -23,10 +24,24 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
-    title: "Pedidos de Aluguel",
-    path: "/pedidos",
+    title: "CRUD Bancos",
+    path: "/bancos",
     newTab: false,
-    requireAdmin: false, // Usuários comuns podem acessar
+    requireAdmin: true,
+  },
+  {
+    id: 5,
+    title: "Contratos de Crédito",
+    path: "/contratos-credito",
+    newTab: false,
+    requireAdmin: true,
+  },
+  {
+    id: 6,
+    title: "CRUD Empregadoras",
+    path: "/empregadoras",
+    newTab: false,
+    requireAdmin: true,
   },
 ];
 export default menuData;
