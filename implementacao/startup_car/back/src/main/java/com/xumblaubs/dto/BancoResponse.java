@@ -2,7 +2,6 @@ package com.xumblaubs.dto;
 
 import com.xumblaubs.entity.Banco;
 
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 public class BancoResponse {
@@ -14,8 +13,6 @@ public class BancoResponse {
     private String endereco;
     private String telefone;
     private String email;
-    private BigDecimal taxaJurosPadrao;
-    private BigDecimal limiteCreditoMaximo;
     private Boolean ativo;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
@@ -31,8 +28,6 @@ public class BancoResponse {
         this.endereco = banco.getEndereco();
         this.telefone = banco.getTelefone();
         this.email = banco.getEmail();
-        this.taxaJurosPadrao = banco.getTaxaJurosPadrao();
-        this.limiteCreditoMaximo = banco.getLimiteCreditoMaximo();
         this.ativo = banco.getAtivo();
         this.createdAt = banco.getCreatedAt();
         this.updatedAt = banco.getUpdatedAt();
@@ -95,21 +90,6 @@ public class BancoResponse {
         this.email = email;
     }
 
-    public BigDecimal getTaxaJurosPadrao() {
-        return taxaJurosPadrao;
-    }
-
-    public void setTaxaJurosPadrao(BigDecimal taxaJurosPadrao) {
-        this.taxaJurosPadrao = taxaJurosPadrao;
-    }
-
-    public BigDecimal getLimiteCreditoMaximo() {
-        return limiteCreditoMaximo;
-    }
-
-    public void setLimiteCreditoMaximo(BigDecimal limiteCreditoMaximo) {
-        this.limiteCreditoMaximo = limiteCreditoMaximo;
-    }
 
     public Boolean getAtivo() {
         return ativo;

@@ -5,7 +5,6 @@ import jakarta.validation.constraints.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Entity
@@ -21,10 +20,6 @@ public class Empregadora {
     @Column(name = "nome", nullable = false)
     private String nome;
 
-    @NotNull(message = "Rendimento é obrigatório")
-    @DecimalMin(value = "0.01", message = "Rendimento deve ser maior que zero")
-    @Column(name = "rendimento", nullable = false, precision = 15, scale = 2)
-    private BigDecimal rendimento;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "cliente_id", nullable = false)
@@ -69,9 +64,8 @@ public class Empregadora {
     // Construtores
     public Empregadora() {}
 
-    public Empregadora(String nome, BigDecimal rendimento, Cliente cliente) {
+    public Empregadora(String nome, Cliente cliente) {
         this.nome = nome;
-        this.rendimento = rendimento;
         this.cliente = cliente;
         this.ativo = true;
     }
@@ -93,13 +87,6 @@ public class Empregadora {
         this.nome = nome;
     }
 
-    public BigDecimal getRendimento() {
-        return rendimento;
-    }
-
-    public void setRendimento(BigDecimal rendimento) {
-        this.rendimento = rendimento;
-    }
 
     public Cliente getCliente() {
         return cliente;
@@ -186,7 +173,6 @@ public class Empregadora {
         return "Empregadora{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
-                ", rendimento=" + rendimento +
                 ", cliente=" + (cliente != null ? cliente.getNome() : "null") +
                 ", ativo=" + ativo +
                 '}';

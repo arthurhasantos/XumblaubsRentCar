@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Component
@@ -34,7 +33,6 @@ public class EmpregadoraDataInitializer implements CommandLineRunner {
                 Empregadora localiza = new Empregadora();
                 localiza.setCliente(cliente);
                 localiza.setNome("Localiza Rent a Car");
-                localiza.setRendimento(new BigDecimal("3500.00"));
                 localiza.setCargo("Analista de Sistemas");
                 localiza.setCnpj("33.592.510/0001-54");
                 localiza.setEndereco("Av. Raja Gabaglia, 2000 - Lourdes, Belo Horizonte - MG");
@@ -49,7 +47,6 @@ public class EmpregadoraDataInitializer implements CommandLineRunner {
                 Empregadora unidas = new Empregadora();
                 unidas.setCliente(cliente);
                 unidas.setNome("Unidas Locadora");
-                unidas.setRendimento(new BigDecimal("4200.00"));
                 unidas.setCargo("Desenvolvedor Full Stack");
                 unidas.setCnpj("17.167.412/0001-13");
                 unidas.setEndereco("Rua da Consolação, 3.000 - Consolação, São Paulo - SP");

@@ -47,14 +47,6 @@ public class Banco {
     @Column(name = "email")
     private String email;
 
-    @Column(name = "taxa_juros_padrao", precision = 5, scale = 4)
-    @DecimalMin(value = "0.0", message = "Taxa de juros não pode ser negativa")
-    @DecimalMax(value = "1.0", message = "Taxa de juros não pode exceder 100%")
-    private BigDecimal taxaJurosPadrao;
-
-    @Column(name = "limite_credito_maximo", precision = 15, scale = 2)
-    @DecimalMin(value = "0.0", message = "Limite de crédito não pode ser negativo")
-    private BigDecimal limiteCreditoMaximo;
 
     @Column(name = "ativo", nullable = false)
     private Boolean ativo = true;
@@ -138,21 +130,6 @@ public class Banco {
         this.email = email;
     }
 
-    public BigDecimal getTaxaJurosPadrao() {
-        return taxaJurosPadrao;
-    }
-
-    public void setTaxaJurosPadrao(BigDecimal taxaJurosPadrao) {
-        this.taxaJurosPadrao = taxaJurosPadrao;
-    }
-
-    public BigDecimal getLimiteCreditoMaximo() {
-        return limiteCreditoMaximo;
-    }
-
-    public void setLimiteCreditoMaximo(BigDecimal limiteCreditoMaximo) {
-        this.limiteCreditoMaximo = limiteCreditoMaximo;
-    }
 
     public Boolean getAtivo() {
         return ativo;
@@ -195,7 +172,7 @@ public class Banco {
         contrato.setPrazoMeses(prazoMeses);
         contrato.setBanco(this);
         contrato.setCliente(cliente);
-        contrato.setTaxaJuros(this.taxaJurosPadrao);
+        contrato.setTaxaJuros(new BigDecimal("0.03")); // Taxa padrão de 3%
         contrato.setStatus(StatusContratoCredito.PENDENTE);
         contrato.calcularValorParcela();
         

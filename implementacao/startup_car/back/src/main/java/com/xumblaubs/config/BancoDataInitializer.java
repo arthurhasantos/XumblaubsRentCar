@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import java.math.BigDecimal;
 
 @Component
 public class BancoDataInitializer implements CommandLineRunner {
@@ -28,8 +27,6 @@ public class BancoDataInitializer implements CommandLineRunner {
             bancoInter.setEndereco("Av. Barbacena, 1219 - Santo Agostinho, Belo Horizonte - MG");
             bancoInter.setEmail("contato@bancointer.com.br");
             bancoInter.setTelefone("(31) 3003-4077");
-            bancoInter.setTaxaJurosPadrao(new BigDecimal("0.025")); // 2.5% ao mês
-            bancoInter.setLimiteCreditoMaximo(new BigDecimal("50000.00"));
             bancoInter.setAtivo(true);
             bancoRepository.save(bancoInter);
             System.out.println("✅ Banco Inter criado com sucesso!");
@@ -42,8 +39,6 @@ public class BancoDataInitializer implements CommandLineRunner {
             bancoItau.setEndereco("Av. Paulista, 1000 - Bela Vista, São Paulo - SP");
             bancoItau.setEmail("contato@itau.com.br");
             bancoItau.setTelefone("(11) 3003-3030");
-            bancoItau.setTaxaJurosPadrao(new BigDecimal("0.035")); // 3.5% ao mês
-            bancoItau.setLimiteCreditoMaximo(new BigDecimal("100000.00"));
             bancoItau.setAtivo(true);
             bancoRepository.save(bancoItau);
             System.out.println("✅ Banco Itaú criado com sucesso!");
@@ -56,8 +51,6 @@ public class BancoDataInitializer implements CommandLineRunner {
             bancoBdB.setEndereco("SBS Quadra 1, Bloco A - Brasília - DF");
             bancoBdB.setEmail("contato@bb.com.br");
             bancoBdB.setTelefone("(61) 3003-0001");
-            bancoBdB.setTaxaJurosPadrao(new BigDecimal("0.030")); // 3.0% ao mês
-            bancoBdB.setLimiteCreditoMaximo(new BigDecimal("75000.00"));
             bancoBdB.setAtivo(true);
             bancoRepository.save(bancoBdB);
             System.out.println("✅ Banco do Brasil criado com sucesso!");

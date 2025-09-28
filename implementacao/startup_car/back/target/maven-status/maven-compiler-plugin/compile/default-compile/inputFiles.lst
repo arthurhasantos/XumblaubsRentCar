@@ -36,6 +36,7 @@ D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\b
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\service\AutomovelService.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\dto\BancoResponse.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\dto\AutomovelResponse.java
+D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\config\EmpregadoraDataInitializer.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\service\PedidoAluguelService.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\security\AuthEntryPointJwt.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\entity\Role.java
@@ -47,6 +48,7 @@ D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\b
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\security\WebSecurityConfig.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\XumblaubsBackendApplication.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\dto\PedidoAluguelResponse.java
+D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\config\BancoDataInitializer.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\dto\ContratoCreditoResponse.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\dto\ClienteResponse.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\service\BancoService.java

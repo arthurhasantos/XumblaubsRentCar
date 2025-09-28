@@ -1,7 +1,6 @@
 package com.xumblaubs.dto;
 
 import jakarta.validation.constraints.*;
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 public class EmpregadoraRequest {
@@ -10,9 +9,6 @@ public class EmpregadoraRequest {
     @Size(max = 100, message = "Nome da empregadora deve ter no máximo 100 caracteres")
     private String nome;
 
-    @NotNull(message = "Rendimento é obrigatório")
-    @DecimalMin(value = "0.01", message = "Rendimento deve ser maior que zero")
-    private BigDecimal rendimento;
 
     @NotNull(message = "ID do cliente é obrigatório")
     private Long clienteId;
@@ -38,9 +34,8 @@ public class EmpregadoraRequest {
     // Construtores
     public EmpregadoraRequest() {}
 
-    public EmpregadoraRequest(String nome, BigDecimal rendimento, Long clienteId) {
+    public EmpregadoraRequest(String nome, Long clienteId) {
         this.nome = nome;
-        this.rendimento = rendimento;
         this.clienteId = clienteId;
     }
 
@@ -53,13 +48,6 @@ public class EmpregadoraRequest {
         this.nome = nome;
     }
 
-    public BigDecimal getRendimento() {
-        return rendimento;
-    }
-
-    public void setRendimento(BigDecimal rendimento) {
-        this.rendimento = rendimento;
-    }
 
     public Long getClienteId() {
         return clienteId;
@@ -121,7 +109,6 @@ public class EmpregadoraRequest {
     public String toString() {
         return "EmpregadoraRequest{" +
                 "nome='" + nome + '\'' +
-                ", rendimento=" + rendimento +
                 ", clienteId=" + clienteId +
                 ", endereco='" + endereco + '\'' +
                 ", telefone='" + telefone + '\'' +

@@ -1,7 +1,6 @@
 package com.xumblaubs.dto;
 
 import jakarta.validation.constraints.*;
-import java.math.BigDecimal;
 
 public class BancoRequest {
 
@@ -28,12 +27,6 @@ public class BancoRequest {
     @Size(max = 100, message = "Email deve ter no máximo 100 caracteres")
     private String email;
 
-    @DecimalMin(value = "0.0", message = "Taxa de juros não pode ser negativa")
-    @DecimalMax(value = "1.0", message = "Taxa de juros não pode exceder 100%")
-    private BigDecimal taxaJurosPadrao;
-
-    @DecimalMin(value = "0.0", message = "Limite de crédito não pode ser negativo")
-    private BigDecimal limiteCreditoMaximo;
 
     // Construtores
     public BancoRequest() {}
@@ -93,21 +86,6 @@ public class BancoRequest {
         this.email = email;
     }
 
-    public BigDecimal getTaxaJurosPadrao() {
-        return taxaJurosPadrao;
-    }
-
-    public void setTaxaJurosPadrao(BigDecimal taxaJurosPadrao) {
-        this.taxaJurosPadrao = taxaJurosPadrao;
-    }
-
-    public BigDecimal getLimiteCreditoMaximo() {
-        return limiteCreditoMaximo;
-    }
-
-    public void setLimiteCreditoMaximo(BigDecimal limiteCreditoMaximo) {
-        this.limiteCreditoMaximo = limiteCreditoMaximo;
-    }
 
     @Override
     public String toString() {
@@ -118,8 +96,6 @@ public class BancoRequest {
                 ", endereco='" + endereco + '\'' +
                 ", telefone='" + telefone + '\'' +
                 ", email='" + email + '\'' +
-                ", taxaJurosPadrao=" + taxaJurosPadrao +
-                ", limiteCreditoMaximo=" + limiteCreditoMaximo +
                 '}';
     }
 }

@@ -2,14 +2,12 @@ package com.xumblaubs.dto;
 
 import com.xumblaubs.entity.Empregadora;
 
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 public class EmpregadoraResponse {
 
     private Long id;
     private String nome;
-    private BigDecimal rendimento;
     private Long clienteId;
     private String clienteNome;
     private String endereco;
@@ -28,7 +26,6 @@ public class EmpregadoraResponse {
     public EmpregadoraResponse(Empregadora empregadora) {
         this.id = empregadora.getId();
         this.nome = empregadora.getNome();
-        this.rendimento = empregadora.getRendimento();
         this.clienteId = empregadora.getCliente() != null ? empregadora.getCliente().getId() : null;
         this.clienteNome = empregadora.getCliente() != null ? empregadora.getCliente().getNome() : null;
         this.endereco = empregadora.getEndereco();
@@ -59,13 +56,6 @@ public class EmpregadoraResponse {
         this.nome = nome;
     }
 
-    public BigDecimal getRendimento() {
-        return rendimento;
-    }
-
-    public void setRendimento(BigDecimal rendimento) {
-        this.rendimento = rendimento;
-    }
 
     public Long getClienteId() {
         return clienteId;
@@ -160,7 +150,6 @@ public class EmpregadoraResponse {
         return "EmpregadoraResponse{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
-                ", rendimento=" + rendimento +
                 ", clienteNome='" + clienteNome + '\'' +
                 ", ativo=" + ativo +
                 '}';
