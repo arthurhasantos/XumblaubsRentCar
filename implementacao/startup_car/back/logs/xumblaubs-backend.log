@@ -3369,3 +3369,87 @@ Caused by: java.lang.ClassNotFoundException: StatusPedido
 2025-09-28 16:44:39.168 [http-nio-8080-exec-5] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
 2025-09-28 16:44:39.169 [http-nio-8080-exec-5] INFO  c.x.c.PedidoAluguelController - Listando todos os pedidos de aluguel
 2025-09-28 16:44:39.170 [http-nio-8080-exec-5] INFO  c.x.service.PedidoAluguelService - Listando todos os pedidos de aluguel
+2025-09-28 16:49:51.847 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-09-28 16:49:51.921 [main] INFO  c.x.XumblaubsBackendApplication - Starting XumblaubsBackendApplication using Java 22.0.2 with PID 101724 (D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\target\classes started by lucas in D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back)
+2025-09-28 16:49:51.921 [main] DEBUG c.x.XumblaubsBackendApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-09-28 16:49:51.921 [main] INFO  c.x.XumblaubsBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-28 16:49:52.522 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-28 16:49:52.576 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 7 JPA repository interfaces.
+2025-09-28 16:49:53.118 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-28 16:49:53.123 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-28 16:49:53.125 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-28 16:49:53.125 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-09-28 16:49:53.166 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-28 16:49:53.166 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1217 ms
+2025-09-28 16:49:53.378 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-28 16:49:53.410 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-09-28 16:49:53.433 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-28 16:49:53.770 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-28 16:49:54.459 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-28 16:49:54.855 [main] DEBUG c.xumblaubs.security.AuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+2025-09-28 16:49:54.903 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-28 16:49:55.911 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-28 16:49:56.039 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4a1ff607, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@195cc8bb, org.springframework.security.web.context.SecurityContextHolderFilter@6334cf1b, org.springframework.security.web.header.HeaderWriterFilter@4b4be42c, org.springframework.web.filter.CorsFilter@7b00f659, org.springframework.security.web.authentication.logout.LogoutFilter@13bf8a36, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f753a9e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f259691, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d8ec941, org.springframework.security.web.session.SessionManagementFilter@76a0e2af, org.springframework.security.web.access.ExceptionTranslationFilter@1a4f91ad, org.springframework.security.web.access.intercept.AuthorizationFilter@2178325d]
+2025-09-28 16:49:56.651 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+2025-09-28 16:49:56.704 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-28 16:49:56.717 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-09-28 16:49:56.725 [main] INFO  c.x.XumblaubsBackendApplication - Started XumblaubsBackendApplication in 5.203 seconds (process running for 5.438)
+2025-09-28 16:49:56.770 [main] INFO  c.x.config.DatabaseInitializer - 🚀 Iniciando verificação e criação das tabelas do banco de dados...
+2025-09-28 16:49:56.771 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Verificando conexão com o banco de dados...
+2025-09-28 16:49:56.777 [main] INFO  c.x.config.DatabaseInitializer - ✅ Conexão com banco estabelecida: Conexão OK
+2025-09-28 16:49:56.777 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Verificando criação das tabelas...
+2025-09-28 16:49:56.778 [main] INFO  c.x.config.DatabaseInitializer - ✅ Tabela 'clientes' criada com sucesso!
+2025-09-28 16:49:56.778 [main] INFO  c.x.config.DatabaseInitializer - 📊 Tabela 'clientes' contém 3 registros
+2025-09-28 16:49:56.780 [main] INFO  c.x.config.DatabaseInitializer - ✅ Tabela 'users' criada com sucesso!
+2025-09-28 16:49:56.783 [main] INFO  c.x.config.DatabaseInitializer - 📊 Tabela 'users' contém 2 registros
+2025-09-28 16:49:56.783 [main] INFO  c.x.config.DatabaseInitializer - 🔍 Listando entidades JPA mapeadas...
+2025-09-28 16:49:56.783 [main] INFO  c.x.config.DatabaseInitializer - 📋 Entidades JPA encontradas: 7
+2025-09-28 16:49:56.783 [main] INFO  c.x.config.DatabaseInitializer -   - User (tabela: User)
+2025-09-28 16:49:56.783 [main] INFO  c.x.config.DatabaseInitializer -   - Automovel (tabela: Automovel)
+2025-09-28 16:49:56.783 [main] INFO  c.x.config.DatabaseInitializer -   - Cliente (tabela: Cliente)
+2025-09-28 16:49:56.783 [main] INFO  c.x.config.DatabaseInitializer -   - ContratoCredito (tabela: ContratoCredito)
+2025-09-28 16:49:56.783 [main] INFO  c.x.config.DatabaseInitializer -   - Empregadora (tabela: Empregadora)
+2025-09-28 16:49:56.783 [main] INFO  c.x.config.DatabaseInitializer -   - PedidoAluguel (tabela: PedidoAluguel)
+2025-09-28 16:49:56.783 [main] INFO  c.x.config.DatabaseInitializer -   - Banco (tabela: Banco)
+2025-09-28 16:49:56.783 [main] INFO  c.x.config.DatabaseInitializer - ✅ Inicialização do banco de dados concluída com sucesso!
+2025-09-28 16:49:56.783 [main] INFO  c.xumblaubs.config.DataInitializer - 🚀 Iniciando criação de dados padrão...
+2025-09-28 16:49:56.861 [main] INFO  c.xumblaubs.config.DataInitializer - 👤 Usuário administrador já existe
+2025-09-28 16:49:56.863 [main] INFO  c.xumblaubs.config.DataInitializer - 👤 Usuário comum já existe
+2025-09-28 16:49:56.863 [main] INFO  c.xumblaubs.config.DataInitializer - ✅ Dados padrão criados com sucesso!
+2025-09-28 16:49:56.863 [main] INFO  c.x.config.ClienteDataInitializer - 🚀 Inicializando dados de clientes...
+2025-09-28 16:49:56.865 [main] INFO  c.x.config.ClienteDataInitializer - 👤 Cliente Lucas Jácome já existe
+2025-09-28 16:49:56.867 [main] INFO  c.x.config.ClienteDataInitializer - 👤 Cliente Victor Ferreira já existe
+2025-09-28 16:49:56.868 [main] INFO  c.x.config.ClienteDataInitializer - 👤 Cliente Arthur Henrique já existe
+2025-09-28 16:49:56.868 [main] INFO  c.x.config.ClienteDataInitializer - ✅ Inicialização de clientes concluída!
+2025-09-28 16:49:56.868 [main] INFO  c.x.config.AutomovelDataInitializer - 🚗 Iniciando criação de automóveis populares...
+2025-09-28 16:49:56.886 [main] INFO  c.x.config.AutomovelDataInitializer - 🚗 Automóveis já existem no banco de dados
+2025-09-28 16:49:56.886 [main] INFO  c.x.config.AutomovelDataInitializer - ✅ Automóveis populares criados com sucesso!
+2025-09-28 16:50:03.430 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-28 16:50:03.430 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-28 16:50:03.432 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-09-28 16:50:03.586 [http-nio-8080-exec-3] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 16:50:03.696 [http-nio-8080-exec-4] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 16:50:05.481 [http-nio-8080-exec-7] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 16:50:05.484 [http-nio-8080-exec-7] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 16:50:05.484 [http-nio-8080-exec-7] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 16:50:05.509 [http-nio-8080-exec-5] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 16:50:05.510 [http-nio-8080-exec-5] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 16:50:05.511 [http-nio-8080-exec-5] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 16:50:07.713 [http-nio-8080-exec-8] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: GET /api/pedidos/estatisticas
+2025-09-28 16:50:07.715 [http-nio-8080-exec-8] INFO  c.x.c.PedidoAluguelController - Obtendo estatísticas dos pedidos
+2025-09-28 16:50:07.729 [http-nio-8080-exec-2] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 16:50:07.730 [http-nio-8080-exec-2] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 16:50:07.731 [http-nio-8080-exec-2] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 16:50:07.740 [http-nio-8080-exec-6] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
+2025-09-28 16:50:07.741 [http-nio-8080-exec-6] INFO  c.x.c.PedidoAluguelController - Listando todos os pedidos de aluguel
+2025-09-28 16:50:07.741 [http-nio-8080-exec-6] INFO  c.x.service.PedidoAluguelService - Listando todos os pedidos de aluguel
+2025-09-28 16:50:07.755 [http-nio-8080-exec-7] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 16:50:07.771 [http-nio-8080-exec-5] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/automoveis
+2025-09-28 16:50:07.771 [http-nio-8080-exec-5] INFO  c.x.controller.AutomovelController - Listando todos os automóveis
+2025-09-28 16:50:07.772 [http-nio-8080-exec-5] INFO  c.xumblaubs.service.AutomovelService - Listando todos os automóveis
+2025-09-28 16:50:07.798 [http-nio-8080-exec-4] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/clientes
+2025-09-28 16:50:07.821 [http-nio-8080-exec-9] DEBUG c.xumblaubs.security.AuthTokenFilter - Skipping JWT processing for public endpoint: GET /api/pedidos/estatisticas
+2025-09-28 16:50:07.822 [http-nio-8080-exec-9] INFO  c.x.c.PedidoAluguelController - Obtendo estatísticas dos pedidos
+2025-09-28 16:50:07.823 [http-nio-8080-exec-3] DEBUG c.xumblaubs.security.AuthTokenFilter - Authentication set for user: admin@admin.com on endpoint: /api/pedidos
+2025-09-28 16:50:07.823 [http-nio-8080-exec-3] INFO  c.x.c.PedidoAluguelController - Listando todos os pedidos de aluguel
+2025-09-28 16:50:07.824 [http-nio-8080-exec-3] INFO  c.x.service.PedidoAluguelService - Listando todos os pedidos de aluguel
