@@ -9,6 +9,8 @@ export interface Cliente {
   ativo: boolean;
   createdAt: string;
   updatedAt: string;
+  empregadoras?: Empregadora[];
+  rendimentoTotal?: number;
 }
 
 export interface ClienteFormData {
@@ -20,3 +22,6 @@ export interface ClienteFormData {
   email: string;
   senha: string;
 }
+
+// Importar tipos necessários
+import { Empregadora } from './empregadora';

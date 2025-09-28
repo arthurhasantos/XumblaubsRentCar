@@ -1,0 +1,146 @@
+package com.xumblaubs.dto;
+
+import jakarta.validation.constraints.*;
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+public class EmpregadoraRequest {
+
+    @NotBlank(message = "Nome da empregadora é obrigatório")
+    @Size(max = 100, message = "Nome da empregadora deve ter no máximo 100 caracteres")
+    private String nome;
+
+    @NotNull(message = "Rendimento é obrigatório")
+    @DecimalMin(value = "0.01", message = "Rendimento deve ser maior que zero")
+    private BigDecimal rendimento;
+
+    @NotNull(message = "ID do cliente é obrigatório")
+    private Long clienteId;
+
+    @Size(max = 200, message = "Endereço deve ter no máximo 200 caracteres")
+    private String endereco;
+
+    @Size(max = 20, message = "Telefone deve ter no máximo 20 caracteres")
+    private String telefone;
+
+    @Email(message = "Email deve ter formato válido")
+    @Size(max = 100, message = "Email deve ter no máximo 100 caracteres")
+    private String email;
+
+    @NotBlank(message = "Senha é obrigatória")
+    @Size(min = 6, message = "Senha deve ter no mínimo 6 caracteres")
+    private String senha;
+
+    @Size(max = 20, message = "CNPJ deve ter no máximo 20 caracteres")
+    private String cnpj;
+
+    @Size(max = 100, message = "Cargo deve ter no máximo 100 caracteres")
+    private String cargo;
+
+    private LocalDateTime dataAdmissao;
+
+    // Construtores
+    public EmpregadoraRequest() {}
+
+    public EmpregadoraRequest(String nome, BigDecimal rendimento, Long clienteId) {
+        this.nome = nome;
+        this.rendimento = rendimento;
+        this.clienteId = clienteId;
+    }
+
+    // Getters e Setters
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public BigDecimal getRendimento() {
+        return rendimento;
+    }
+
+    public void setRendimento(BigDecimal rendimento) {
+        this.rendimento = rendimento;
+    }
+
+    public Long getClienteId() {
+        return clienteId;
+    }
+
+    public void setClienteId(Long clienteId) {
+        this.clienteId = clienteId;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
+    public String getCnpj() {
+        return cnpj;
+    }
+
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
+    }
+
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
+    public LocalDateTime getDataAdmissao() {
+        return dataAdmissao;
+    }
+
+    public void setDataAdmissao(LocalDateTime dataAdmissao) {
+        this.dataAdmissao = dataAdmissao;
+    }
+
+    @Override
+    public String toString() {
+        return "EmpregadoraRequest{" +
+                "nome='" + nome + '\'' +
+                ", rendimento=" + rendimento +
+                ", clienteId=" + clienteId +
+                ", endereco='" + endereco + '\'' +
+                ", telefone='" + telefone + '\'' +
+                ", email='" + email + '\'' +
+                ", cnpj='" + cnpj + '\'' +
+                ", cargo='" + cargo + '\'' +
+                ", dataAdmissao=" + dataAdmissao +
+                '}';
+    }
+}
