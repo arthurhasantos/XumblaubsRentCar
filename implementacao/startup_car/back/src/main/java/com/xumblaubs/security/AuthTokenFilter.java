@@ -5,6 +5,7 @@ import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import org.springframework.lang.NonNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,27 +29,33 @@ public class AuthTokenFilter extends OncePerRequestFilter {
     private static final Logger logger = LoggerFactory.getLogger(AuthTokenFilter.class);
     
     @Override
-    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, 
-                                    FilterChain filterChain) throws ServletException, IOException {
+    protected void doFilterInternal(@NonNull HttpServletRequest request, @NonNull HttpServletResponse response, @NonNull FilterChain filterChain)
+            throws ServletException, IOException {
+        
+        String requestURI = request.getRequestURI();
+        String method = request.getMethod();
+        
+        // Skip JWT processing for public endpoints
+        if (isPublicEndpoint(requestURI, method)) {
+            logger.debug("Skipping JWT processing for public endpoint: {} {}", method, requestURI);
+            filterChain.doFilter(request, response);
+            return;
+        }
+        
         try {
-            String requestURI = request.getRequestURI();
-            
-            // Skip JWT processing for public endpoints
-            if (isPublicEndpoint(requestURI)) {
-                filterChain.doFilter(request, response);
-                return;
-            }
-            
             String jwt = parseJwt(request);
             if (jwt != null && jwtUtils.validateJwtToken(jwt)) {
-                String username = jwtUtils.getUserNameFromJwtToken(jwt);
+                String email = jwtUtils.getEmailFromJwtToken(jwt);
                 
-                UserDetails userDetails = userDetailsService.loadUserByUsername(username);
+                UserDetails userDetails = userDetailsService.loadUserByUsername(email);
                 UsernamePasswordAuthenticationToken authentication = 
                     new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
                 authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
                 
                 SecurityContextHolder.getContext().setAuthentication(authentication);
+                logger.debug("Authentication set for user: {} on endpoint: {}", email, requestURI);
+            } else {
+                logger.debug("No valid JWT token found for endpoint: {}", requestURI);
             }
         } catch (Exception e) {
             logger.error("Cannot set user authentication: {}", e.getMessage());
@@ -57,10 +64,13 @@ public class AuthTokenFilter extends OncePerRequestFilter {
         filterChain.doFilter(request, response);
     }
     
-    private boolean isPublicEndpoint(String requestURI) {
+    private boolean isPublicEndpoint(String requestURI, String method) {
+        // Public endpoints that don't require authentication
         return requestURI.startsWith("/api/auth/") ||
                requestURI.startsWith("/api/test/") ||
-               requestURI.startsWith("/api/clientes") ||
+               requestURI.startsWith("/api/clientes/") ||
+               requestURI.startsWith("/api/automoveis/") ||
+               (requestURI.startsWith("/api/pedidos/") && "GET".equals(method)) ||
                requestURI.startsWith("/api/actuator/");
     }
     

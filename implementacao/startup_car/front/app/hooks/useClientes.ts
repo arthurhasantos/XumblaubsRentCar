@@ -29,7 +29,7 @@ export function useClientes() {
   const fetchClientes = async () => {
     try {
       setLoading(true);
-      const data = await api.get(`/api/clientes?incluirInativos=${showInativos}`);
+      const data = await api.get(`/clientes?incluirInativos=${showInativos}`);
       setClientes(data);
     } catch (error) {
       toast.error("Erro ao carregar clientes");
@@ -41,7 +41,7 @@ export function useClientes() {
   const searchClientes = async (nome: string) => {
     if (nome.trim()) {
       try {
-        const data = await api.get(`/api/clientes/buscar?nome=${encodeURIComponent(nome)}`);
+        const data = await api.get(`/clientes/buscar?nome=${encodeURIComponent(nome)}`);
         // Filtrar resultados baseado no checkbox "Mostrar inativos"
         if (!showInativos) {
           const clientesAtivos = data.filter((cliente: Cliente) => cliente.ativo);
@@ -60,10 +60,10 @@ export function useClientes() {
   const onSubmit = async (data: ClienteFormData) => {
     try {
       if (editingCliente) {
-        await api.put(`/api/clientes/${editingCliente.id}`, data);
+        await api.put(`/clientes/${editingCliente.id}`, data);
         toast.success("Cliente atualizado com sucesso!");
       } else {
-        await api.post("/api/clientes", data);
+        await api.post("/clientes", data);
         toast.success("Cliente criado com sucesso!");
       }
       
@@ -89,7 +89,7 @@ export function useClientes() {
   const handleDelete = async (id: number) => {
     if (confirm("Tem certeza que deseja desativar este cliente?")) {
       try {
-        await api.delete(`/api/clientes/${id}`);
+        await api.delete(`/clientes/${id}`);
         toast.success("Cliente desativado com sucesso!");
         fetchClientes();
       } catch (error) {
@@ -100,7 +100,7 @@ export function useClientes() {
 
   const handleActivate = async (id: number) => {
     try {
-      await api.put(`/api/clientes/${id}/ativar`, {});
+      await api.put(`/clientes/${id}/ativar`, {});
       toast.success("Cliente ativado com sucesso!");
       fetchClientes();
     } catch (error) {

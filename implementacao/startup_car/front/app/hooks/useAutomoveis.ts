@@ -29,15 +29,22 @@ export function useAutomoveis() {
   const fetchAutomoveis = async () => {
     try {
       setLoading(true);
-      const data = await api.get(`/api/automoveis`);
+      console.log("🔄 Iniciando fetch de automóveis...");
+      const data = await api.get(`/automoveis`);
+      console.log("✅ Dados recebidos:", data);
+      console.log("📊 Total de carros recebidos:", data.length);
+      
       // Filtrar baseado no checkbox "Mostrar inativos"
       if (!showInativos) {
         const automoveisAtivos = data.filter((automovel: Automovel) => automovel.ativo);
+        console.log("🔍 Carros ativos filtrados:", automoveisAtivos.length);
         setAutomoveis(automoveisAtivos);
       } else {
+        console.log("📋 Mostrando todos os carros");
         setAutomoveis(data);
       }
     } catch (error) {
+      console.error("❌ Erro ao carregar automóveis:", error);
       toast.error("Erro ao carregar automóveis");
     } finally {
       setLoading(false);
@@ -47,7 +54,7 @@ export function useAutomoveis() {
   const searchAutomoveis = async (termo: string) => {
     if (termo.trim()) {
       try {
-        const data = await api.get(`/api/automoveis/buscar?marca=${encodeURIComponent(termo)}`);
+        const data = await api.get(`/automoveis/buscar?marca=${encodeURIComponent(termo)}`);
         // Filtrar resultados baseado no checkbox "Mostrar inativos"
         if (!showInativos) {
           const automoveisAtivos = data.filter((automovel: Automovel) => automovel.ativo);
@@ -66,10 +73,10 @@ export function useAutomoveis() {
   const onSubmit = async (data: AutomovelRequest) => {
     try {
       if (editingAutomovel) {
-        await api.put(`/api/automoveis/${editingAutomovel.id}`, data);
+        await api.put(`/automoveis/${editingAutomovel.id}`, data);
         toast.success("Automóvel atualizado com sucesso!");
       } else {
-        await api.post("/api/automoveis", data);
+        await api.post("/automoveis", data);
         toast.success("Automóvel criado com sucesso!");
       }
       
@@ -99,7 +106,7 @@ export function useAutomoveis() {
   const handleDelete = async (id: number) => {
     if (window.confirm("Tem certeza que deseja deletar este automóvel?")) {
       try {
-        await api.delete(`/api/automoveis/${id}`);
+        await api.delete(`/automoveis/${id}`);
         toast.success("Automóvel deletado com sucesso!");
         fetchAutomoveis();
       } catch (error) {
@@ -111,10 +118,10 @@ export function useAutomoveis() {
   const handleActivate = async (id: number, ativo: boolean) => {
     try {
       if (ativo) {
-        await api.put(`/api/automoveis/${id}/desativar`);
+        await api.put(`/automoveis/${id}/desativar`);
         toast.success("Automóvel desativado com sucesso!");
       } else {
-        await api.put(`/api/automoveis/${id}/ativar`);
+        await api.put(`/automoveis/${id}/ativar`);
         toast.success("Automóvel ativado com sucesso!");
       }
       fetchAutomoveis();

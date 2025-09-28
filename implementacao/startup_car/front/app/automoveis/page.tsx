@@ -29,8 +29,7 @@ export default function AutomoveisPage() {
   } = useAutomoveis();
 
   return (
-    <ProtectedRoute requireAdmin={true}>
-      <div className="min-h-screen dark:bg-gray-dark relative z-10 overflow-hidden bg-white">
+    <div className="min-h-screen dark:bg-gray-dark relative z-10 overflow-hidden bg-white">
         {/* Conteúdo principal */}
         <div className="container mx-auto px-4 py-8 pt-40">
           <div className="mb-8">
@@ -96,6 +95,5 @@ export default function AutomoveisPage() {
         {/* Background decorativo */}
         <BackgroundDecoration />
       </div>
-    </ProtectedRoute>
   );
 }

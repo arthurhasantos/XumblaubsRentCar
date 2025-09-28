@@ -1,10 +1,15 @@
+D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\dto\PedidoAluguelRequest.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\config\AutomovelDataInitializer.java
+D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\config\ClienteDataInitializer.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\dto\AutomovelResponse.java
+D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\service\PedidoAluguelService.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\dto\ClienteRequest.java
+D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\repository\PedidoAluguelRepository.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\security\AuthEntryPointJwt.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\entity\Role.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\controller\ClienteController.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\entity\TipoProprietario.java
+D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\entity\PedidoAluguel.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\security\AuthTokenFilter.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\security\JwtUtils.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\dto\JwtResponse.java
@@ -12,7 +17,9 @@ D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\b
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\controller\AutomovelController.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\security\WebSecurityConfig.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\XumblaubsBackendApplication.java
+D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\dto\PedidoAluguelResponse.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\controller\AuthController.java
+D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\controller\PedidoAluguelController.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\dto\ClienteResponse.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\controller\TestController.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\repository\ClienteRepository.java
@@ -23,6 +30,7 @@ D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\b
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\entity\User.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\dto\AutomovelRequest.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\dto\LoginRequest.java
+D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\entity\StatusPedido.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\repository\UserRepository.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\config\DatabaseInitializer.java
 D:\Documentos\Faculdade\Periodo Atual\LDS\P2_sprint3\implementacao\startup_car\back\src\main\java\com\xumblaubs\service\UserDetailsServiceImpl.java
