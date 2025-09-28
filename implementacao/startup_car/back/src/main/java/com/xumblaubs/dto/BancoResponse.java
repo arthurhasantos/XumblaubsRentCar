@@ -13,6 +13,7 @@ public class BancoResponse {
     private String endereco;
     private String telefone;
     private String email;
+    private String senha;
     private Boolean ativo;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
@@ -28,6 +29,7 @@ public class BancoResponse {
         this.endereco = banco.getEndereco();
         this.telefone = banco.getTelefone();
         this.email = banco.getEmail();
+        this.senha = banco.getSenha();
         this.ativo = banco.getAtivo();
         this.createdAt = banco.getCreatedAt();
         this.updatedAt = banco.getUpdatedAt();
@@ -90,6 +92,13 @@ public class BancoResponse {
         this.email = email;
     }
 
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
 
     public Boolean getAtivo() {
         return ativo;

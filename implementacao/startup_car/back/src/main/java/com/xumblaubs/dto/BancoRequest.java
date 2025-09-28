@@ -27,6 +27,10 @@ public class BancoRequest {
     @Size(max = 100, message = "Email deve ter no máximo 100 caracteres")
     private String email;
 
+    @NotBlank(message = "Senha é obrigatória")
+    @Size(min = 6, message = "Senha deve ter no mínimo 6 caracteres")
+    private String senha;
+
 
     // Construtores
     public BancoRequest() {}
@@ -86,6 +90,13 @@ public class BancoRequest {
         this.email = email;
     }
 
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
 
     @Override
     public String toString() {

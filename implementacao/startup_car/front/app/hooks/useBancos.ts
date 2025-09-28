@@ -78,11 +78,10 @@ export function useBancos() {
     setValue("nome", banco.nome);
     setValue("codigo", banco.codigo);
     setValue("cnpj", banco.cnpj);
-    setValue("endereco", banco.endereco || "");
-    setValue("telefone", banco.telefone || "");
-    setValue("email", banco.email || "");
-    setValue("taxaJurosPadrao", banco.taxaJurosPadrao || 0);
-    setValue("limiteCreditoMaximo", banco.limiteCreditoMaximo || 0);
+        setValue("endereco", banco.endereco || "");
+        setValue("telefone", banco.telefone || "");
+        setValue("email", banco.email || "");
+        setValue("senha", banco.senha || "");
     openModal();
   };
 

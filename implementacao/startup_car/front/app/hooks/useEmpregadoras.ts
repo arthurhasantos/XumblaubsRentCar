@@ -82,6 +82,7 @@ export function useEmpregadoras() {
     setValue("cnpj", empregadora.cnpj || "");
     setValue("endereco", empregadora.endereco || "");
     setValue("email", empregadora.email || "");
+    setValue("senha", empregadora.senha || "");
     setValue("telefone", empregadora.telefone || "");
     setValue("dataAdmissao", empregadora.dataAdmissao ? empregadora.dataAdmissao.split('T')[0] : "");
     openModal();

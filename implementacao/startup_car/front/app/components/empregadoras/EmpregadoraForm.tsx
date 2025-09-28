@@ -106,6 +106,18 @@ export default function EmpregadoraForm({ editingEmpregadora, onSubmit, onClose 
 
             <div>
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                Senha
+              </label>
+              <input
+                {...register("senha")}
+                type="password"
+                className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:text-white"
+                placeholder="Senha do usuário"
+              />
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                 Telefone
               </label>
               <input

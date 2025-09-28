@@ -30,13 +30,6 @@ public interface BancoRepository extends JpaRepository<Banco, Long> {
     // Verificar se CNPJ já existe
     boolean existsByCnpjAndAtivoTrue(String cnpj);
 
-    // Buscar bancos com limite de crédito disponível
-    @Query("SELECT b FROM Banco b WHERE b.limiteCreditoMaximo IS NULL OR b.limiteCreditoMaximo > 0 AND b.ativo = true ORDER BY b.nome ASC")
-    List<Banco> findBancosComLimiteDisponivel();
-
-    // Buscar bancos por taxa de juros (range)
-    @Query("SELECT b FROM Banco b WHERE b.taxaJurosPadrao BETWEEN :taxaMin AND :taxaMax AND b.ativo = true ORDER BY b.taxaJurosPadrao ASC")
-    List<Banco> findByTaxaJurosBetween(@Param("taxaMin") Double taxaMin, @Param("taxaMax") Double taxaMax);
 
     // Contar contratos de crédito por banco
     @Query("SELECT COUNT(c) FROM ContratoCredito c WHERE c.banco.id = :bancoId AND c.ativo = true")

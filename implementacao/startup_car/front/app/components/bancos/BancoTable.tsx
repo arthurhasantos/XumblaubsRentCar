@@ -33,10 +33,7 @@ export default function BancoTable({
               CNPJ
             </th>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
-              Taxa de Juros
-            </th>
-            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
-              Limite Máximo
+              Email
             </th>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
               Status
@@ -64,10 +61,7 @@ export default function BancoTable({
                 {banco.cnpj}
               </td>
               <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">
-                {banco.taxaJurosPadrao ? `${(banco.taxaJurosPadrao * 100).toFixed(2)}%` : 'N/A'}
-              </td>
-              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">
-                {banco.limiteCreditoMaximo ? `R$ ${banco.limiteCreditoMaximo.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}` : 'N/A'}
+                {banco.email || '-'}
               </td>
               <td className="px-6 py-4 whitespace-nowrap">
                 <span className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${

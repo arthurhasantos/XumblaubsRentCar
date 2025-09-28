@@ -1,59 +1,84 @@
 package com.xumblaubs.config;
 
-import com.xumblaubs.entity.Banco;
+import com.xumblaubs.dto.BancoRequest;
+import com.xumblaubs.service.BancoService;
 import com.xumblaubs.repository.BancoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 
 @Component
+@Order(1)
 public class BancoDataInitializer implements CommandLineRunner {
+    
+    public BancoDataInitializer() {
+        System.out.println("🚀 BancoDataInitializer CONSTRUTOR executado!");
+    }
 
     @Autowired
     private BancoRepository bancoRepository;
+    
+    @Autowired
+    private BancoService bancoService;
 
     @Override
     public void run(String... args) throws Exception {
+        System.out.println("🔍 BancoDataInitializer iniciado...");
+        System.out.println("📊 Total de bancos existentes: " + bancoRepository.count());
+        
         // Verificar se já existem bancos cadastrados
         if (bancoRepository.count() == 0) {
             System.out.println("🏦 Inicializando dados dos bancos...");
 
-            // Banco Inter
-            Banco bancoInter = new Banco();
-            bancoInter.setNome("Banco Inter");
-            bancoInter.setCodigo("077");
-            bancoInter.setCnpj("00.416.968/0001-01");
-            bancoInter.setEndereco("Av. Barbacena, 1219 - Santo Agostinho, Belo Horizonte - MG");
-            bancoInter.setEmail("contato@bancointer.com.br");
-            bancoInter.setTelefone("(31) 3003-4077");
-            bancoInter.setAtivo(true);
-            bancoRepository.save(bancoInter);
-            System.out.println("✅ Banco Inter criado com sucesso!");
+            // Banco Inter - versão simplificada
+            try {
+                BancoRequest interRequest = new BancoRequest();
+                interRequest.setNome("Banco Inter");
+                interRequest.setCodigo("077");
+                interRequest.setCnpj("00.416.968/0001-01");
+                interRequest.setEmail("admin@bancointer.com.br");
+                interRequest.setSenha("123456");
+                
+                bancoService.criarBanco(interRequest);
+                System.out.println("✅ Banco Inter criado com sucesso!");
+            } catch (Exception e) {
+                System.err.println("❌ Erro ao criar Banco Inter: " + e.getMessage());
+                e.printStackTrace();
+            }
 
-            // Banco Itaú
-            Banco bancoItau = new Banco();
-            bancoItau.setNome("Banco Itaú");
-            bancoItau.setCodigo("341");
-            bancoItau.setCnpj("60.701.190/0001-04");
-            bancoItau.setEndereco("Av. Paulista, 1000 - Bela Vista, São Paulo - SP");
-            bancoItau.setEmail("contato@itau.com.br");
-            bancoItau.setTelefone("(11) 3003-3030");
-            bancoItau.setAtivo(true);
-            bancoRepository.save(bancoItau);
-            System.out.println("✅ Banco Itaú criado com sucesso!");
+            // Banco Itaú - versão simplificada
+            try {
+                BancoRequest itauRequest = new BancoRequest();
+                itauRequest.setNome("Banco Itaú");
+                itauRequest.setCodigo("341");
+                itauRequest.setCnpj("60.701.190/0001-04");
+                itauRequest.setEmail("admin@itau.com.br");
+                itauRequest.setSenha("123456");
+                
+                bancoService.criarBanco(itauRequest);
+                System.out.println("✅ Banco Itaú criado com sucesso!");
+            } catch (Exception e) {
+                System.err.println("❌ Erro ao criar Banco Itaú: " + e.getMessage());
+                e.printStackTrace();
+            }
 
-            // Banco do Brasil
-            Banco bancoBdB = new Banco();
-            bancoBdB.setNome("Banco do Brasil");
-            bancoBdB.setCodigo("001");
-            bancoBdB.setCnpj("00.000.000/0001-91");
-            bancoBdB.setEndereco("SBS Quadra 1, Bloco A - Brasília - DF");
-            bancoBdB.setEmail("contato@bb.com.br");
-            bancoBdB.setTelefone("(61) 3003-0001");
-            bancoBdB.setAtivo(true);
-            bancoRepository.save(bancoBdB);
-            System.out.println("✅ Banco do Brasil criado com sucesso!");
+            // Banco do Brasil - versão simplificada
+            try {
+                BancoRequest bbRequest = new BancoRequest();
+                bbRequest.setNome("Banco do Brasil");
+                bbRequest.setCodigo("001");
+                bbRequest.setCnpj("00.000.000/0001-91");
+                bbRequest.setEmail("admin@bb.com.br");
+                bbRequest.setSenha("123456");
+                
+                bancoService.criarBanco(bbRequest);
+                System.out.println("✅ Banco do Brasil criado com sucesso!");
+            } catch (Exception e) {
+                System.err.println("❌ Erro ao criar Banco do Brasil: " + e.getMessage());
+                e.printStackTrace();
+            }
 
             System.out.println("🎉 Todos os bancos foram inicializados com sucesso!");
         } else {

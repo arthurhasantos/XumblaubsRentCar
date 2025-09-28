@@ -12,6 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.math.BigDecimal;
+
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -110,11 +112,7 @@ public class ContratoCreditoService {
             throw new RuntimeException("Cliente já possui um contrato de crédito ativo");
         }
 
-        // Verificar limite de crédito do banco
-        if (banco.getLimiteCreditoMaximo() != null && 
-            request.getValorTotal().compareTo(banco.getLimiteCreditoMaximo()) > 0) {
-            throw new RuntimeException("Valor do contrato excede o limite de crédito do banco");
-        }
+        // Limite de crédito removido - validação não aplicável
 
         // Criar contrato
         ContratoCredito contrato = new ContratoCredito();
@@ -124,7 +122,7 @@ public class ContratoCreditoService {
         contrato.setBanco(banco);
         contrato.setCliente(cliente);
         contrato.setStatus(StatusContratoCredito.PENDENTE);
-        contrato.setTaxaJuros(request.getTaxaJuros() != null ? request.getTaxaJuros() : banco.getTaxaJurosPadrao());
+        contrato.setTaxaJuros(request.getTaxaJuros() != null ? request.getTaxaJuros() : new BigDecimal("0.03")); // Taxa padrão 3%
         contrato.setObservacoes(request.getObservacoes());
         contrato.setAtivo(true);
 
@@ -169,7 +167,7 @@ public class ContratoCreditoService {
         contrato.setPrazoMeses(request.getPrazoMeses());
         contrato.setBanco(banco);
         contrato.setCliente(cliente);
-        contrato.setTaxaJuros(request.getTaxaJuros() != null ? request.getTaxaJuros() : banco.getTaxaJurosPadrao());
+        contrato.setTaxaJuros(request.getTaxaJuros() != null ? request.getTaxaJuros() : new BigDecimal("0.03")); // Taxa padrão 3%
         contrato.setObservacoes(request.getObservacoes());
 
         // Recalcular valor da parcela

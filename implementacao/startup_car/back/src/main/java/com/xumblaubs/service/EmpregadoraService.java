@@ -4,11 +4,15 @@ import com.xumblaubs.dto.EmpregadoraRequest;
 import com.xumblaubs.dto.EmpregadoraResponse;
 import com.xumblaubs.entity.Empregadora;
 import com.xumblaubs.entity.Cliente;
+import com.xumblaubs.entity.User;
+import com.xumblaubs.entity.Role;
 import com.xumblaubs.repository.EmpregadoraRepository;
 import com.xumblaubs.repository.ClienteRepository;
+import com.xumblaubs.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -28,6 +32,12 @@ public class EmpregadoraService {
 
     @Autowired
     private ClienteRepository clienteRepository;
+
+    @Autowired
+    private UserRepository userRepository;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     // Listar todas as empregadoras
     @Transactional(readOnly = true)
@@ -93,6 +103,7 @@ public class EmpregadoraService {
         empregadora.setEndereco(request.getEndereco());
         empregadora.setTelefone(request.getTelefone());
         empregadora.setEmail(request.getEmail());
+        empregadora.setSenha(passwordEncoder.encode(request.getSenha()));
         empregadora.setCnpj(request.getCnpj());
         empregadora.setCargo(request.getCargo());
         empregadora.setDataAdmissao(request.getDataAdmissao());
@@ -101,6 +112,16 @@ public class EmpregadoraService {
         // Salvar empregadora
         empregadora = empregadoraRepository.save(empregadora);
         logger.info("Empregadora criada com sucesso: {}", empregadora.getId());
+
+        // Criar usuário para a empregadora
+        User user = new User();
+        user.setName(request.getNome());
+        user.setEmail(request.getEmail());
+        user.setPassword(passwordEncoder.encode(request.getSenha()));
+        user.setRole(Role.USER); // Role de usuário para empregadoras
+        user.setEnabled(true);
+        userRepository.save(user);
+        logger.info("Usuário criado para a empregadora: {}", user.getEmail());
 
         return new EmpregadoraResponse(empregadora);
     }
@@ -127,6 +148,7 @@ public class EmpregadoraService {
         empregadora.setEndereco(request.getEndereco());
         empregadora.setTelefone(request.getTelefone());
         empregadora.setEmail(request.getEmail());
+        empregadora.setSenha(passwordEncoder.encode(request.getSenha()));
         empregadora.setCnpj(request.getCnpj());
         empregadora.setCargo(request.getCargo());
         empregadora.setDataAdmissao(request.getDataAdmissao());

@@ -3,10 +3,14 @@ package com.xumblaubs.service;
 import com.xumblaubs.dto.BancoRequest;
 import com.xumblaubs.dto.BancoResponse;
 import com.xumblaubs.entity.Banco;
+import com.xumblaubs.entity.User;
+import com.xumblaubs.entity.Role;
 import com.xumblaubs.repository.BancoRepository;
+import com.xumblaubs.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -22,6 +26,12 @@ public class BancoService {
 
     @Autowired
     private BancoRepository bancoRepository;
+
+    @Autowired
+    private UserRepository userRepository;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     // Listar todos os bancos
     @Transactional(readOnly = true)
@@ -82,13 +92,22 @@ public class BancoService {
         banco.setEndereco(request.getEndereco());
         banco.setTelefone(request.getTelefone());
         banco.setEmail(request.getEmail());
-        banco.setTaxaJurosPadrao(request.getTaxaJurosPadrao());
-        banco.setLimiteCreditoMaximo(request.getLimiteCreditoMaximo());
+        banco.setSenha(passwordEncoder.encode(request.getSenha()));
         banco.setAtivo(true);
 
         // Salvar banco
         banco = bancoRepository.save(banco);
         logger.info("Banco criado com sucesso: {}", banco.getId());
+
+        // Criar usuário para o banco
+        User user = new User();
+        user.setName(request.getNome());
+        user.setEmail(request.getEmail());
+        user.setPassword(passwordEncoder.encode(request.getSenha()));
+        user.setRole(Role.ADMIN); // Role de admin para bancos
+        user.setEnabled(true);
+        userRepository.save(user);
+        logger.info("Usuário criado para o banco: {}", user.getEmail());
 
         return new BancoResponse(banco);
     }
@@ -123,8 +142,7 @@ public class BancoService {
         banco.setEndereco(request.getEndereco());
         banco.setTelefone(request.getTelefone());
         banco.setEmail(request.getEmail());
-        banco.setTaxaJurosPadrao(request.getTaxaJurosPadrao());
-        banco.setLimiteCreditoMaximo(request.getLimiteCreditoMaximo());
+        banco.setSenha(passwordEncoder.encode(request.getSenha()));
 
         // Salvar alterações
         banco = bancoRepository.save(banco);
@@ -165,25 +183,6 @@ public class BancoService {
         return new BancoResponse(banco);
     }
 
-    // Buscar bancos com limite disponível
-    @Transactional(readOnly = true)
-    public List<BancoResponse> buscarBancosComLimiteDisponivel() {
-        logger.info("Buscando bancos com limite de crédito disponível");
-        List<Banco> bancos = bancoRepository.findBancosComLimiteDisponivel();
-        return bancos.stream()
-                .map(BancoResponse::new)
-                .collect(Collectors.toList());
-    }
-
-    // Buscar bancos por taxa de juros
-    @Transactional(readOnly = true)
-    public List<BancoResponse> buscarPorTaxaJuros(Double taxaMin, Double taxaMax) {
-        logger.info("Buscando bancos por taxa de juros entre {} e {}", taxaMin, taxaMax);
-        List<Banco> bancos = bancoRepository.findByTaxaJurosBetween(taxaMin, taxaMax);
-        return bancos.stream()
-                .map(BancoResponse::new)
-                .collect(Collectors.toList());
-    }
 
     // Buscar bancos com mais contratos
     @Transactional(readOnly = true)

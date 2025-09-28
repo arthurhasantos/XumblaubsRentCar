@@ -6,8 +6,7 @@ export interface Banco {
   endereco?: string;
   telefone?: string;
   email?: string;
-  taxaJurosPadrao?: number;
-  limiteCreditoMaximo?: number;
+  senha?: string;
   ativo: boolean;
   createdAt: string;
   updatedAt: string;
@@ -20,6 +19,5 @@ export interface BancoFormData {
   endereco?: string;
   telefone?: string;
   email?: string;
-  taxaJurosPadrao?: number;
-  limiteCreditoMaximo?: number;
+  senha?: string;
 }

@@ -47,6 +47,10 @@ public class Banco {
     @Column(name = "email")
     private String email;
 
+    @NotBlank(message = "Senha é obrigatória")
+    @Size(min = 6, message = "Senha deve ter no mínimo 6 caracteres")
+    @Column(name = "senha", nullable = false)
+    private String senha;
 
     @Column(name = "ativo", nullable = false)
     private Boolean ativo = true;
@@ -130,6 +134,13 @@ public class Banco {
         this.email = email;
     }
 
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
 
     public Boolean getAtivo() {
         return ativo;
@@ -172,7 +183,7 @@ public class Banco {
         contrato.setPrazoMeses(prazoMeses);
         contrato.setBanco(this);
         contrato.setCliente(cliente);
-        contrato.setTaxaJuros(new BigDecimal("0.03")); // Taxa padrão de 3%
+        // Taxa de juros será definida externamente
         contrato.setStatus(StatusContratoCredito.PENDENTE);
         contrato.calcularValorParcela();
         

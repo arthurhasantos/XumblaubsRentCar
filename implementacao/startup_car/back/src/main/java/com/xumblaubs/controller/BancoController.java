@@ -160,33 +160,6 @@ public class BancoController {
         }
     }
 
-    // Buscar bancos com limite disponível
-    @GetMapping("/limite-disponivel")
-    public ResponseEntity<List<BancoResponse>> buscarComLimiteDisponivel() {
-        logger.info("Buscando bancos com limite de crédito disponível");
-        try {
-            List<BancoResponse> bancos = bancoService.buscarBancosComLimiteDisponivel();
-            return ResponseEntity.ok(bancos);
-        } catch (Exception e) {
-            logger.error("Erro ao buscar bancos com limite disponível: {}", e.getMessage());
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
-        }
-    }
-
-    // Buscar bancos por taxa de juros
-    @GetMapping("/taxa-juros")
-    public ResponseEntity<List<BancoResponse>> buscarPorTaxaJuros(
-            @RequestParam Double taxaMin, 
-            @RequestParam Double taxaMax) {
-        logger.info("Buscando bancos por taxa de juros entre {} e {}", taxaMin, taxaMax);
-        try {
-            List<BancoResponse> bancos = bancoService.buscarPorTaxaJuros(taxaMin, taxaMax);
-            return ResponseEntity.ok(bancos);
-        } catch (Exception e) {
-            logger.error("Erro ao buscar bancos por taxa de juros: {}", e.getMessage());
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
-        }
-    }
 
     // Buscar bancos com mais contratos
     @GetMapping("/mais-contratos")

@@ -91,32 +91,16 @@ export default function BancoForm({ editingBanco, onSubmit, onClose }: BancoForm
 
             <div>
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                Taxa de Juros Padrão (%)
+                Senha
               </label>
               <input
-                {...register("taxaJurosPadrao", { valueAsNumber: true })}
-                type="number"
-                step="0.01"
-                min="0"
-                max="100"
+                {...register("senha")}
+                type="password"
                 className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:text-white"
-                placeholder="0.00"
+                placeholder="Senha do usuário"
               />
             </div>
 
-            <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                Limite Máximo de Crédito
-              </label>
-              <input
-                {...register("limiteCreditoMaximo", { valueAsNumber: true })}
-                type="number"
-                step="0.01"
-                min="0"
-                className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:text-white"
-                placeholder="0.00"
-              />
-            </div>
           </div>
 
           <div>

@@ -3,6 +3,7 @@ com\xumblaubs\repository\ClienteRepository.class
 com\xumblaubs\service\BancoService.class
 com\xumblaubs\dto\PedidoAluguelResponse.class
 com\xumblaubs\config\JpaEventListener.class
+com\xumblaubs\config\EmpregadoraDataInitializer.class
 com\xumblaubs\service\ClienteService.class
 com\xumblaubs\dto\EmpregadoraResponse.class
 com\xumblaubs\dto\BancoResponse.class
@@ -41,6 +42,7 @@ com\xumblaubs\config\ClienteDataInitializer.class
 com\xumblaubs\repository\AutomovelRepository.class
 com\xumblaubs\security\AuthTokenFilter.class
 com\xumblaubs\dto\ClienteRequest.class
+com\xumblaubs\config\BancoDataInitializer.class
 com\xumblaubs\service\EmpregadoraService.class
 com\xumblaubs\dto\MessageResponse.class
 com\xumblaubs\dto\PedidoAluguelRequest.class
@@ -59,3 +61,4 @@ com\xumblaubs\entity\StatusPedido.class
 com\xumblaubs\security\AuthEntryPointJwt.class
 com\xumblaubs\config\DatabaseInitializer.class
 com\xumblaubs\entity\Empregadora.class
+com\xumblaubs\config\TestDataInitializer.class

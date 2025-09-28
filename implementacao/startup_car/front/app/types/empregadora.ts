@@ -7,6 +7,7 @@ export interface Empregadora {
   endereco?: string;
   telefone?: string;
   email?: string;
+  senha?: string;
   cnpj?: string;
   cargo?: string;
   dataAdmissao?: string;
@@ -22,6 +23,7 @@ export interface EmpregadoraFormData {
   endereco?: string;
   telefone?: string;
   email?: string;
+  senha?: string;
   cnpj?: string;
   cargo?: string;
   dataAdmissao?: string;
