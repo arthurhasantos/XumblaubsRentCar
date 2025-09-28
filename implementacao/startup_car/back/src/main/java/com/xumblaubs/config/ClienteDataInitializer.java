@@ -33,6 +33,8 @@ public class ClienteDataInitializer implements CommandLineRunner {
             lucas.setNome("Lucas Jácome");
             lucas.setEndereco("Rua das Flores, 123 - Centro, São Paulo - SP");
             lucas.setProfissao("Desenvolvedor de Software");
+            lucas.setEmail("lucas@exemplo.com");
+            lucas.setSenha("$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVEFDi"); // senha: 123456
             lucas.setAtivo(true);
             
             clienteRepository.save(lucas);
@@ -49,6 +51,8 @@ public class ClienteDataInitializer implements CommandLineRunner {
             victor.setNome("Victor Ferreira");
             victor.setEndereco("Av. Paulista, 456 - Bela Vista, São Paulo - SP");
             victor.setProfissao("Analista de Sistemas");
+            victor.setEmail("victor@exemplo.com");
+            victor.setSenha("$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVEFDi"); // senha: 123456
             victor.setAtivo(true);
             
             clienteRepository.save(victor);
@@ -65,6 +69,8 @@ public class ClienteDataInitializer implements CommandLineRunner {
             arthur.setNome("Arthur Henrique");
             arthur.setEndereco("Rua Augusta, 789 - Consolação, São Paulo - SP");
             arthur.setProfissao("Engenheiro de Software");
+            arthur.setEmail("arthur@exemplo.com");
+            arthur.setSenha("$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVEFDi"); // senha: 123456
             arthur.setAtivo(true);
             
             clienteRepository.save(arthur);

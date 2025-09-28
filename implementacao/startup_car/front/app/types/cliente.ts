@@ -5,6 +5,7 @@ export interface Cliente {
   nome: string;
   endereco: string;
   profissao: string;
+  email: string;
   ativo: boolean;
   createdAt: string;
   updatedAt: string;
@@ -16,4 +17,6 @@ export interface ClienteFormData {
   nome: string;
   endereco: string;
   profissao: string;
+  email: string;
+  senha: string;
 }

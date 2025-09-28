@@ -83,6 +83,8 @@ export function useClientes() {
     setValue("nome", cliente.nome);
     setValue("endereco", cliente.endereco);
     setValue("profissao", cliente.profissao);
+    setValue("email", cliente.email);
+    setValue("senha", ""); // Não mostrar senha atual por segurança
     setShowModal(true);
   };
 

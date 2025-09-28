@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
@@ -143,12 +142,6 @@ const SigninPage = () => {
                     </button>
                   </div>
                 </form>
-                <p className="text-center text-base font-medium text-body-color">
-                  Não tem uma conta?{" "}
-                  <Link href="/signup" className="text-primary hover:underline">
-                    Criar Conta
-                  </Link>
-                </p>
               </div>
             </div>
           </div>

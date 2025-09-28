@@ -39,16 +39,16 @@ public class AutomovelDataInitializer implements CommandLineRunner {
         }
 
         // 10 Carros populares brasileiros
-        createCar("MAT001", 2023, "Volkswagen", "Golf", "ABC1234", TipoProprietario.EMPRESA, "Empresa Aluguel Car");
-        createCar("MAT002", 2022, "Toyota", "Corolla", "DEF5678", TipoProprietario.EMPRESA, "Empresa Aluguel Car");
-        createCar("MAT003", 2023, "Honda", "Civic", "GHI9012", TipoProprietario.EMPRESA, "Empresa Aluguel Car");
-        createCar("MAT004", 2022, "Chevrolet", "Onix", "JKL3456", TipoProprietario.EMPRESA, "Empresa Aluguel Car");
-        createCar("MAT005", 2023, "Fiat", "Argo", "MNO7890", TipoProprietario.EMPRESA, "Empresa Aluguel Car");
-        createCar("MAT006", 2022, "BMW", "320i", "PQR1234", TipoProprietario.EMPRESA, "Empresa Aluguel Car");
-        createCar("MAT007", 2023, "Mercedes-Benz", "C200", "STU5678", TipoProprietario.EMPRESA, "Empresa Aluguel Car");
-        createCar("MAT008", 2022, "Audi", "A4", "VWX9012", TipoProprietario.EMPRESA, "Empresa Aluguel Car");
-        createCar("MAT009", 2023, "Toyota", "RAV4", "YZA3456", TipoProprietario.EMPRESA, "Empresa Aluguel Car");
-        createCar("MAT010", 2022, "Honda", "CR-V", "BCD7890", TipoProprietario.EMPRESA, "Empresa Aluguel Car");
+        createCar("MAT001", 2023, "Volkswagen", "Golf", "ABC1234", TipoProprietario.EMPRESA, "Localiza");
+        createCar("MAT002", 2022, "Toyota", "Corolla", "DEF5678", TipoProprietario.EMPRESA, "Unidas");
+        createCar("MAT003", 2023, "Honda", "Civic", "GHI9012", TipoProprietario.EMPRESA, "Localiza");
+        createCar("MAT004", 2022, "Chevrolet", "Onix", "JKL3456", TipoProprietario.EMPRESA, "Localiza");
+        createCar("MAT005", 2023, "Fiat", "Argo", "MNO7890", TipoProprietario.EMPRESA, "Localiza");
+        createCar("MAT006", 2022, "BMW", "320i", "PQR1234", TipoProprietario.EMPRESA, "Unidas");
+        createCar("MAT007", 2023, "Mercedes-Benz", "C200", "STU5678", TipoProprietario.EMPRESA, "Unidas");
+        createCar("MAT008", 2022, "Audi", "A4", "VWX9012", TipoProprietario.EMPRESA, "Unidas");
+        createCar("MAT009", 2023, "Toyota", "RAV4", "YZA3456", TipoProprietario.EMPRESA, "Localiza");
+        createCar("MAT010", 2022, "Honda", "CR-V", "BCD7890", TipoProprietario.EMPRESA, "Localiza");
         
         logger.info("🚗 {} automóveis populares criados", 10);
     }

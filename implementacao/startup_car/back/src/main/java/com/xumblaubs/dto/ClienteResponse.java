@@ -12,6 +12,7 @@ public class ClienteResponse {
     private String nome;
     private String endereco;
     private String profissao;
+    private String email;
     private Boolean ativo;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
@@ -26,6 +27,7 @@ public class ClienteResponse {
         this.nome = cliente.getNome();
         this.endereco = cliente.getEndereco();
         this.profissao = cliente.getProfissao();
+        this.email = cliente.getEmail();
         this.ativo = cliente.getAtivo();
         this.createdAt = cliente.getCreatedAt();
         this.updatedAt = cliente.getUpdatedAt();
@@ -78,6 +80,14 @@ public class ClienteResponse {
     
     public void setProfissao(String profissao) {
         this.profissao = profissao;
+    }
+    
+    public String getEmail() {
+        return email;
+    }
+    
+    public void setEmail(String email) {
+        this.email = email;
     }
     
     public Boolean getAtivo() {

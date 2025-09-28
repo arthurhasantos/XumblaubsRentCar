@@ -3,7 +3,11 @@ package com.xumblaubs.service;
 import com.xumblaubs.dto.ClienteRequest;
 import com.xumblaubs.dto.ClienteResponse;
 import com.xumblaubs.entity.Cliente;
+import com.xumblaubs.entity.User;
+import com.xumblaubs.entity.Role;
 import com.xumblaubs.repository.ClienteRepository;
+import com.xumblaubs.repository.UserRepository;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -19,6 +23,12 @@ public class ClienteService {
     @Autowired
     private ClienteRepository clienteRepository;
     
+    @Autowired
+    private UserRepository userRepository;
+    
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+    
     public List<ClienteResponse> findAll() {
         return clienteRepository.findAll().stream()
                 .map(ClienteResponse::new)
@@ -30,6 +40,7 @@ public class ClienteService {
                 .map(ClienteResponse::new)
                 .collect(Collectors.toList());
     }
+    
     
     public Optional<ClienteResponse> findById(Long id) {
         return clienteRepository.findById(id)
@@ -63,15 +74,34 @@ public class ClienteService {
             throw new RuntimeException("RG já cadastrado: " + request.getRg());
         }
         
+        // Verificar se email já existe
+        if (userRepository.existsByEmail(request.getEmail())) {
+            throw new RuntimeException("Email já cadastrado: " + request.getEmail());
+        }
+        
+        // Criar cliente
         Cliente cliente = new Cliente();
         cliente.setRg(request.getRg());
         cliente.setCpf(request.getCpf());
         cliente.setNome(request.getNome());
         cliente.setEndereco(request.getEndereco());
         cliente.setProfissao(request.getProfissao());
+        cliente.setEmail(request.getEmail());
+        cliente.setSenha(passwordEncoder.encode(request.getSenha()));
         cliente.setAtivo(true);
         
         Cliente savedCliente = clienteRepository.save(cliente);
+        
+        // Criar usuário correspondente
+        User user = new User();
+        user.setName(request.getNome());
+        user.setEmail(request.getEmail());
+        user.setPassword(passwordEncoder.encode(request.getSenha()));
+        user.setRole(Role.USER);
+        user.setEnabled(true);
+        
+        userRepository.save(user);
+        
         return new ClienteResponse(savedCliente);
     }
     
@@ -90,13 +120,30 @@ public class ClienteService {
                         throw new RuntimeException("RG já cadastrado: " + request.getRg());
                     }
                     
+                    // Verificar se email já existe em outro usuário
+                    if (!cliente.getEmail().equals(request.getEmail()) && 
+                        userRepository.existsByEmail(request.getEmail())) {
+                        throw new RuntimeException("Email já cadastrado: " + request.getEmail());
+                    }
+                    
                     cliente.setRg(request.getRg());
                     cliente.setCpf(request.getCpf());
                     cliente.setNome(request.getNome());
                     cliente.setEndereco(request.getEndereco());
                     cliente.setProfissao(request.getProfissao());
+                    cliente.setEmail(request.getEmail());
+                    cliente.setSenha(passwordEncoder.encode(request.getSenha()));
                     
                     Cliente updatedCliente = clienteRepository.save(cliente);
+                    
+                    // Atualizar usuário correspondente
+                    userRepository.findByEmail(cliente.getEmail()).ifPresent(user -> {
+                        user.setName(request.getNome());
+                        user.setEmail(request.getEmail());
+                        user.setPassword(passwordEncoder.encode(request.getSenha()));
+                        userRepository.save(user);
+                    });
+                    
                     return new ClienteResponse(updatedCliente);
                 });
     }
@@ -128,4 +175,5 @@ public class ClienteService {
                 })
                 .orElse(false);
     }
+    
 }

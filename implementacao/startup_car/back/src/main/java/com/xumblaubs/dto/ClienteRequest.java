@@ -27,15 +27,26 @@ public class ClienteRequest {
     @Size(max = 100, message = "Profissão deve ter no máximo 100 caracteres")
     private String profissao;
     
+    @NotBlank(message = "Email é obrigatório")
+    @Size(max = 50, message = "Email deve ter no máximo 50 caracteres")
+    @Email(message = "Email deve ter formato válido")
+    private String email;
+    
+    @NotBlank(message = "Senha é obrigatória")
+    @Size(min = 6, max = 120, message = "Senha deve ter entre 6 e 120 caracteres")
+    private String senha;
+    
     // Constructors
     public ClienteRequest() {}
     
-    public ClienteRequest(String rg, String cpf, String nome, String endereco, String profissao) {
+    public ClienteRequest(String rg, String cpf, String nome, String endereco, String profissao, String email, String senha) {
         this.rg = rg;
         this.cpf = cpf;
         this.nome = nome;
         this.endereco = endereco;
         this.profissao = profissao;
+        this.email = email;
+        this.senha = senha;
     }
     
     // Getters and Setters
@@ -77,5 +88,21 @@ public class ClienteRequest {
     
     public void setProfissao(String profissao) {
         this.profissao = profissao;
+    }
+    
+    public String getEmail() {
+        return email;
+    }
+    
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    
+    public String getSenha() {
+        return senha;
+    }
+    
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 }

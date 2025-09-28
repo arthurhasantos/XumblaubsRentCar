@@ -171,7 +171,7 @@ export function AutomovelForm({
                   type="text"
                   {...register("proprietarioNome")}
                   className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
-                  placeholder="Ex: Empresa Aluguel Car"
+                  placeholder="Ex: Localiza"
                 />
               </div>
 

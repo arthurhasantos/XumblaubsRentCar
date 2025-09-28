@@ -100,6 +100,48 @@ export default function ClienteForm({ editingCliente, onSubmit, onClose }: Clien
             )}
           </div>
 
+          <div>
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+              Email *
+            </label>
+            <input
+              type="email"
+              {...register("email", { 
+                required: "Email é obrigatório",
+                pattern: {
+                  value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                  message: "Email inválido"
+                }
+              })}
+              placeholder="email@exemplo.com"
+              className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
+            />
+            {errors.email && (
+              <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>
+            )}
+          </div>
+
+          <div>
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+              Senha *
+            </label>
+            <input
+              type="password"
+              {...register("senha", { 
+                required: "Senha é obrigatória",
+                minLength: {
+                  value: 6,
+                  message: "Senha deve ter pelo menos 6 caracteres"
+                }
+              })}
+              placeholder="Senha de acesso"
+              className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
+            />
+            {errors.senha && (
+              <p className="text-red-500 text-sm mt-1">{errors.senha.message}</p>
+            )}
+          </div>
+
           <div className="flex justify-end space-x-3 pt-4">
             <button
               type="button"
